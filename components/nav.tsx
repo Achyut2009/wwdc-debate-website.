@@ -45,7 +45,7 @@ const LandingNavbar = () => {
           <div className="hidden min-[970px]:block">
             <Menu setActive={setActive}>
               <MenuItem setActive={setActive} active={active} item="Information">
-                <div className="flex flex-col space-y-1 text-sm">
+                <div className="flex flex-col space-y-0.5 text-sm">
                   <div className="hover:bg-zinc-200 dark:hover:bg-zinc-900 rounded-md p-2 transition-all">
                     <HoveredLink href="/about">
                       About us
@@ -68,40 +68,76 @@ const LandingNavbar = () => {
                 active={active}
                 item="Past Editions"
               >
-                <Tabs defaultValue="2023" className="w-full">
+                <Tabs defaultValue="2024" className="w-full">
                   <TabsList className="w-full">
-                    <TabsTrigger  className="w-1/2" value="2023">
+                    <TabsTrigger className="w-1/3" value="2024">
+                      2024
+                    </TabsTrigger>
+                    <TabsTrigger className="w-1/3" value="2023">
                       2023
                     </TabsTrigger>
-                    <TabsTrigger className="w-1/2" value="2022">
+                    <TabsTrigger className="w-1/3" value="2022">
                       2022
                     </TabsTrigger>
                   </TabsList>
 
+                  <TabsContent value="2024">
+                    <div className="text-sm grid grid-cols-2 gap-5 p-2">
+                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
+                        <ProductItem
+                          title="Tournament"
+                          href="/2024/tournament"
+                          description="The 2024 edition of the War of the Words Debate Tournament."
+                        />
+                      </div>
+                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
+                        <ProductItem
+                          title="Motions"
+                          href="/2024/motions"
+                          description="The motions for the 2024 edition of the War of the Words Debate Tournament."
+                        />
+                      </div>
+                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
+                        <ProductItem
+                          title="Organising Committee"
+                          href="/2024/org"
+                          description="The Organising Committee for the 2024 edition of the War of the Words Debate Tournament."
+                        />
+                      </div>
+                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
+                        <ProductItem
+                          title="Core Organising Committee"
+                          href="/2024/org/core"
+                          description="The Core Organising Committee for the 2024 edition of the War of the Words Debate Tournament."
+                        />
+                      </div>
+                    </div>
+                  </TabsContent>
+
                   <TabsContent value="2023">
-                    <div className="text-sm grid grid-cols-2 gap-10 p-4">
-                      <div className="hover:bg-zinc-200 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
+                    <div className="text-sm grid grid-cols-2 gap-5 p-2">
+                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
                         <ProductItem
                           title="Tournament"
                           href="/2023/tournament"
                           description="The 2023 edition of the War of the Words Debate Tournament."
                         />
                       </div>
-                      <div className="hover:bg-zinc-200 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
+                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
                         <ProductItem
                           title="Motions"
                           href="/2023/motions"
                           description="The motions for the 2023 edition of the War of the Words Debate Tournament."
                         />
                       </div>
-                      <div className="hover:bg-zinc-200 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
+                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
                         <ProductItem
                           title="Organising Committee"
                           href="/2023/org"
                           description="The Organising Committee for the 2023 edition of the War of the Words Debate Tournament."
                         />
                       </div>
-                      <div className="hover:bg-zinc-200 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
+                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
                         <ProductItem
                           title="Core Organising Committee"
                           href="/2023/org/core"
@@ -112,29 +148,29 @@ const LandingNavbar = () => {
                   </TabsContent>
 
                   <TabsContent value="2022">
-                    <div className="text-sm grid grid-cols-2 gap-10 p-4">
-                      <div className="hover:bg-zinc-200 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
+                    <div className="text-sm grid grid-cols-2 gap-5 p-2">
+                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
                         <ProductItem
                           title="Tournament"
                           href="/2022/tournament"
                           description="The 2022 edition of the War of the Words Debate Tournament."
                         />
                       </div>
-                      <div className="hover:bg-zinc-200 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
+                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
                         <ProductItem
                           title="Motions"
                           href="/2022/motions"
                           description="The motions for the 2022 edition of the War of the Words Debate Tournament."
                         />
                       </div>
-                      <div className="hover:bg-zinc-200 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
+                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
                         <ProductItem
                           title="Organising Committee"
                           href="/2022/org"
                           description="The Organising Committee for the 2022 edition of the War of the Words Debate Tournament."
                         />
                       </div>
-                      <div className="hover:bg-zinc-200 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
+                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
                         <ProductItem
                           title="Core Organising Committee"
                           href="/2022/org/core"
@@ -146,7 +182,7 @@ const LandingNavbar = () => {
                 </Tabs>
               </MenuItem>
               <MenuItem setActive={setActive} active={active} item="References">
-                <div className="flex flex-col space-y-1 text-sm">
+                <div className="flex flex-col space-y-0.5 text-sm">
                   <div className="hover:bg-zinc-200 dark:hover:bg-zinc-900 rounded-md p-2 transition-all">
                     <HoveredLink href="/references/briefings">
                       Resources
@@ -202,3 +238,4 @@ const LandingNavbar = () => {
 };
 
 export default LandingNavbar;
+
