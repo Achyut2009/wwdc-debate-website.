@@ -155,6 +155,190 @@ const org = [
   },
 ];
 
+const twentyfour = {
+  core: [
+    {
+      image: "https://cdn.aayus.me/uploads/image.png",
+      name: "Ms. Jasmeet Kaur",
+      bio: [
+        "A debate enthusiast, with a flair for persuasive rhetoric and a background in competitive debating, Jasmeet Kaur believes in creating an inclusive and supportive environment where students can explore diverse perspectives and engage in respectful dialogue. ",
+        "In this 'generation of hustlers', she believes it is important to nurture the next generation of confident debaters.",
+      ],
+    },
+    {
+      image: "https://cdn.aayus.me/uploads/Image_5.png",
+      name: "Ms. Nadia Khan",
+      bio: [
+        "In her teaching experience apart from her passion towards teaching she has always been eagerly looking forward for opportunities to evolve herself and sharpen her skills in vivid areas in today’s competitive world.",
+        "Being an active member of Debate club has helped her to enhance her knowledge about current events and improved her perspectives on different topics. She believes debates can help children to understand the art of persuasion and argumentation,and its encourage their critical thinking.",
+      ],
+    },
+    {
+      image:
+        "https://cdn.aayus.me/uploads/Prithwiraj_Purkait_School_Uniform_with_Blue_Background.jpg",
+      name: "Prithwiraj Purkait",
+      bio: [
+        "Prithwiraj, a student in Grade XII, is an aspiring debater and has been part of his school's debate club for almost 5 years.",
+        "He has been debating competitively in national and international competitions and has represented his school in QatarDebate from 2019-2024.",
+        "For him, Debate requires hard work & motivation but an immense amount of knowledge, critical thinking and connections built last a lifetime.",
+      ],
+    },
+    {
+      image:
+        "https://cdn.aayus.me/uploads/Mehull_Girdhar_-_Passport_Size_Photograph_2023.JPG",
+      name: "Mehull Girdhar",
+      bio: [
+        "A student of class XII, Mehull Girdhar is an experienced debater who has been part of the debate club since more than 4 years now.",
+        "As a debate enthusiast, Mehull believes that debating is not only a competitive sport but also a platform for intellectual growth and social change",
+        "He has participated in a number of national and international competitions, winning several accolades such as Top 10 Speaker, Best Open Team, Nationals Championship, Best School Team in Qatar Debate and international competitions like Vocalize UAE SDC, Protea WSDC, among a few.",
+      ],
+    },
+    {
+      image: "https://cdn.aayus.me/uploads/IMG_3212.jpg",
+      name: "Nikkil Dcruz",
+      bio: [
+        "Nikkil Dcruz is a distinguished debater, renowned for his exceptional skills and accomplishments in the global debate circuit.",
+        " As a top 10 speaker in the Qatar Debate Circuit, Nikkil has consistently demonstrated his ability to articulate compelling arguments and engage with complex issues. His journey in debate has seen him break and reach the finals in various prestigious international competitions.",
+        "Moreover, Nikkil's passion for debate extends beyond personal achievement. He is deeply committed to mentoring and inspiring the next generation of debaters. By sharing his knowledge and experience, he aims to cultivate a community of thoughtful individuals who can contribute meaningfully to discussions and decisions in various spheres of life.",
+      ]
+    },
+    {
+      image:
+        "https://cdn.aayus.me/uploads/03a38bde-e068-43b8-94da-4699d744b351.png",
+      name: "Surya Kauthik Basangi",
+      bio: [
+        "Surya Kauthik is a student of Grade 11 and has been a part of the DPS Debate Club since the past 4 years",
+        "He is an ardent debater with multiple national and international accolades, most notably being a Grand-Finalist at the QSDL National Championship. He believes that debating extends beyond arguing within the four walls of a room, influencing individuals and encouraging them to embrace diverse perspectives.",
+      ],
+    },
+  ],
+  org: [
+    {
+      image:
+        "https://cdn.aayus.me/uploads/IMG-20240522-WA0006-Photoroom.png-Photoroom.png",
+      name: "Ms. Steffi Francis",
+      bio: [
+        "Ms. Steffi Francis is dedicated to fostering a positive and engaging learning environment.",
+        "She prioritizes student-centered learning, with a focus on inspiring and empowering her students to become adept problem solvers and lifelong learners. ",
+        "In the energetic chaos of debate practice, she excels as a coach, guiding students to hone their arguments and navigate research. Observing their transformation into critical thinkers and passionate advocates is her greatest reward.",
+      ],
+    },
+    {
+      image:
+        "https://cdn.aayus.me/uploads/IMG-20181112-WA0028_1_1-Photoroom.png-Photoroom.png",
+      name: "Mr. Somusundaram Narayanan",
+      bio: [
+        "Mr. Somasundaram Narayanan is an enthusiastic language teacher and the Debate Coordinator at DPS Modern Indian School. Renowned for his innovative teaching methods, he inspires critical thinking and effective communication in his students.",
+        "As an encouraging trainer, he has led the debate team to outstanding success in the competitions. His efficient and engaging approach fosters a love for learning and instills values of respect and empathy",
+        "Mr. Somasundaram Narayanan's contributions have significantly enhanced the school’s academic and extracurricular excellence, making him an indispensable part of the school community.",
+      ],
+    },
+    {
+      image:
+        "https://cdn.aayus.me/uploads/sha.jpg",
+      name: "Ms. Asha Kurian",
+      bio: [
+        "Ms. Asha Kurian is an English teacher and the Head of the Department for Senior Secondary School, dedicated to striving for excellence in education. .",
+        "As an alumna of the prestigious Sainik School Assam, a premier institution under the Ministry of Defence, Government of India, she has been profoundly influenced by its strong educational foundation. ",
+        "In her role, Ms.Asha has worked closely with fellow teachers, providing support, guidance, and professional development opportunities to enhance their teaching skills and foster a collaborative work environment. ",
+        "She is also a resource person and in charge of the senior school debate team, where she encourages and develops students' public speaking and critical thinking abilities. ",
+        "Additionally, serving as the English Editor of the school magazine has allowed her to nurture students' creativity and literary appreciation, providing them with a platform to display their talents",
+      ],
+    },
+    {
+      image: "https://cdn.aayus.me/uploads/Vyusti_Singh.jpg",
+      name: "Vyusti Singh",
+      bio: [
+        "Vyusti's prowess in debate is evident through numerous accolades, including top speaker awards in prestigious competitions such as the British Parliamentary Open Qatar Debate 2023, Qatar Debate Open 2023, and QSDL-1 and QSDL-2 of 2023.",
+        " Vyusti has showcased their skills on an international stage, reaching the semi-finals and quarter-finals of WSDC debates.",
+        "Furthermore, Vyusti contributes to the debate community as a judge in QPSDL leagues, where she offers her expertise to aspiring debaters. Vyusti understands the importance of nurturing the next generation of debaters and promoting the values of critical thinking and effective communication.",
+      ],
+    },
+    {
+      image: "https://cdn.aayus.me/uploads/Picture.jpg",
+      name: "Manjushree Mangesh",
+      bio: [
+        "Manjushree, a passionate member of the debate club for the past 4 years, has consistently distinguished herself as a top 10 speaker in multiple seasons of QSDL.",
+        "Participation in various national and international competitions stands as a testament to her dedication to the art of debate.",
+        "She believes that debate is a platform for intellectual growth and cultivation of critical thinking.",
+      ],
+    },
+    {
+      image: "https://cdn.aayus.me/uploads/arch.png",
+      name: "Archit Chhikara",
+      bio: [
+        "Archit Chhikara, a Grade XI student, brings over three years of experience to the debate club, where his prowess has earned him accolades such as the Best Speaker award from Qatar Debate, alongside numerous national and international honors.",
+        "He is a passionate debater who believes debating is an essential skill, citing its ability to enhance public speaking, foster exposure, and facilitate holistic development in individuals.",
+      ],
+    },
+    {
+      image: "https://cdn.aayus.me/uploads/drunkwik.png",
+      name: "Daiwik Dhar",
+      bio: [
+        "Daiwik Dhar is an avid debater who has been a part of the debate club for 4 years.",
+        "He's passionate about technology, economics and loves binge watching Netflix series in his free time. He hopes the event will be a huge success.",
+      ],
+    },
+    {
+      image: "https://cdn.aayus.me/uploads/Venus_Photograph_New.png",
+      name: "Venus Rinith",
+      bio: [
+        "Venus, a Class XII student, has been an enthusiastic debater and public speaker for the past four years.",
+        "She has competed in numerous national and international competitions, earning multiple accolades and gaining substantial experience.",
+        "Additionally, she has served as a judge at Qatar Debate and intra-school competitions. Over the years, Venus has developed her debating skills and deepened her curiosity and passion for public speaking.",
+        "She is confident that debate is a platform for finding solutions that bring positive change to global issues. She firmly believes that dedication, consistency and passion are essential to achieving one's goals.",
+      ],
+    },
+  ],
+  motions: [
+    {
+      title: "Round 1 & 3 (Prepared)",
+      body:
+        "This House Supports NATO (North Atlantic Treaty Organization) offering membership to states of the former Soviet Union, excluding Russia. (NATO)",
+    },
+    {
+      title: "Round 2: (Impromptu)",
+      body:
+        "Infoslide: Legacy preference or legacy admission is a preference given by an institution or organization to certain applicants on the basis of their familial relationship to alumni of that institution. For example, students getting admitted into ivy league colleges since their parents are alumni. Motion: This House Regrets Legacy Admission.",
+    },
+    {
+      title: "Round 4: (Impromptu)",
+      body:
+        "This House Believes That a minimum educational qualification is necessary for electoral representatives in a democracy.",
+    },
+    {
+      title: "Round 5: (Prepared)",
+      body:
+        "This House Prefers a world where jobs performed by humans were not automated (E.g., self-driving cars, self-checkouts)",
+    },
+    {
+      title: "Round 6: (Impromptu)",
+      body:
+        "This House Regrets the over dependency of Gen-Z on social media platforms (eg. Tiktok, Instagram, Facebook)",
+    },
+    {
+      title: "Octo-finals: (Impromptu)",
+      body:
+        "Infoslide: Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing) Motion: This House Regrets the glorification of the Teenage Dream.",
+    },
+    {
+      title: "Quarter-finals: (Impromptu)",
+      body:
+        "Info slide: For the purpose of this debate, radical environmentalism refers to the use of violent practices to further the cause of environmental movements due to ecocentrism-based frustration. (Example: throwing pea soup at Van Gogh’s “The Sower”, spraying orange paints on buildings in central London, etc.) Motion: This House Supports radical environmentalism.",
+    },
+    {
+      title: "Semi-finals: (Impromptu)",
+      body:
+        "This House Would make employee-vaccine mandatory",
+    },
+    {
+      title: "Finals: (Prepared)",
+      body:
+        "This House Prefers a world where Russia continued to participate in the FIFA (International Federation of Association Football) World Cup 2022 qualifiers unobjected, and also in the FIFA World Cup 2022, had they qualified.",
+    },
+  ],
+};
+
 const twentytwo = {
   core: [
     {
@@ -668,6 +852,7 @@ export {
   org,
   coreteach,
   orgteach,
+  twentyfour,
   twentythree,
   twentytwo,
   schedule,
