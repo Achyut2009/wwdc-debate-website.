@@ -1,5 +1,5 @@
 import Page from "@/components/header";
-import { twentyfour } from "@/data";
+import { twentythree } from "@/data";
 
 export default function Brief() {
   return (
@@ -11,11 +11,11 @@ export default function Brief() {
               Motions
             </h2>
             <p className="mx-auto max-w-[700px] text-zinc-500 md:text-xl dark:text-zinc-400">
-              The Motions for the War of Words Debating Championship 2024.
+              The Motions for the War of Words Debating Championship 2023.
             </p>
           </div>
             <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
-            {twentyfour.motions.map((motion, idx) => (
+            {twentythree.motions.map((motion, idx) => (
               <div
               key={idx}
               className="rounded-lg border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-950"
