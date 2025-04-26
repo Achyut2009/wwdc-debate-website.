@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import {  twentythree } from "@/data";
+import { twentythree } from "@/data";
 import Image from "next/image";
 import {
   Dialog,
