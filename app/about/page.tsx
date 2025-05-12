@@ -26,7 +26,7 @@ export default function About() {
             <div className="relative flex z-50 items-center justify-center  ">
               <div className="max-w-4xl pt-8">
                 <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
-                  DPS MIS Debate Club is a school based debate club run by <Link className="hover:underline" href="https://www.google.com/maps/place/DPS-Modern+Indian+School/@25.1746337,51.6003315,1020m/data=!3m1!1e3!4m6!3m5!1s0x3e45cb8640d5a8ed:0xa73f3e23ca421cdc!8m2!3d25.1745962!4d51.6033152!16s%2Fm%2F012gbshw?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D">DPS
+                  DPS MIS Debate Club is a school based debate club run by <Link target="_blank" className="hover:underline" href="https://www.google.com/maps/place/DPS-Modern+Indian+School/@25.1746337,51.6003315,1020m/data=!3m1!1e3!4m6!3m5!1s0x3e45cb8640d5a8ed:0xa73f3e23ca421cdc!8m2!3d25.1745962!4d51.6033152!16s%2Fm%2F012gbshw?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D">DPS
                   Modern Indian School situated in Doha, Qatar </Link>. Over the span of
                   20+ years we have competed and won accolades in multiple
                   national and international tournaments.{" "}
