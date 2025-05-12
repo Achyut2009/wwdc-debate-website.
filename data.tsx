@@ -15,19 +15,13 @@ const leaders = [
 
 const coreteach = [
   {
-    image: "https://cdn.aayus.me/uploads/image.png",
-    name: "Ms. Jasmeet Kaur",
+    image:
+      "https://cdn.aayus.me/uploads/IMG-20181112-WA0028_1_1-Photoroom.png-Photoroom.png",
+    name: "Mr. Somusundaram Narayanan",
     bio: [
-      "A debate enthusiast, with a flair for persuasive rhetoric and a background in competitive debating, Jasmeet Kaur believes in creating an inclusive and supportive environment where students can explore diverse perspectives and engage in respectful dialogue. ",
-      "In this 'generation of hustlers', she believes it is important to nurture the next generation of confident debaters.",
-    ],
-  },
-  {
-    image: "https://cdn.aayus.me/uploads/Image_5.png",
-    name: "Ms. Nadia Khan",
-    bio: [
-      "In her teaching experience apart from her passion towards teaching she has always been eagerly looking forward for opportunities to evolve herself and sharpen her skills in vivid areas in today’s competitive world.",
-      "Being an active member of Debate club has helped her to enhance her knowledge about current events and improved her perspectives on different topics. She believes debates can help children to understand the art of persuasion and argumentation,and its encourage their critical thinking.",
+      "Mr. Somasundaram Narayanan is an enthusiastic language teacher and the Debate Coordinator at DPS Modern Indian School. Renowned for his innovative teaching methods, he inspires critical thinking and effective communication in his students.",
+      "As an encouraging trainer, he has led the debate team to outstanding success in the competitions. His efficient and engaging approach fosters a love for learning and instills values of respect and empathy",
+      "Mr. Somasundaram Narayanan's contributions have significantly enhanced the school’s academic and extracurricular excellence, making him an indispensable part of the school community.",
     ],
   },
 ];
@@ -81,16 +75,6 @@ const orgteach = [
       "Ms. Steffi Francis is dedicated to fostering a positive and engaging learning environment.",
       "She prioritizes student-centered learning, with a focus on inspiring and empowering her students to become adept problem solvers and lifelong learners. ",
       "In the energetic chaos of debate practice, she excels as a coach, guiding students to hone their arguments and navigate research. Observing their transformation into critical thinkers and passionate advocates is her greatest reward.",
-    ],
-  },
-  {
-    image:
-      "https://cdn.aayus.me/uploads/IMG-20181112-WA0028_1_1-Photoroom.png-Photoroom.png",
-    name: "Mr. Somusundaram Narayanan",
-    bio: [
-      "Mr. Somasundaram Narayanan is an enthusiastic language teacher and the Debate Coordinator at DPS Modern Indian School. Renowned for his innovative teaching methods, he inspires critical thinking and effective communication in his students.",
-      "As an encouraging trainer, he has led the debate team to outstanding success in the competitions. His efficient and engaging approach fosters a love for learning and instills values of respect and empathy",
-      "Mr. Somasundaram Narayanan's contributions have significantly enhanced the school’s academic and extracurricular excellence, making him an indispensable part of the school community.",
     ],
   },
   {
