@@ -35,18 +35,17 @@ const coreteach = [
 const core = [
   {
     image:
-      "https://cdn.aayus.me/uploads/Prithwiraj_Purkait_School_Uniform_with_Blue_Background.jpg",
-    name: "Prithwiraj Purkait",
+      "https://cdn.aayus.me/uploads/arch.png",
+    name: "Archit Chhikara",
     bio: [
-      "Prithwiraj, a student in Grade XII, is an aspiring debater and has been part of his school's debate club for almost 5 years.",
-      "He has been debating competitively in national and international competitions and has represented his school in QatarDebate from 2019-2024.",
-      "For him, Debate requires hard work & motivation but an immense amount of knowledge, critical thinking and connections built last a lifetime.",
+      "Archit Chhikara, a Grade XI student, brings over three years of experience to the debate club, where his prowess has earned him accolades such as the Best Speaker award from Qatar Debate, alongside numerous national and international honors.",
+      "He is a passionate debater who believes debating is an essential skill, citing its ability to enhance public speaking, foster exposure, and facilitate holistic development in individuals.",
     ],
   },
   {
     image:
       "https://cdn.aayus.me/uploads/Mehull_Girdhar_-_Passport_Size_Photograph_2023.JPG",
-    name: "Mehull Girdhar",
+    name: "Aaryan Sujith",
     bio: [
       "A student of class XII, Mehull Girdhar is an experienced debater who has been part of the debate club since more than 4 years now.",
       "As a debate enthusiast, Mehull believes that debating is not only a competitive sport but also a platform for intellectual growth and social change",
@@ -111,7 +110,7 @@ const orgteach = [
 const org = [
   {
     image: "https://cdn.aayus.me/uploads/Vyusti_Singh.jpg",
-    name: "Vyusti Singh",
+    name: "Sidrah Mahvish",
     bio: [
       "Vyusti's prowess in debate is evident through numerous accolades, including top speaker awards in prestigious competitions such as the British Parliamentary Open Qatar Debate 2023, Qatar Debate Open 2023, and QSDL-1 and QSDL-2 of 2023.",
       " Vyusti has showcased their skills on an international stage, reaching the semi-finals and quarter-finals of WSDC debates.",
