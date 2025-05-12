@@ -46,9 +46,9 @@ const core = [
     image: "https://cdn.aayus.me/uploads/IMG_3212.jpg",
     name: "Nikkil Dcruz",
     bio: [
-      "Nikkil Dcruz is a distinguished debater, renowned for his exceptional skills and accomplishments in the global debate circuit.",
-      " As a top 10 speaker in the Qatar Debate Circuit, Nikkil has consistently demonstrated his ability to articulate compelling arguments and engage with complex issues. His journey in debate has seen him break and reach the finals in various prestigious international competitions.",
-      "Moreover, Nikkil's passion for debate extends beyond personal achievement. He is deeply committed to mentoring and inspiring the next generation of debaters. By sharing his knowledge and experience, he aims to cultivate a community of thoughtful individuals who can contribute meaningfully to discussions and decisions in various spheres of life.",
+      "Nikkil Dcruz is a distinguished debater, renowned for his exceptional skills and accomplishments in the global debate circuit. As the Qatar Debate National Champion and Best Speaker of the Grand Finals, he has firmly established himself as one of the leading voices in the debate circuit.",
+      "Ranked among the top 10 speakers in Qatar, Nikkil has medalled at every single Qatar Debate event in the 2024–25 season, proving not just his talent but also his consistency and drive. On the international stage, he has broken and reached the finals at several prestigious competitions, earning recognition for his ability to tackle complex global issues with clarity and confidence.",
+      "Off the stage, Nikkil is just as passionate. He’s a committed mentor, constantly working to guide and inspire the next generation of debaters helping them build confidence, think critically, and speak with purpose.",
     ]
   },
   {
