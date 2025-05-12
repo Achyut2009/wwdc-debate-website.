@@ -57,8 +57,8 @@ const LandingNavbar = () => {
                     </HoveredLink>
                   </div>
                   <div className="hover:bg-zinc-200 dark:hover:bg-zinc-900 rounded-md p-2 transition-all">
-                    <HoveredLink href="/motions">
-                      Motions
+                    <HoveredLink href="/guidelines">
+                      Guidelines
                     </HoveredLink>
                   </div>
                 </div>
