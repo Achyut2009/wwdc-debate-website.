@@ -76,16 +76,16 @@ export default function Contact() {
                 <Mail className="h-4 w-4 mr-2" /> Email: wwwdc.dpsmis@gmail.com{" "}
               </div>
               <div className="flex items-center justify-start">
-                <Phone className="h-4 w-4 mr-2" /> Ms. Jasmeet Kaur: +974 7709
-                3477{" "}
+                <Phone className="h-4 w-4 mr-2" /> Mr. N Somasundaram: +974 7472
+                6321{" "}
               </div>
               <div className="flex items-center justify-start">
-                <Phone className="h-4 w-4 mr-2" /> Prithwiraj Purkait: +974 3313
-                0564{" "}
+                <Phone className="h-4 w-4 mr-2" /> Surya Kauthik: +974 3313
+                5466{" "}
               </div>
               <div className="flex items-center justify-start">
-                <Phone className="h-4 w-4 mr-2" /> Mehull Girdhar: +974 6633
-                5710{" "}
+                <Phone className="h-4 w-4 mr-2" /> Nikkil Dcruz: +974 3366
+                3649{" "}
               </div>
             </div>
             <DrawerFooter>
