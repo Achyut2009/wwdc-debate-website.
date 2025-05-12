@@ -35,6 +35,24 @@ const coreteach = [
 const core = [
   {
     image:
+      "https://cdn.aayus.me/uploads/03a38bde-e068-43b8-94da-4699d744b351.png",
+    name: "Surya Kauthik Basangi",
+    bio: [
+      "Surya Kauthik is a student of Grade 11 and has been a part of the DPS Debate Club since the past 4 years",
+      "He is an ardent debater with multiple national and international accolades, most notably being a Grand-Finalist at the QSDL National Championship. He believes that debating extends beyond arguing within the four walls of a room, influencing individuals and encouraging them to embrace diverse perspectives.",
+    ],
+  },
+  {
+    image: "https://cdn.aayus.me/uploads/IMG_3212.jpg",
+    name: "Nikkil Dcruz",
+    bio: [
+      "Nikkil Dcruz is a distinguished debater, renowned for his exceptional skills and accomplishments in the global debate circuit.",
+      " As a top 10 speaker in the Qatar Debate Circuit, Nikkil has consistently demonstrated his ability to articulate compelling arguments and engage with complex issues. His journey in debate has seen him break and reach the finals in various prestigious international competitions.",
+      "Moreover, Nikkil's passion for debate extends beyond personal achievement. He is deeply committed to mentoring and inspiring the next generation of debaters. By sharing his knowledge and experience, he aims to cultivate a community of thoughtful individuals who can contribute meaningfully to discussions and decisions in various spheres of life.",
+    ]
+  },
+  {
+    image:
       "https://cdn.aayus.me/uploads/arch.png",
     name: "Archit Chhikara",
     bio: [
@@ -50,24 +68,6 @@ const core = [
       "A student of class XII, Mehull Girdhar is an experienced debater who has been part of the debate club since more than 4 years now.",
       "As a debate enthusiast, Mehull believes that debating is not only a competitive sport but also a platform for intellectual growth and social change",
       "He has participated in a number of national and international competitions, winning several accolades such as Top 10 Speaker, Best Open Team, Nationals Championship, Best School Team in Qatar Debate and international competitions like Vocalize UAE SDC, Protea WSDC, among a few.",
-    ],
-  },
-  {
-    image: "https://cdn.aayus.me/uploads/IMG_3212.jpg",
-    name: "Nikkil Dcruz",
-    bio: [
-      "Nikkil Dcruz is a distinguished debater, renowned for his exceptional skills and accomplishments in the global debate circuit.",
-      " As a top 10 speaker in the Qatar Debate Circuit, Nikkil has consistently demonstrated his ability to articulate compelling arguments and engage with complex issues. His journey in debate has seen him break and reach the finals in various prestigious international competitions.",
-      "Moreover, Nikkil's passion for debate extends beyond personal achievement. He is deeply committed to mentoring and inspiring the next generation of debaters. By sharing his knowledge and experience, he aims to cultivate a community of thoughtful individuals who can contribute meaningfully to discussions and decisions in various spheres of life.",
-    ]
-  },
-  {
-    image:
-      "https://cdn.aayus.me/uploads/03a38bde-e068-43b8-94da-4699d744b351.png",
-    name: "Surya Kauthik Basangi",
-    bio: [
-      "Surya Kauthik is a student of Grade 11 and has been a part of the DPS Debate Club since the past 4 years",
-      "He is an ardent debater with multiple national and international accolades, most notably being a Grand-Finalist at the QSDL National Championship. He believes that debating extends beyond arguing within the four walls of a room, influencing individuals and encouraging them to embrace diverse perspectives.",
     ],
   },
 ];
