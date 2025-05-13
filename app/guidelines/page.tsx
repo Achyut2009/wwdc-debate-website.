@@ -24,7 +24,7 @@ export default function About() {
             </div>
             <div className="relative flex z-50 items-center justify-center  ">
               <div className="max-w-4xl pt-8">
-                <p className="py-4 font-weight-700 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
+                <p className="py-4 font-bold text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
                   -All the rounds are IMPROMPTU{" "}
                 </p>
                 <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
