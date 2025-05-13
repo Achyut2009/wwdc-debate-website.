@@ -81,7 +81,7 @@ const orgteach = [
       "https://cdn.aayus.me/uploads/sha.jpg",
     name: "Ms. Asha Kurian",
     bio: [
-      "Ms. Asha Kurian is an English teacher and the Head of the Department for Senior Secondary School, dedicated to striving for excellence in education. .",
+      "Ms. Asha Kurian is an English teacher and the Head of the Department for Senior Secondary School, dedicated to striving for excellence in education.",
       "As an alumna of the prestigious Sainik School Assam, a premier institution under the Ministry of Defence, Government of India, she has been profoundly influenced by its strong educational foundation. ",
       "In her role, Ms.Asha has worked closely with fellow teachers, providing support, guidance, and professional development opportunities to enhance their teaching skills and foster a collaborative work environment. ",
       "She is also a resource person and in charge of the senior school debate team, where she encourages and develops students' public speaking and critical thinking abilities. ",
@@ -111,7 +111,7 @@ const org = [
     image: "/2025/Aryaman.jpg",
     name: "Aryaman Adhlakha",
     bio: [
-      "Aryaman Adhlakha is an economics student with a keen interest in debate and discourse. Beyond academics, they actively engage in debates and enjoy watching competitive and intellectual discussions in their free time",
+      "Aryaman Adhlakha is an economics student with a keen interest in debate and discourse. Beyond academics, they actively engage in debates and enjoy watching competitive and intellectual discussions in their free time.",
       "His passion for debate not only reflects a love for critical thinking but also enhances their analytical skills — making a natural complement to their study of economics. Aryaman also loves to binge shows in his free time!",
     ],
   },
