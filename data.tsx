@@ -69,12 +69,11 @@ const core = [
 const orgteach = [
   {
     image:
-      "https://cdn.aayus.me/uploads/IMG-20240522-WA0006-Photoroom.png-Photoroom.png",
-    name: "Ms. Steffi Francis",
+      "https://cdn.aayus.me/uploads/WhatsApp20Image202023-05-2520at2016_28_48.png",
+    name: "Mr. Dipin Joseph",
     bio: [
-      "Ms. Steffi Francis is dedicated to fostering a positive and engaging learning environment.",
-      "She prioritizes student-centered learning, with a focus on inspiring and empowering her students to become adept problem solvers and lifelong learners. ",
-      "In the energetic chaos of debate practice, she excels as a coach, guiding students to hone their arguments and navigate research. Observing their transformation into critical thinkers and passionate advocates is her greatest reward.",
+      "Mr. Dipin is one of the passionate teachers and debate coordinators of DPS-Modern Indian School.",
+      "He is a very creative and innovative trainer who always comes up with new ideas. He believes that debate helps to empower individuals to share ideas with others.",
     ],
   },
   {
