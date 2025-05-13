@@ -62,6 +62,7 @@ export default function RootLayout({
             </p>
             <nav className="sm:ml-auto flex gap-4 sm:gap-6 text-zinc-700 dark:text-zinc-300">
               <Link
+                target="_blank"
                 className="text-xs hover:underline underline-offset-4"
                 href="https://achyutpaliwal.netlify.app/"
               >

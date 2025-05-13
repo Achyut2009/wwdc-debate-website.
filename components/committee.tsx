@@ -289,7 +289,7 @@ export default async function Committee() {
                             {member.name}
                           </DrawerTitle>
                           <DrawerDescription className="text-md">
-                            Core Organising Committee
+                            Organising Committee
                           </DrawerDescription>
                           {member.bio.map((p, index) => (
                             <div
@@ -332,7 +332,7 @@ export default async function Committee() {
                             {member.name}
                           </DialogTitle>
                           <DialogDescription className="text-md">
-                            Core Organising Committee
+                            Organising Committee
                           </DialogDescription>
                           {member.bio.map((p, index) => (
                             <div

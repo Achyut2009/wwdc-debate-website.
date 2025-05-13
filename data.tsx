@@ -37,7 +37,7 @@ const core = [
     ],
   },
   {
-    image: "https://cdn.aayus.me/uploads/IMG_3212.jpg",
+    image: "/2025/Nikkil.jpg",
     name: "Nikkil Dcruz",
     bio: [
       "Nikkil Dcruz is a distinguished debater, renowned for his exceptional skills and accomplishments in the global debate circuit. As the Qatar Debate National Champion and Best Speaker of the Grand Finals, he has firmly established himself as one of the leading voices in the debate circuit.",
