@@ -116,11 +116,13 @@ const org = [
     ],
   },
   {
-    image: "https://cdn.aayus.me/uploads/drunkwik.png",
-    name: "Daiwik Dhar",
+    image: "/2025/Aarav.jpg",
+    name: "Aarav Deepak Singh",
     bio: [
-      "Daiwik Dhar is an avid debater who has been a part of the debate club for 4 years.",
-      "He's passionate about technology, economics and loves binge watching Netflix series in his free time. He hopes the event will be a huge success.",
+      "A student of Class XI, Aarav Singh is a passionate debater who has been part of the debate club for over three years.",
+      "He has taken part in a wide range of national and international competitions across various formats. His efforts have earned him several accolades, including a spot among the Top 10 Speakers in Qatar Debate.",
+      "Beyond competing, Aarav is committed to mentoring and supporting younger debaters, helping them sharpen their skills and grow in confidence.",
+      "He sees debate not just as a competitive activity, but as a  space for exchanging ideas, understanding different viewpoints, and encouraging solution driven conversations in today’s world.",
     ],
   },
   {
