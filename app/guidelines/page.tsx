@@ -25,61 +25,61 @@ export default function About() {
             <div className="relative flex z-50 items-center justify-center  ">
               <div className="max-w-4xl pt-8">
                 <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
-                  All the rounds are IMPROMPTU{" "}
+                  -All the rounds are IMPROMPTU{" "}
                 </p>
                 <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
                   {" "}
-                  Tabby cat can be used to view the draw, motions, standings, and physical
+                  -Tabby cat can be used to view the draw, motions, standings, and physical
                   ballots/feedback. 
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  The tournament will comprise of 4 preliminary rounds, and a break to the out-rounds
+                  -The tournament will comprise of 4 preliminary rounds, and a break to the out-rounds
                   starting from the Octo-Finals.
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  After the preliminary rounds, from the 16 teams that break to the Octo finals, the top 8
+                  -After the preliminary rounds, from the 16 teams that break to the Octo finals, the top 8
                   teams will select their Octo final opponents from the other 8 teams. This aims to add a
                   strategic layer to the tournament and increase competitive excitement.
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  The tournament will follow the Qatar Debate Format, with 6 substantive speeches
+                  -The tournament will follow the Qatar Debate Format, with 6 substantive speeches
                   followed by 2 reply speeches. Preliminary Round substantive speeches will be 6 mins in
                   length, while replies will be 4 mins. 
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  Points Of Information (POIs) can be offered between the first and last minute of every
+                  -Points Of Information (POIs) can be offered between the first and last minute of every
                   substantive speech.
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  Each team must comprise of 3 debaters. 
+                  -Each team must comprise of 3 debaters. 
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  Judge Rule: N=1.
+                  -Judge Rule: N=1.
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  Debaters must debate all rounds during the preliminary rounds to qualify for speaker
+                  -Debaters must debate all rounds during the preliminary rounds to qualify for speaker
                   awards.
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  Only the debaters can prepare together during preparation time, debaters should not
+                  -Only the debaters can prepare together during preparation time, debaters should not
                   consult coaches, volunteers, the internet, etc. The use of online resources during
                   preparation is strictly prohibited. 
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  A preparation time of 30 minutes will be given only for the motions.
+                  -A preparation time of 30 minutes will be given only for the motions.
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  The draw will show you the motion, your side (Proposition/Opposition) and room
+                  -The draw will show you the motion, your side (Proposition/Opposition) and room
                   number before every round. Make sure that you remember which room you are in and
                   your position. If you have forgotten which room you are in, you may double-check with
                   the volunteers/us.
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  Proposition teams will prepare in the debate room assigned; Opposition teams will
+                  -Proposition teams will prepare in the debate room assigned; Opposition teams will
                   prepare outside the room. 
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  Only debaters debating in that round are allowed in the Prep. rooms (i.e. no
+                  -Only debaters debating in that round are allowed in the Prep. rooms (i.e. no
                   coaches/observers/judges, etc.) during Prep. time.
                 </p>
               </div>
