@@ -51,7 +51,7 @@ export default async function Committee() {
         {/* Core Teaching Team */}
         <div className="container mx-auto px-4">
           <div className="flex justify-center">
-            <div className="grid grid-cols-2 gap-8 w-full max-w-3xl">
+            <div className="flex flex-col md:flex-row gap-8 justify-center">
               {coreteach.map((member, index) => (
                 <div key={`coreteach-${index}`} className="flex flex-col items-center">
                   {/* Mobile view */}
@@ -155,7 +155,7 @@ export default async function Committee() {
           
           {/* Core Committee Members */}
           <div className="flex justify-center mt-12">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 w-full max-w-5xl">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 w-full max-w-5xl place-items-center">
               {core.map((member, index) => (
                 <div key={`core-${index}`} className="flex flex-col items-center">
                   {/* Mobile view */}
@@ -263,7 +263,7 @@ export default async function Committee() {
         <div className="container mx-auto px-4">
           {/* Org Teaching Team */}
           <div className="flex justify-center">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 w-full max-w-5xl">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 w-full max-w-5xl place-items-center">
               {orgteach.map((member, index) => (
                 <div key={`orgteach-${index}`} className="flex flex-col items-center">
                   {/* Mobile view */}
@@ -358,7 +358,7 @@ export default async function Committee() {
           
           {/* Org Committee Members */}
           <div className="flex justify-center mt-12">
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 w-full max-w-6xl">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 w-full max-w-6xl place-items-center">
               {org.map((member, index) => (
                 <div key={`org-${index}`} className="flex flex-col items-center">
                   {/* Mobile view */}
