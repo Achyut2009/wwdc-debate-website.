@@ -104,9 +104,8 @@ const org = [
     image: "/2025/Nandini.jpg",
     name: "Nandini",
     bio: [
-      "Manjushree, a passionate member of the debate club for the past 4 years, has consistently distinguished herself as a top 10 speaker in multiple seasons of QSDL.",
-      "Participation in various national and international competitions stands as a testament to her dedication to the art of debate.",
-      "She believes that debate is a platform for intellectual growth and cultivation of critical thinking.",
+      "Nandini, a dedicated debater with over three years of experience, has represented our school in various national and international tournaments. Her skills have earned her top speaker awards at prestigious competitions like the Qatar Preparatory School Debate Leagues 1 and 2 in 2023, alongside numerous other accolades.",
+      "Nandini is passionate about debating, believing it is a powerful tool for developing critical thinking, public speaking, and global exposure. She is committed to nurturing the next generation of debaters, helping them harness the skills that lead to both personal and academic growth.",
     ],
   },
   {
