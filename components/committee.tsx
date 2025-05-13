@@ -32,31 +32,30 @@ import { Info } from "lucide-react";
 import Link from "next/link";
 import { useEffect } from "react";
 
+
 export default async function Committee() {
   const code = false;
 
   return (
     <>
-      <div id="team" className="relative z-50">
-        <div className="mx-auto max-w-7xl px-4 py-10 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 pb-4 text-center">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                {code ? "core" : "Our Core Organising Committee"}
-              </h2>
-            </div>
+      {/* Core Organizing Committee Section */}
+      <div id="team" className="relative z-50 py-10">
+        <div className="mx-auto max-w-7xl px-4 md:px-6">
+          <div className="flex flex-col items-center justify-center text-center mb-12">
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+              {code ? "core" : "Our Core Organising Committee"}
+            </h2>
           </div>
         </div>
-        <div className="container gap-8 relative z-50 flex flex-col items-center">
-          {/* Core Teach Section */}
-          <div className="w-full flex justify-center">
-            <div className="grid grid-cols-2 gap-x-8 max-w-4xl mx-auto">
+        
+        {/* Core Teaching Team */}
+        <div className="container mx-auto px-4">
+          <div className="flex justify-center">
+            <div className="grid grid-cols-2 gap-8 w-full max-w-3xl">
               {coreteach.map((member, index) => (
-                <>
-                  <div
-                    key={index}
-                    className="m-4 flex items-center justify-center md:hidden"
-                  >
+                <div key={`coreteach-${index}`} className="flex flex-col items-center">
+                  {/* Mobile view */}
+                  <div className="flex items-center justify-center md:hidden">
                     <Drawer>
                       <DrawerTrigger>
                         <TooltipProvider>
@@ -68,9 +67,9 @@ export default async function Committee() {
                                   width={200}
                                   height={200}
                                   alt={member.name}
-                                  className="rounded-full aspect-square h-32 w-32 md:h-52 md:w-52 object-cover"
+                                  className="rounded-full aspect-square h-32 w-32 object-cover"
                                 />
-                                <div className="text-md md:text-lg mt-3 font-semibold">
+                                <div className="text-md mt-3 font-semibold">
                                   {member.name}
                                 </div>
                               </div>
@@ -106,10 +105,9 @@ export default async function Committee() {
                       </DrawerContent>
                     </Drawer>
                   </div>
-                  <div
-                    key={index}
-                    className="m-4 hidden md:flex items-center justify-center"
-                  >
+                  
+                  {/* Desktop view */}
+                  <div className="hidden md:block">
                     <Dialog>
                       <DialogTrigger>
                         <div className="flex flex-col items-center justify-center text-center">
@@ -118,9 +116,9 @@ export default async function Committee() {
                             width={200}
                             height={200}
                             alt={member.name}
-                            className="rounded-full aspect-square h-32 w-32 md:h-52 md:w-52 object-cover"
+                            className="rounded-full aspect-square h-52 w-52 object-cover"
                           />
-                          <div className="text-md md:text-lg mt-3 font-semibold">
+                          <div className="text-lg mt-3 font-semibold">
                             {member.name}
                           </div>
                         </div>
@@ -150,20 +148,18 @@ export default async function Committee() {
                       </DialogContent>
                     </Dialog>
                   </div>
-                </>
+                </div>
               ))}
             </div>
           </div>
-
-          {/* Core Section */}
-          <div className="w-full flex justify-center">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-x-8 max-w-6xl mx-auto">
+          
+          {/* Core Committee Members */}
+          <div className="flex justify-center mt-12">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 w-full max-w-5xl">
               {core.map((member, index) => (
-                <>
-                  <div
-                    key={index}
-                    className="m-4 flex items-center justify-center md:hidden"
-                  >
+                <div key={`core-${index}`} className="flex flex-col items-center">
+                  {/* Mobile view */}
+                  <div className="flex items-center justify-center md:hidden">
                     <Drawer>
                       <DrawerTrigger>
                         <div className="flex flex-col items-center justify-center text-center">
@@ -172,9 +168,9 @@ export default async function Committee() {
                             width={200}
                             height={200}
                             alt={member.name}
-                            className="rounded-full aspect-square h-32 w-32 md:h-48 md:w-48 object-cover"
+                            className="rounded-full aspect-square h-32 w-32 object-cover"
                           />
-                          <div className="text-md md:text-lg mt-3 font-semibold">
+                          <div className="text-md mt-3 font-semibold">
                             {member.name}
                           </div>
                         </div>
@@ -204,10 +200,9 @@ export default async function Committee() {
                       </DrawerContent>
                     </Drawer>
                   </div>
-                  <div
-                    key={index}
-                    className="m-4 hidden md:flex items-center justify-center"
-                  >
+                  
+                  {/* Desktop view */}
+                  <div className="hidden md:block">
                     <Dialog>
                       <DialogTrigger>
                         <div className="flex flex-col items-center justify-center text-center">
@@ -216,9 +211,9 @@ export default async function Committee() {
                             width={200}
                             height={200}
                             alt={member.name}
-                            className="rounded-full aspect-square h-32 w-32 md:h-48 md:w-48 object-cover"
+                            className="rounded-full aspect-square h-48 w-48 object-cover"
                           />
-                          <div className="text-md md:text-lg mt-3 font-semibold">
+                          <div className="text-lg mt-3 font-semibold">
                             {member.name}
                           </div>
                         </div>
@@ -248,33 +243,31 @@ export default async function Committee() {
                       </DialogContent>
                     </Dialog>
                   </div>
-                </>
+                </div>
               ))}
             </div>
           </div>
         </div>
       </div>
-
-      <div className="relative z-50">
-        <div className="mx-auto max-w-[95rem] px-4 py-10 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 pb-4 text-center">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                {code ? "org" : "Our Organising Committee"}
-              </h2>
-            </div>
+      
+      {/* Organizing Committee Section */}
+      <div className="relative z-50 py-10">
+        <div className="mx-auto max-w-7xl px-4 md:px-6">
+          <div className="flex flex-col items-center justify-center text-center mb-12">
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+              {code ? "org" : "Our Organising Committee"}
+            </h2>
           </div>
         </div>
-        <div className="mx-auto md:max-w-[95rem] container gap-8 pb-5 flex flex-col items-center">
-          {/* Org Teach Section */}
-          <div className="w-full flex justify-center">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-x-8 max-w-6xl mx-auto">
+        
+        <div className="container mx-auto px-4">
+          {/* Org Teaching Team */}
+          <div className="flex justify-center">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 w-full max-w-5xl">
               {orgteach.map((member, index) => (
-                <>
-                  <div
-                    key={index}
-                    className="m-4 flex items-center justify-center md:hidden"
-                  >
+                <div key={`orgteach-${index}`} className="flex flex-col items-center">
+                  {/* Mobile view */}
+                  <div className="flex items-center justify-center md:hidden">
                     <Drawer>
                       <DrawerTrigger>
                         <div className="flex flex-col items-center justify-center text-center">
@@ -283,9 +276,9 @@ export default async function Committee() {
                             width={200}
                             height={200}
                             alt={member.name}
-                            className="rounded-full aspect-square h-32 w-32 md:h-52 md:w-52 object-cover"
+                            className="rounded-full aspect-square h-32 w-32 object-cover"
                           />
-                          <div className="text-md md:text-lg mt-3 font-semibold">
+                          <div className="text-md mt-3 font-semibold">
                             {member.name}
                           </div>
                         </div>
@@ -296,7 +289,7 @@ export default async function Committee() {
                             {member.name}
                           </DrawerTitle>
                           <DrawerDescription className="text-md">
-                            Organising Committee
+                            Core Organising Committee
                           </DrawerDescription>
                           {member.bio.map((p, index) => (
                             <div
@@ -315,10 +308,9 @@ export default async function Committee() {
                       </DrawerContent>
                     </Drawer>
                   </div>
-                  <div
-                    key={index}
-                    className="m-4 hidden md:flex items-center justify-center"
-                  >
+                  
+                  {/* Desktop view */}
+                  <div className="hidden md:block">
                     <Dialog>
                       <DialogTrigger>
                         <div className="flex flex-col items-center justify-center text-center">
@@ -327,9 +319,9 @@ export default async function Committee() {
                             width={200}
                             height={200}
                             alt={member.name}
-                            className="rounded-full aspect-square h-32 w-32 md:h-52 md:w-52 object-cover"
+                            className="rounded-full aspect-square h-52 w-52 object-cover"
                           />
-                          <div className="text-md md:text-lg mt-3 font-semibold">
+                          <div className="text-lg mt-3 font-semibold">
                             {member.name}
                           </div>
                         </div>
@@ -340,7 +332,7 @@ export default async function Committee() {
                             {member.name}
                           </DialogTitle>
                           <DialogDescription className="text-md">
-                            Organising Committee
+                            Core Organising Committee
                           </DialogDescription>
                           {member.bio.map((p, index) => (
                             <div
@@ -359,20 +351,18 @@ export default async function Committee() {
                       </DialogContent>
                     </Dialog>
                   </div>
-                </>
+                </div>
               ))}
             </div>
           </div>
-
-          {/* Org Section */}
-          <div className="w-full flex justify-center">
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-8 max-w-7xl mx-auto">
+          
+          {/* Org Committee Members */}
+          <div className="flex justify-center mt-12">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 w-full max-w-6xl">
               {org.map((member, index) => (
-                <>
-                  <div
-                    key={index}
-                    className="m-4 flex items-center justify-center md:hidden"
-                  >
+                <div key={`org-${index}`} className="flex flex-col items-center">
+                  {/* Mobile view */}
+                  <div className="flex items-center justify-center md:hidden">
                     <Drawer>
                       <DrawerTrigger>
                         <div className="flex flex-col items-center justify-center text-center">
@@ -381,9 +371,9 @@ export default async function Committee() {
                             width={200}
                             height={200}
                             alt={member.name}
-                            className="rounded-full aspect-square h-32 w-32 md:h-48 md:w-48 object-cover"
+                            className="rounded-full aspect-square h-32 w-32 object-cover"
                           />
-                          <div className="text-md md:text-lg mt-3 font-semibold">
+                          <div className="text-md mt-3 font-semibold">
                             {member.name}
                           </div>
                         </div>
@@ -410,10 +400,9 @@ export default async function Committee() {
                       </DrawerContent>
                     </Drawer>
                   </div>
-                  <div
-                    key={index}
-                    className="m-4 hidden md:flex items-center justify-center"
-                  >
+                  
+                  {/* Desktop view */}
+                  <div className="hidden md:block">
                     <Dialog>
                       <DialogTrigger>
                         <div className="flex flex-col items-center justify-center text-center">
@@ -422,9 +411,9 @@ export default async function Committee() {
                             width={200}
                             height={200}
                             alt={member.name}
-                            className="rounded-full aspect-square h-32 w-32 md:h-48 md:w-48 object-cover"
+                            className="rounded-full aspect-square h-48 w-48 object-cover"
                           />
-                          <div className="text-md md:text-lg mt-3 font-semibold">
+                          <div className="text-lg mt-3 font-semibold">
                             {member.name}
                           </div>
                         </div>
@@ -451,7 +440,7 @@ export default async function Committee() {
                       </DialogContent>
                     </Dialog>
                   </div>
-                </>
+                </div>
               ))}
             </div>
           </div>
