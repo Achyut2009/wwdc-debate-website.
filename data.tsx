@@ -93,7 +93,7 @@ const orgteach = [
 
 const org = [
   {
-    image: "/app/2025/photos/Aryaman.jpg",
+    image: "/2025/photos/Sidrah.jpg",
     name: "Sidrah Mahvish",
     bio: [
       "An ardent debater for almost 3 years and a versatile student leader, Sidrah Mahvish, a student of Class XII, has cultivated experience through numerous national and international debating circuits. Additionally, she has served as a judge at QatarDebate, further elevating her proactive profile.",
@@ -101,7 +101,7 @@ const org = [
     ],
   },
   {
-    image: "/app/2025/photos/Aryaman.jpg",
+    image: "/2025/photos/Nandini.jpg",
     name: "Nandini",
     bio: [
       "Manjushree, a passionate member of the debate club for the past 4 years, has consistently distinguished herself as a top 10 speaker in multiple seasons of QSDL.",
@@ -110,7 +110,7 @@ const org = [
     ],
   },
   {
-    image: "/app/2025/photos/Aryaman.jpg",
+    image: "/2025/photos/Aryaman.jpg",
     name: "Aryaman Adhlakha",
     bio: [
       "Aryaman Adhlakha is an economics student with a keen interest in debate and discourse. Beyond academics, they actively engage in debates and enjoy watching competitive and intellectual discussions in their free time",
