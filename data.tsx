@@ -93,17 +93,16 @@ const orgteach = [
 
 const org = [
   {
-    image: "https://cdn.aayus.me/uploads/Vyusti_Singh.jpg",
+    image: "https://wwdc-debate-website.vercel.app/2025/photos/WhatsApp Image 2025-05-10 à 22.36.22_11d2eef0.jpg",
     name: "Sidrah Mahvish",
     bio: [
-      "Vyusti's prowess in debate is evident through numerous accolades, including top speaker awards in prestigious competitions such as the British Parliamentary Open Qatar Debate 2023, Qatar Debate Open 2023, and QSDL-1 and QSDL-2 of 2023.",
-      " Vyusti has showcased their skills on an international stage, reaching the semi-finals and quarter-finals of WSDC debates.",
-      "Furthermore, Vyusti contributes to the debate community as a judge in QPSDL leagues, where she offers her expertise to aspiring debaters. Vyusti understands the importance of nurturing the next generation of debaters and promoting the values of critical thinking and effective communication.",
+      "An ardent debater for almost 3 years and a versatile student leader, Sidrah Mahvish, a student of Class XII, has cultivated experience through numerous national and international debating circuits. Additionally, she has served as a judge at QatarDebate, further elevating her proactive profile.",
+      "Alongside an avid interest in Biology, she showcases debate as a platform to sculpt intellectual rigor, and enhance analytical thinking. Her consistent commitment to debate empowers her to engage with diverse perspectives, and persuasive delivery across a range of motions.",
     ],
   },
   {
     image: "https://cdn.aayus.me/uploads/Picture.jpg",
-    name: "Manjushree Mangesh",
+    name: "Nandini",
     bio: [
       "Manjushree, a passionate member of the debate club for the past 4 years, has consistently distinguished herself as a top 10 speaker in multiple seasons of QSDL.",
       "Participation in various national and international competitions stands as a testament to her dedication to the art of debate.",
@@ -111,11 +110,11 @@ const org = [
     ],
   },
   {
-    image: "https://cdn.aayus.me/uploads/arch.png",
-    name: "Archit Chhikara",
+    image: "https://wwdc-debate-website.vercel.app/2025/photos/WhatsApp Image 2025-05-10 à 22.56.31_142c8cbb.jpg",
+    name: "Aryaman Adhlakha",
     bio: [
-      "Archit Chhikara, a Grade XI student, brings over three years of experience to the debate club, where his prowess has earned him accolades such as the Best Speaker award from Qatar Debate, alongside numerous national and international honors.",
-      "He is a passionate debater who believes debating is an essential skill, citing its ability to enhance public speaking, foster exposure, and facilitate holistic development in individuals.",
+      "Aryaman Adhlakha is an economics student with a keen interest in debate and discourse. Beyond academics, they actively engage in debates and enjoy watching competitive and intellectual discussions in their free time",
+      "His passion for debate not only reflects a love for critical thinking but also enhances their analytical skills — making a natural complement to their study of economics. Aryaman also loves to binge shows in his free time!",
     ],
   },
   {
