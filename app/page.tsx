@@ -24,8 +24,22 @@ export default function LandingPage() {
       <main className="justify-center h-[100vh] items-center flex-col">
         <div className="container h-full items-center justify-center flex">
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-zinc-300 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,white)]"></div>
-          <div className="flex items-center justify-center z-20  max-w-6xl">
-            <div className=" flex flex-col items-center">
+          <div className="flex items-center justify-center z-20 max-w-6xl">
+            <div className="flex flex-col items-center">
+              {/* Image container div added here */}
+              <div className="w-64 h-64 bg-zinc-100 dark:bg-zinc-800 rounded-lg mb-6 flex items-center justify-center relative z-50">
+                {/* Placeholder for your image */}
+                <span className="text-zinc-400 dark:text-zinc-500 text-sm">Add your image here</span>
+                {/* You can replace this with an Image component */}
+                { <Image 
+                  src="/2025/wwdcnewlogo.png" 
+                  alt="War of Words Logo" 
+                  width={256} 
+                  height={256} 
+                  className="object-cover"
+                /> }
+              </div>
+              
               <div
                 aria-hidden="true"
                 className="pointer-events-none absolute inset-x-0 -top-[-17rem] z-0 transform-gpu overflow-hidden blur-3xl sm:top-[17rem]"
@@ -85,7 +99,7 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-        <div className="container  gap-8 flex flex-col flex-wrap justify-center">
+        <div className="container gap-8 flex flex-col flex-wrap justify-center">
           <div className="relative z-50">
             <div className="m-4">
               <div className="flex flex-col items-center justify-center text-center">
@@ -120,7 +134,7 @@ export default function LandingPage() {
                   <div className="text-lg mt-3 font-semibold">
                     {member.name}
                   </div>
-                  <div className="text-md  max-w-96  font-medium">
+                  <div className="text-md max-w-96 font-medium">
                     {member.position}
                   </div>
                   <div className="text-md font-medium">
