@@ -25,9 +25,10 @@ export default function LandingPage() {
         <div className="container h-full items-center justify-center flex">
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-zinc-300 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,white)]"></div>
           <div className="flex items-center justify-center z-20 max-w-6xl">
-            <div className="flex flex-col items-center">
-              {/* Image container div added here */}
-              <div className="w-64 h-64 bg-zinc-100 dark:bg-zinc-800 rounded-lg mb-6 flex items-center justify-center relative z-50">
+            {/* Moved the entire content block up by adding -mt-24 class */}
+            <div className="flex flex-col items-center -mt-24">
+              {/* Image container div moved up with margin adjustments */}
+              <div className="w-64 h-64 bg-zinc-100 dark:bg-zinc-800 rounded-lg mb-4 flex items-center justify-center relative z-50">
                 {/* You can replace this with an Image component */}
                 { <Image 
                   src="/2025/wwdcnewlogo.png" 
@@ -53,7 +54,7 @@ export default function LandingPage() {
               <h1 className="text-4xl max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
                 War of Words Debating Championship
               </h1>
-              <p className="py-5 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
+              <p className="py-3 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
                 An inter-school debate tournament organised by DPS MIS for all
                 high school students in Qatar
               </p>
@@ -62,7 +63,7 @@ export default function LandingPage() {
                   className={buttonVariants({
                     size: "lg",
                     variant: "geist",
-                    className: "mt-5",
+                    className: "mt-3",
                   })}
                   href={
                     "https://docs.google.com/forms/d/e/1FAIpQLSd61iFnqVYBAfLxhaBPxeOHCcQ9W3XzLEZfXG9S5gDcDwzmCQ/viewform"
@@ -75,7 +76,7 @@ export default function LandingPage() {
                   className={buttonVariants({
                     size: "lg",
                     variant: "outline",
-                    className: "mt-5 ",
+                    className: "mt-3",
                   })}
                   href="/schedule"
                   target="_blank"
