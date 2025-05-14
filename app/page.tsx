@@ -27,7 +27,7 @@ export default function LandingPage() {
           <div className="flex items-center justify-center z-20 max-w-6xl">
             <div className="flex flex-col items-center">
               {/* Image container div added here */}
-              <div className="w-64 h-64 bg-transparent dark:bg-transparent rounded-lg mb-1 flex items-center justify-center relative z-50">
+              <div className="w-64 h-64 bg-transparent dark:bg-transparent top-[-7rem] rounded-lg mb-1 flex items-center justify-center relative z-50">
                 {/* You can replace this with an Image component */}
                 { <Image 
                   src="/2025/wwdcnewlogo.png" 
