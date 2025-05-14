@@ -27,15 +27,13 @@ export default function LandingPage() {
           <div className="flex items-center justify-center z-20 max-w-6xl">
             <div className="flex flex-col items-center">
               {/* Image container div added here */}
-              <div className="w-64 h-64 bg-zinc-100 dark:bg-zinc-800 rounded-lg mb-6 flex items-center justify-center relative z-50">
-                {/* Placeholder for your image */}
-                <span className="text-zinc-400 dark:text-zinc-500 text-sm">Add your image here</span>
+              <div className="w-64 h-64 bg-transparent dark:bg-transparent rounded-lg mb-6 flex items-center justify-center relative z-50">
                 {/* You can replace this with an Image component */}
                 { <Image 
                   src="/2025/wwdcnewlogo.png" 
                   alt="War of Words Logo" 
-                  width={256} 
-                  height={256} 
+                  width={300} 
+                  height={300} 
                   className="object-cover"
                 /> }
               </div>
