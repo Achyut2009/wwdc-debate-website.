@@ -33,6 +33,7 @@ export default function Home() {
         <div className="flex items-start justify-center z-20 w-full">
           <div className="w-full">
             <div className="relative flex flex-col z-50 items-center justify-center">
+              {/* Core Organising Committee Heading */}
               <div className="mx-auto max-w-7xl px-4 py-10 md:px-6 w-full">
                 <div className="flex flex-col items-center justify-center space-y-4 pb-4 text-center">
                   <div className="space-y-2">
@@ -42,10 +43,12 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
+              {/* Centered coreteach section */}
               <div className="w-full flex justify-center">
-                <div className="grid pb-4 gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-items-center max-w-7xl px-4 md:px-6">
+                <div className="grid pb-4 gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-4xl px-4 md:px-6">
                   {coreteach.map((item, index) => (
-                    <Card key={item.name} className="w-full max-w-md">
+                    <Card key={item.name} className="w-full max-w-md mx-auto">
                       <CardContent className="grid grid-cols-[100px_1fr] gap-4 p-6">
                         <div>
                           <Image
@@ -69,10 +72,7 @@ export default function Home() {
                       </CardContent>
                       <CardFooter>
                         <div className="w-full">
-                          <div
-                            key={index}
-                            className="m-4 flex items-center justify-end md:hidden"
-                          >
+                          <div className="m-4 flex items-center justify-end md:hidden">
                             <Drawer>
                               <DrawerTrigger>
                                 <Button variant="geist" className="ml-auto">
@@ -104,10 +104,7 @@ export default function Home() {
                               </DrawerContent>
                             </Drawer>
                           </div>
-                          <div
-                            key={index}
-                            className="m-4 hidden md:flex items-center justify-end"
-                          >
+                          <div className="m-4 hidden md:flex items-center justify-end">
                             <Dialog>
                               <DialogTrigger>
                                 <Button variant="geist" className="ml-auto">
@@ -145,109 +142,105 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <div className="w-full flex justify-center">
-                <div className="grid py-4 gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center max-w-7xl px-4 md:px-6">
-                  {core.map((item, index) => (
-                    <Card key={item.name} className="w-full max-w-md">
-                      <CardContent className="grid grid-cols-[100px_1fr] gap-4 p-6">
-                        <div>
-                          <Image
-                            alt="Profile Photo"
-                            className="rounded-full"
-                            height="100"
-                            src={item.image}
-                            style={{
-                              aspectRatio: "100/100",
-                              objectFit: "cover",
-                            }}
-                            width="100"
-                          />
+
+              {/* Original core section (unchanged) */}
+              <div className="grid py-4 gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                {core.map((item, index) => (
+                  <Card key={item.name} className="w-full max-w-md">
+                    <CardContent className="grid grid-cols-[100px_1fr] gap-4 p-6">
+                      <div>
+                        <Image
+                          alt="Profile Photo"
+                          className="rounded-full"
+                          height="100"
+                          src={item.image}
+                          style={{
+                            aspectRatio: "100/100",
+                            objectFit: "cover",
+                          }}
+                          width="100"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <h3 className="text-lg font-semibold">{item.name}</h3>
+                        <p className="text-gray-500 dark:text-gray-400">
+                          {item.bio[0]}...
+                        </p>
+                      </div>
+                    </CardContent>
+                    <CardFooter>
+                      <div className="w-full">
+                        <div className="m-4 flex items-center justify-end md:hidden">
+                          <Drawer>
+                            <DrawerTrigger>
+                              <Button variant="geist" className="ml-auto">
+                                Know more
+                              </Button>
+                            </DrawerTrigger>
+                            <DrawerContent>
+                              <DrawerHeader>
+                                <DrawerTitle className="text-3xl font-semibold">
+                                  {item.name}
+                                </DrawerTitle>
+                                <DrawerDescription className="text-md">
+                                  Core Organising Committee
+                                </DrawerDescription>
+                                {item.bio.map((p, index) => (
+                                  <div
+                                    key={index}
+                                    className="text-md dark:text-zinc-300 font-medium"
+                                  >
+                                    {p}
+                                  </div>
+                                ))}
+                              </DrawerHeader>
+                              <DrawerFooter>
+                                <DrawerClose>
+                                  <Button variant="outline">Close</Button>
+                                </DrawerClose>
+                              </DrawerFooter>
+                            </DrawerContent>
+                          </Drawer>
                         </div>
-                        <div className="space-y-2">
-                          <h3 className="text-lg font-semibold">{item.name}</h3>
-                          <p className="text-gray-500 dark:text-gray-400">
-                            {item.bio[0]}...
-                          </p>
+                        <div className="m-4 hidden md:flex items-center justify-end">
+                          <Dialog>
+                            <DialogTrigger>
+                              <Button variant="geist" className="ml-auto">
+                                Know more
+                              </Button>
+                            </DialogTrigger>
+                            <DialogContent>
+                              <DialogHeader>
+                                <DialogTitle className="text-3xl font-semibold">
+                                  {item.name}
+                                </DialogTitle>
+                                <DialogDescription className="text-md">
+                                  Core Organising Committee
+                                </DialogDescription>
+                                {item.bio.map((p, index) => (
+                                  <div
+                                    key={index}
+                                    className="text-md dark:text-zinc-300 font-medium"
+                                  >
+                                    {p}
+                                  </div>
+                                ))}
+                              </DialogHeader>
+                              <DialogFooter>
+                                <DialogClose>
+                                  <Button variant="outline">Close</Button>
+                                </DialogClose>
+                              </DialogFooter>
+                            </DialogContent>
+                          </Dialog>
                         </div>
-                      </CardContent>
-                      <CardFooter>
-                        <div className="w-full">
-                          <div
-                            key={index}
-                            className="m-4 flex items-center justify-end md:hidden"
-                          >
-                            <Drawer>
-                              <DrawerTrigger>
-                                <Button variant="geist" className="ml-auto">
-                                  Know more
-                                </Button>
-                              </DrawerTrigger>
-                              <DrawerContent>
-                                <DrawerHeader>
-                                  <DrawerTitle className="text-3xl font-semibold">
-                                    {item.name}
-                                  </DrawerTitle>
-                                  <DrawerDescription className="text-md">
-                                    Core Organising Committee
-                                  </DrawerDescription>
-                                  {item.bio.map((p, index) => (
-                                    <div
-                                      key={index}
-                                      className="text-md dark:text-zinc-300 font-medium"
-                                    >
-                                      {p}
-                                    </div>
-                                  ))}
-                                </DrawerHeader>
-                                <DrawerFooter>
-                                  <DrawerClose>
-                                    <Button variant="outline">Close</Button>
-                                  </DrawerClose>
-                                </DrawerFooter>
-                              </DrawerContent>
-                            </Drawer>
-                          </div>
-                          <div
-                            key={index}
-                            className="m-4 hidden md:flex items-center justify-end"
-                          >
-                            <Dialog>
-                              <DialogTrigger>
-                                <Button variant="geist" className="ml-auto">
-                                  Know more
-                                </Button>
-                              </DialogTrigger>
-                              <DialogContent>
-                                <DialogHeader>
-                                  <DialogTitle className="text-3xl font-semibold">
-                                    {item.name}
-                                  </DialogTitle>
-                                  <DialogDescription className="text-md">
-                                    Core Organising Committee
-                                  </DialogDescription>
-                                  {item.bio.map((p, index) => (
-                                    <div
-                                      key={index}
-                                      className="text-md dark:text-zinc-300 font-medium"
-                                    >
-                                      {p}
-                                    </div>
-                                  ))}
-                                </DialogHeader>
-                                <DialogFooter>
-                                  <DialogClose>
-                                    <Button variant="outline">Close</Button>
-                                  </DialogClose>
-                                </DialogFooter>
-                              </DialogContent>
-                            </Dialog>
-                          </div>
-                        </div>
-                      </CardFooter>
-                    </Card>
-                  ))}
-                </div>
+                      </div>
+                    </CardFooter>
+                  </Card>
+                ))}
               </div>
+
+              {/* Organising Committee Heading */}
               <div className="mx-auto max-w-7xl px-4 py-10 md:px-6 w-full">
                 <div className="flex flex-col items-center justify-center space-y-4 pb-4 text-center">
                   <div className="space-y-2">
@@ -257,10 +250,12 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
+              {/* Centered orgteach section */}
               <div className="w-full flex justify-center">
-                <div className="grid gap-6 py-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-items-center max-w-7xl px-4 md:px-6">
+                <div className="grid gap-6 py-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-4xl px-4 md:px-6">
                   {orgteach.map((item, index) => (
-                    <Card key={item.name} className="w-full h-full max-w-md">
+                    <Card key={item.name} className="w-full max-w-md mx-auto">
                       <CardContent className="grid grid-cols-[100px_1fr] gap-4 p-6">
                         <div>
                           <Image
@@ -284,10 +279,7 @@ export default function Home() {
                       </CardContent>
                       <CardFooter>
                         <div className="w-full">
-                          <div
-                            key={index}
-                            className="m-4 flex items-center justify-end md:hidden"
-                          >
+                          <div className="m-4 flex items-center justify-end md:hidden">
                             <Drawer>
                               <DrawerTrigger>
                                 <Button variant="geist" className="ml-auto">
@@ -319,10 +311,7 @@ export default function Home() {
                               </DrawerContent>
                             </Drawer>
                           </div>
-                          <div
-                            key={index}
-                            className="m-4 hidden md:flex items-center justify-end"
-                          >
+                          <div className="m-4 hidden md:flex items-center justify-end">
                             <Dialog>
                               <DialogTrigger>
                                 <Button variant="geist" className="ml-auto">
@@ -360,108 +349,102 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <div className="w-full flex justify-center">
-                <div className="grid gap-6 py-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center max-w-7xl px-4 md:px-6">
-                  {org.map((item, index) => (
-                    <Card key={item.name} className="w-full max-w-md">
-                      <CardContent className="grid grid-cols-[100px_1fr] gap-4 p-6">
-                        <div>
-                          <Image
-                            alt="Profile Photo"
-                            className="rounded-full"
-                            height="100"
-                            src={item.image}
-                            style={{
-                              aspectRatio: "100/100",
-                              objectFit: "cover",
-                            }}
-                            width="100"
-                          />
+
+              {/* Original org section (unchanged) */}
+              <div className="grid gap-6 py-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                {org.map((item, index) => (
+                  <Card key={item.name} className="w-full max-w-md">
+                    <CardContent className="grid grid-cols-[100px_1fr] gap-4 p-6">
+                      <div>
+                        <Image
+                          alt="Profile Photo"
+                          className="rounded-full"
+                          height="100"
+                          src={item.image}
+                          style={{
+                            aspectRatio: "100/100",
+                            objectFit: "cover",
+                          }}
+                          width="100"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <h3 className="text-lg font-semibold">{item.name}</h3>
+                        <p className="text-gray-500 dark:text-gray-400">
+                          {item.bio[0]}...
+                        </p>
+                      </div>
+                    </CardContent>
+                    <CardFooter>
+                      <div className="w-full">
+                        <div className="m-4 flex items-center justify-end md:hidden">
+                          <Drawer>
+                            <DrawerTrigger>
+                              <Button variant="geist" className="ml-auto">
+                                Know more
+                              </Button>
+                            </DrawerTrigger>
+                            <DrawerContent>
+                              <DrawerHeader>
+                                <DrawerTitle className="text-3xl font-semibold">
+                                  {item.name}
+                                </DrawerTitle>
+                                <DrawerDescription className="text-md">
+                                  Organising Committee
+                                </DrawerDescription>
+                                {item.bio.map((p, index) => (
+                                  <div
+                                    key={index}
+                                    className="text-md dark:text-zinc-300 font-medium"
+                                  >
+                                    {p}
+                                  </div>
+                                ))}
+                              </DrawerHeader>
+                              <DrawerFooter>
+                                <DrawerClose>
+                                  <Button variant="outline">Close</Button>
+                                </DrawerClose>
+                              </DrawerFooter>
+                            </DrawerContent>
+                          </Drawer>
                         </div>
-                        <div className="space-y-2">
-                          <h3 className="text-lg font-semibold">{item.name}</h3>
-                          <p className="text-gray-500 dark:text-gray-400">
-                            {item.bio[0]}...
-                          </p>
+                        <div className="m-4 hidden md:flex items-center justify-end">
+                          <Dialog>
+                            <DialogTrigger>
+                              <Button variant="geist" className="ml-auto">
+                                Know more
+                              </Button>
+                            </DialogTrigger>
+                            <DialogContent>
+                              <DialogHeader>
+                                <DialogTitle className="text-3xl font-semibold">
+                                  {item.name}
+                                </DialogTitle>
+                                <DialogDescription className="text-md">
+                                  Organising Committee
+                                </DialogDescription>
+                                {item.bio.map((p, index) => (
+                                  <div
+                                    key={index}
+                                    className="text-md dark:text-zinc-300 font-medium"
+                                  >
+                                    {p}
+                                  </div>
+                                ))}
+                              </DialogHeader>
+                              <DialogFooter>
+                                <DialogClose>
+                                  <Button variant="outline">Close</Button>
+                                </DialogClose>
+                              </DialogFooter>
+                            </DialogContent>
+                          </Dialog>
                         </div>
-                      </CardContent>
-                      <CardFooter>
-                        <div className="w-full">
-                          <div
-                            key={index}
-                            className="m-4 flex items-center justify-end md:hidden"
-                          >
-                            <Drawer>
-                              <DrawerTrigger>
-                                <Button variant="geist" className="ml-auto">
-                                  Know more
-                                </Button>
-                              </DrawerTrigger>
-                              <DrawerContent>
-                                <DrawerHeader>
-                                  <DrawerTitle className="text-3xl font-semibold">
-                                    {item.name}
-                                  </DrawerTitle>
-                                  <DrawerDescription className="text-md">
-                                    Organising Committee
-                                  </DrawerDescription>
-                                  {item.bio.map((p, index) => (
-                                    <div
-                                      key={index}
-                                      className="text-md dark:text-zinc-300 font-medium"
-                                    >
-                                      {p}
-                                    </div>
-                                  ))}
-                                </DrawerHeader>
-                                <DrawerFooter>
-                                  <DrawerClose>
-                                    <Button variant="outline">Close</Button>
-                                  </DrawerClose>
-                                </DrawerFooter>
-                              </DrawerContent>
-                            </Drawer>
-                          </div>
-                          <div
-                            key={index}
-                            className="m-4 hidden md:flex items-center justify-end"
-                          >
-                            <Dialog>
-                              <DialogTrigger>
-                                <Button variant="geist" className="ml-auto">
-                                  Know more
-                                </Button>
-                              </DialogTrigger>
-                              <DialogContent>
-                                <DialogHeader>
-                                  <DialogTitle className="text-3xl font-semibold">
-                                    {item.name}
-                                  </DialogTitle>
-                                  <DialogDescription className="text-md">
-                                    Organising Committee
-                                  </DialogDescription>
-                                  {item.bio.map((p, index) => (
-                                    <div
-                                      key={index}
-                                      className="text-md dark:text-zinc-300 font-medium"
-                                    >
-                                      {p}
-                                    </div>
-                                  ))}
-                                </DialogHeader>
-                                <DialogFooter>
-                                  <DialogClose>
-                                    <Button variant="outline">Close</Button>
-                                  </DialogClose>
-                                </DialogFooter>
-                              </DialogContent>
-                            </Dialog>
-                          </div>
-                        </div>
-                      </CardFooter>
-                    </Card>
-                  ))}
-                </div>
+                      </div>
+                    </CardFooter>
+                  </Card>
+                ))}
               </div>
             </div>
           </div>
