@@ -27,20 +27,20 @@ export default function LandingPage() {
           <div className="flex items-center justify-center z-20 max-w-6xl">
             <div className="flex flex-col items-center">
               {/* Image container div added here */}
-              <div className="w-64 h-64 bg-transparent dark:bg-transparent top-2rem rounded-lg mb-1 flex items-center justify-center relative z-50">
+              <div className="w-64 h-64 bg-zinc-100 dark:bg-zinc-800 rounded-lg mb-6 flex items-center justify-center relative z-50">
                 {/* You can replace this with an Image component */}
                 { <Image 
                   src="/2025/wwdcnewlogo.png" 
                   alt="War of Words Logo" 
-                  width={325} 
-                  height={325} 
+                  width={256} 
+                  height={256} 
                   className="object-cover"
                 /> }
               </div>
               
               <div
                 aria-hidden="true"
-                className="pointer-events-none absolute inset-x-0 top-7rem z-0 transform-gpu overflow-hidden blur-3xl sm:top-[10rem]"
+                className="pointer-events-none absolute inset-x-0 -top-[-17rem] z-0 transform-gpu overflow-hidden blur-3xl sm:top-[17rem]"
               >
                 <div
                   style={{
