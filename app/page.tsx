@@ -28,13 +28,13 @@ export default function LandingPage() {
             {/* Moved the entire content block up by adding -mt-24 class */}
             <div className="flex flex-col items-center -mt-24">
               {/* Image container div moved up with margin adjustments */}
-              <div className="w-64 h-64 bg-zinc-100 dark:bg-zinc-800 rounded-lg mb-4 flex items-center justify-center relative z-50">
+              <div className="w-64 h-60 bg-transparent dark:bg-transparent rounded-lg mb-4 flex items-center justify-center relative z-50">
                 {/* You can replace this with an Image component */}
                 { <Image 
                   src="/2025/wwdcnewlogo.png" 
                   alt="War of Words Logo" 
-                  width={256} 
-                  height={256} 
+                  width={300} 
+                  height={300} 
                   className="object-cover"
                 /> }
               </div>
