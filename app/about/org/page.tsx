@@ -44,12 +44,12 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Centered coreteach section with matching width */}
-              <div className="w-full flex justify-center">
-                <div className="grid pb-4 gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full max-w-7xl px-4 md:px-6">
+              {/* Centered coreteach section - NEW LAYOUT */}
+              <div className="w-full flex justify-center px-4">
+                <div className="flex flex-col items-center w-full max-w-4xl gap-6">
                   {coreteach.map((item, index) => (
-                    <div key={item.name} className="flex justify-center">
-                      <Card className="w-full max-w-md">
+                    <div key={item.name} className="w-full flex justify-center">
+                      <Card className="w-full max-w-2xl">
                         <CardContent className="grid grid-cols-[100px_1fr] gap-4 p-6">
                           <div>
                             <Image
@@ -145,8 +145,8 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Original core section */}
-              <div className="grid py-4 gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-6 max-w-7xl mx-auto">
+              {/* Original core section (unchanged) */}
+              <div className="grid py-4 gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {core.map((item, index) => (
                   <Card key={item.name} className="w-full max-w-md">
                     <CardContent className="grid grid-cols-[100px_1fr] gap-4 p-6">
@@ -253,12 +253,12 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Centered orgteach section with matching width */}
-              <div className="w-full flex justify-center">
-                <div className="grid gap-6 py-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full max-w-7xl px-4 md:px-6">
+              {/* Centered orgteach section - NEW LAYOUT */}
+              <div className="w-full flex justify-center px-4">
+                <div className="flex flex-col items-center w-full max-w-4xl gap-6">
                   {orgteach.map((item, index) => (
-                    <div key={item.name} className="flex justify-center">
-                      <Card className="w-full max-w-md">
+                    <div key={item.name} className="w-full flex justify-center">
+                      <Card className="w-full max-w-2xl">
                         <CardContent className="grid grid-cols-[100px_1fr] gap-4 p-6">
                           <div>
                             <Image
@@ -354,8 +354,8 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Original org section */}
-              <div className="grid gap-6 py-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-6 max-w-7xl mx-auto">
+              {/* Original org section (unchanged) */}
+              <div className="grid gap-6 py-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {org.map((item, index) => (
                   <Card key={item.name} className="w-full max-w-md">
                     <CardContent className="grid grid-cols-[100px_1fr] gap-4 p-6">
