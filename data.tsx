@@ -131,7 +131,8 @@ const org = [
     image: "2025/Pranay.jpg",
     name: "Pranay Bhatia",
     bio: [
-      "A passionate and dedicated debater for over three years, Pranay has consistently demonstrated his commitment to the art of public speaking and critical thinking. His journey in debate began with a curiosity for meaningful dialogue and quickly transformed into a pursuit of excellence on national and international platforms. He has proudly represented his school in numerous competitions, including Qatar Primary School Debate League where he was awarded the 7th Best Speaker and went on to qualify for the Qatar Debate Nationals.",
+      "A passionate and dedicated debater for over three years, Pranay has consistently demonstrated his commitment to the art of public speaking and critical thinking.",
+      "His journey in debate began with a curiosity for meaningful dialogue and quickly transformed into a pursuit of excellence on national and international platforms. He has proudly represented his school in numerous competitions, including Qatar Primary School Debate League where he was awarded the 7th Best Speaker and went on to qualify for the Qatar Debate Nationals.",
       "In addition to his accomplishments as a speaker, he has taken on leadership roles within his debate community mentoring and training junior debaters and serving as a judge in various inter-club competitions. His ability to guide, evaluate, and support younger debaters reflects not only his experience but also his dedication to fostering a culture of growth and excellence.",
       "To him, debate is more than a competition it's a powerful medium for exploring ideas, challenging perspectives, and driving global change. With a firm belief that dedication, consistency, and passion are the cornerstones of success, he continues to grow as both a speaker and a mentor, eager to contribute meaningfully through discourse.",
     ],
