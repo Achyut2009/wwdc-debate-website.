@@ -48,11 +48,12 @@ const core = [
   },
   {
     image:
-      "https://cdn.aayus.me/uploads/arch.png",
+      "/2025/Archit.jpg",
     name: "Archit Chhikara",
     bio: [
-      "Archit Chhikara, a Grade XI student, brings over three years of experience to the debate club, where his prowess has earned him accolades such as the Best Speaker award from Qatar Debate, alongside numerous national and international honors.",
-      "He is a passionate debater who believes debating is an essential skill, citing its ability to enhance public speaking, foster exposure, and facilitate holistic development in individuals.",
+      "Archit Chhikara, a Grade 12 student, has been part of his school’s debate club for five years and is a QatarDebate National Finals Champion. He believes debate is not just about winning arguments but about building confidence, clarity, and critical thinking.",
+      "Nationally, he has won multiple League Championships, earned Best Speaker titles from both QatarDebate and TNG Debates, and secured several Top 10 finishes. At the university level, he has been awarded Best School Team and ranked 3rd Best School Speaker in both AP and BP formats. Internationally, he has been a finalist at the Taylor’s University Debating Championship and Karl Popper Debates.",
+      "He has also chaired and organized major debates, and believes in giving back by mentoring younger debaters — helping them find their voice and grow through the power of speech.",
     ],
   },
   {
