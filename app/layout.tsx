@@ -66,8 +66,9 @@ export default function RootLayout({
                 className="text-xs hover:underline underline-offset-4"
                 href="https://aayushr.dev/"
               >
-                Made by Aayush Rajagopalan,
+                Made by Aayush Rajagopalan
               </Link>
+              and
               <Link
                 target="_blank"
                 className="text-xs hover:underline underline-offset-4"
