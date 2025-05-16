@@ -66,14 +66,14 @@ export default function RootLayout({
                 className="text-xs hover:underline underline-offset-4"
                 href="https://aayushr.dev/"
               >
-                Made by Aayush Rajagopalan
+                Made by Aayush Rajagopalan,
               </Link>
               <Link
                 target="_blank"
                 className="text-xs hover:underline underline-offset-4"
                 href="https://achyutpaliwal.netlify.app/"
               >
-                Made by Achyut Paliwal
+                Achyut Paliwal
               </Link>
             </nav>
           </footer>

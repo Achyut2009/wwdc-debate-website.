@@ -29,7 +29,7 @@ const coreteach = [
 const core = [
   {
     image:
-      "2025/kauthik.jpg",
+      "2025/Kauthik.jpg",
     name: "Surya Kauthik Basangi",
     bio: [
       "Kauthik is one of Qatar’s most prominent high school debaters, having competed at the highest levels of national and international debate over the past five years. He is a reigning QSDL Boys National Champion and two-time Best Speaker in the 2024–25 debate season.",
