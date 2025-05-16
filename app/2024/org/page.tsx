@@ -44,106 +44,102 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Centered coreteach section - NEW LAYOUT */}
-              <div className="w-full flex justify-center px-4">
-                <div className="flex flex-col items-center w-full max-w-4xl gap-6">
-                  {twentyfour.core.map((item, index) => (
-                    <div key={item.name} className="w-full flex justify-center">
-                      <Card className="w-full max-w-2xl">
-                        <CardContent className="grid grid-cols-[100px_1fr] gap-4 p-6">
-                          <div>
-                            <Image
-                              alt="Profile Photo"
-                              className="rounded-full"
-                              height="100"
-                              src={item.image}
-                              style={{
-                                aspectRatio: "100/100",
-                                objectFit: "cover",
-                              }}
-                              width="100"
-                            />
-                          </div>
-                          <div className="space-y-2">
-                            <h3 className="text-lg font-semibold">{item.name}</h3>
-                            <p className="text-gray-500 dark:text-gray-400">
-                              {item.bio[0]}...
-                            </p>
-                          </div>
-                        </CardContent>
-                        <CardFooter>
-                          <div className="w-full">
-                            <div className="m-4 flex items-center justify-end md:hidden">
-                              <Drawer>
-                                <DrawerTrigger>
-                                  <Button variant="geist" className="ml-auto">
-                                    Know more
-                                  </Button>
-                                </DrawerTrigger>
-                                <DrawerContent>
-                                  <DrawerHeader>
-                                    <DrawerTitle className="text-3xl font-semibold">
-                                      {item.name}
-                                    </DrawerTitle>
-                                    <DrawerDescription className="text-md">
-                                      Core Organising Committee
-                                    </DrawerDescription>
-                                    {item.bio.map((p, index) => (
-                                      <div
-                                        key={index}
-                                        className="text-md dark:text-zinc-300 font-medium"
-                                      >
-                                        {p}
-                                      </div>
-                                    ))}
-                                  </DrawerHeader>
-                                  <DrawerFooter>
-                                    <DrawerClose>
-                                      <Button variant="outline">Close</Button>
-                                    </DrawerClose>
-                                  </DrawerFooter>
-                                </DrawerContent>
-                              </Drawer>
-                            </div>
-                            <div className="m-4 hidden md:flex items-center justify-end">
-                              <Dialog>
-                                <DialogTrigger>
-                                  <Button variant="geist" className="ml-auto">
-                                    Know more
-                                  </Button>
-                                </DialogTrigger>
-                                <DialogContent>
-                                  <DialogHeader>
-                                    <DialogTitle className="text-3xl font-semibold">
-                                      {item.name}
-                                    </DialogTitle>
-                                    <DialogDescription className="text-md">
-                                      Core Organising Committee
-                                    </DialogDescription>
-                                    {item.bio.map((p, index) => (
-                                      <div
-                                        key={index}
-                                        className="text-md dark:text-zinc-300 font-medium"
-                                      >
-                                        {p}
-                                      </div>
-                                    ))}
-                                  </DialogHeader>
-                                  <DialogFooter>
-                                    <DialogClose>
-                                      <Button variant="outline">Close</Button>
-                                    </DialogClose>
-                                  </DialogFooter>
-                                </DialogContent>
-                              </Dialog>
-                            </div>
-                          </div>
-                        </CardFooter>
-                      </Card>
-                    </div>
-                  ))}
-                </div>
-              </div>
+              {/* Original core section (unchanged) */}
+              <div className="grid py-4 gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                {core.map((item, index) => (
+                  <Card key={item.name} className="w-full max-w-md">
+                    <CardContent className="grid grid-cols-[100px_1fr] gap-4 p-6">
+                      <div>
+                        <Image
+                          alt="Profile Photo"
+                          className="rounded-full"
+                          height="100"
+                          src={item.image}
+                          style={{
+                            aspectRatio: "100/100",
+                            objectFit: "cover",
+                          }}
+                          width="100"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <h3 className="text-lg font-semibold">{item.name}</h3>
+                        <p className="text-gray-500 dark:text-gray-400">
+                          {item.bio[0]}...
+                        </p>
+                      </div>
+                    </CardContent>
+                    <CardFooter>
+                      <div className="w-full">
+                        <div className="m-4 flex items-center justify-end md:hidden">
+                          <Drawer>
+                            <DrawerTrigger>
+                              <Button variant="geist" className="ml-auto">
+                                Know more
+                              </Button>
+                            </DrawerTrigger>
+                            <DrawerContent>
+                              <DrawerHeader>
+                                <DrawerTitle className="text-3xl font-semibold">
+                                  {item.name}
+                                </DrawerTitle>
+                                <DrawerDescription className="text-md">
+                                  Core Organising Committee
+                                </DrawerDescription>
+                                {item.bio.map((p, index) => (
+                                  <div
+                                    key={index}
+                                    className="text-md dark:text-zinc-300 font-medium"
+                                  >
+                                    {p}
+                                  </div>
+                                ))}
+                              </DrawerHeader>
+                              <DrawerFooter>
+                                <DrawerClose>
+                                  <Button variant="outline">Close</Button>
+                                </DrawerClose>
+                              </DrawerFooter>
+                            </DrawerContent>
+                          </Drawer>
+                        </div>
+                        <div className="m-4 hidden md:flex items-center justify-end">
+                          <Dialog>
+                            <DialogTrigger>
+                              <Button variant="geist" className="ml-auto">
+                                Know more
+                              </Button>
+                            </DialogTrigger>
+                            <DialogContent>
+                              <DialogHeader>
+                                <DialogTitle className="text-3xl font-semibold">
+                                  {item.name}
+                                </DialogTitle>
+                                <DialogDescription className="text-md">
+                                  Core Organising Committee
+                                </DialogDescription>
+                                {item.bio.map((p, index) => (
+                                  <div
+                                    key={index}
+                                    className="text-md dark:text-zinc-300 font-medium"
+                                  >
+                                    {p}
+                                  </div>
+                                ))}
+                              </DialogHeader>
+                              <DialogFooter>
+                                <DialogClose>
+                                  <Button variant="outline">Close</Button>
+                                </DialogClose>
+                              </DialogFooter>
+                            </DialogContent>
+                          </Dialog>
+                        </div>
+                      </div>
+                    </CardFooter>
+                  </Card>
+                ))}
+              </div>              
 
               {/* Organising Committee Heading */}
               <div className="mx-auto w-full px-4 py-10 md:px-6">
