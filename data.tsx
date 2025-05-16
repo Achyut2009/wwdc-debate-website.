@@ -56,12 +56,12 @@ const core = [
   },
   {
     image:
-      "https://cdn.aayus.me/uploads/Mehull_Girdhar_-_Passport_Size_Photograph_2023.JPG",
+      "/2025/Aryan.jpg",
     name: "Aaryan Sujith",
     bio: [
-      "A student of class XII, Mehull Girdhar is an experienced debater who has been part of the debate club since more than 4 years now.",
-      "As a debate enthusiast, Mehull believes that debating is not only a competitive sport but also a platform for intellectual growth and social change",
-      "He has participated in a number of national and international competitions, winning several accolades such as Top 10 Speaker, Best Open Team, Nationals Championship, Best School Team in Qatar Debate and international competitions like Vocalize UAE SDC, Protea WSDC, among a few.",
+      "Aaryan is a highly accomplished debater, having secured a top 10 medal at every QatarDebate event he’s participated in.",
+      "His most notable achievements include being awarded Best Speaker in the QPSDL 2024 season and being recognised as the 2nd Best School Speaker at the QatarDebate AP Open 2025, a testament to his eloquence, critical thinking, and consistent excellence.",
+      "Beyond personal success, Aaryan’s passion for debate fuels his commitment to mentoring juniors. He actively guides and supports upcoming debaters, helping them develop confidence, sharpen their argumentation, and grow into strong, articulate voices in the debate community.",
     ],
   },
 ];
@@ -126,13 +126,12 @@ const org = [
     ],
   },
   {
-    image: "https://cdn.aayus.me/uploads/Venus_Photograph_New.png",
-    name: "Venus Rinith",
+    image: "2025/Pranay.jpg",
+    name: "Pranay Bhatia",
     bio: [
-      "Venus, a Class XII student, has been an enthusiastic debater and public speaker for the past four years.",
-      "She has competed in numerous national and international competitions, earning multiple accolades and gaining substantial experience.",
-      "Additionally, she has served as a judge at Qatar Debate and intra-school competitions. Over the years, Venus has developed her debating skills and deepened her curiosity and passion for public speaking.",
-      "She is confident that debate is a platform for finding solutions that bring positive change to global issues. She firmly believes that dedication, consistency and passion are essential to achieving one's goals.",
+      "A passionate and dedicated debater for over three years, Pranay has consistently demonstrated his commitment to the art of public speaking and critical thinking. His journey in debate began with a curiosity for meaningful dialogue and quickly transformed into a pursuit of excellence on national and international platforms. He has proudly represented his school in numerous competitions, including Qatar Primary School Debate League where he was awarded the 7th Best Speaker and went on to qualify for the Qatar Debate Nationals.",
+      "In addition to his accomplishments as a speaker, he has taken on leadership roles within his debate community mentoring and training junior debaters and serving as a judge in various inter-club competitions. His ability to guide, evaluate, and support younger debaters reflects not only his experience but also his dedication to fostering a culture of growth and excellence.",
+      "To him, debate is more than a competition it's a powerful medium for exploring ideas, challenging perspectives, and driving global change. With a firm belief that dedication, consistency, and passion are the cornerstones of success, he continues to grow as both a speaker and a mentor, eager to contribute meaningfully through discourse.",
     ],
   },
 ];
