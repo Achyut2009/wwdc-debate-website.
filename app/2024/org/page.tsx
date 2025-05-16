@@ -46,7 +46,7 @@ export default function Home() {
 
               {/* Original core section (unchanged) */}
               <div className="grid py-4 gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                {core.map((item, index) => (
+                {twentyfour.core.map((item, index) => (
                   <Card key={item.name} className="w-full max-w-md">
                     <CardContent className="grid grid-cols-[100px_1fr] gap-4 p-6">
                       <div>
