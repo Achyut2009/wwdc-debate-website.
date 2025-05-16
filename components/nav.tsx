@@ -104,13 +104,6 @@ const LandingNavbar = () => {
                     <div className="text-sm grid grid-cols-2 gap-5 p-2">
                       <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
                         <ProductItem
-                          title="Tournament"
-                          href="/2023/tournament"
-                          description="The 2023 edition of the War of the Words Debate Tournament."
-                        />
-                      </div>
-                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
-                        <ProductItem
                           title="Motions"
                           href="/2023/motions"
                           description="The motions for the 2023 edition of the War of the Words Debate Tournament."
@@ -123,25 +116,11 @@ const LandingNavbar = () => {
                           description="The Organising Committee for the 2023 edition of the War of the Words Debate Tournament."
                         />
                       </div>
-                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
-                        <ProductItem
-                          title="Core Organising Committee"
-                          href="/2023/org/core"
-                          description="The Core Organising Committee for the 2023 edition of the War of the Words Debate Tournament."
-                        />
-                      </div>
                     </div>
                   </TabsContent>
 
                   <TabsContent value="2022">
                     <div className="text-sm grid grid-cols-2 gap-5 p-2">
-                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
-                        <ProductItem
-                          title="Tournament"
-                          href="/2022/tournament"
-                          description="The 2022 edition of the War of the Words Debate Tournament."
-                        />
-                      </div>
                       <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
                         <ProductItem
                           title="Motions"
@@ -154,13 +133,6 @@ const LandingNavbar = () => {
                           title="Organising Committee"
                           href="/2022/org"
                           description="The Organising Committee for the 2022 edition of the War of the Words Debate Tournament."
-                        />
-                      </div>
-                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
-                        <ProductItem
-                          title="Core Organising Committee"
-                          href="/2022/org/core"
-                          description="The Core Organising Committee for the 2022 edition of the War of the Words Debate Tournament."
                         />
                       </div>
                     </div>
