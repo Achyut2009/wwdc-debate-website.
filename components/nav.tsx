@@ -85,13 +85,6 @@ const LandingNavbar = () => {
                     <div className="text-sm grid grid-cols-2 gap-5 p-2">
                       <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
                         <ProductItem
-                          title="Tournament"
-                          href="/2024/tournament"
-                          description="The 2024 edition of the War of the Words Debate Tournament."
-                        />
-                      </div>
-                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
-                        <ProductItem
                           title="Motions"
                           href="/2024/motions"
                           description="The motions for the 2024 edition of the War of the Words Debate Tournament."
@@ -102,13 +95,6 @@ const LandingNavbar = () => {
                           title="Organising Committee"
                           href="/2024/org"
                           description="The Organising Committee for the 2024 edition of the War of the Words Debate Tournament."
-                        />
-                      </div>
-                      <div className="hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-md p-4 transition-all">
-                        <ProductItem
-                          title="Core Organising Committee"
-                          href="/2024/org/core"
-                          description="The Core Organising Committee for the 2024 edition of the War of the Words Debate Tournament."
                         />
                       </div>
                     </div>
