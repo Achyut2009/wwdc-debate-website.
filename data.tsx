@@ -415,8 +415,10 @@ const twentytwo = {
     },
     {
       title: "Round 2: (Impromptu)",
-      body:
-        "Infoslide: Legacy preference or legacy admission is a preference given by an institution or organization to certain applicants on the basis of their familial relationship to alumni of that institution. For example, students getting admitted into ivy league colleges since their parents are alumni. Motion: This House Regrets Legacy Admission.",
+      body:[
+        "Infoslide: ",
+        "Legacy preference or legacy admission is a preference given by an institution or organization to certain applicants on the basis of their familial relationship to alumni of that institution. For example, students getting admitted into ivy league colleges since their parents are alumni. Motion: This House Regrets Legacy Admission.",
+      ],
     },
     {
       title: "Round 4: (Impromptu)",
@@ -435,13 +437,18 @@ const twentytwo = {
     },
     {
       title: "Octo-finals: (Impromptu)",
-      body:
-        "Infoslide: Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing) Motion: This House Regrets the glorification of the Teenage Dream.",
+      body:[
+        "Infoslide: Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing)",
+        "Motion: This House Regrets the glorification of the Teenage Dream.",
+      ],
     },
     {
       title: "Quarter-finals: (Impromptu)",
-      body:
-        "Info slide: For the purpose of this debate, radical environmentalism refers to the use of violent practices to further the cause of environmental movements due to ecocentrism-based frustration. (Example: throwing pea soup at Van Gogh’s “The Sower”, spraying orange paints on buildings in central London, etc.) Motion: This House Supports radical environmentalism.",
+      body:[
+        "Info slide:",
+        "For the purpose of this debate, radical environmentalism refers to the use of violent practices to further the cause of environmental movements due to ecocentrism-based frustration. (Example: throwing pea soup at Van Gogh’s “The Sower”, spraying orange paints on buildings in central London, etc.) ",
+        "Motion: This House Supports radical environmentalism.",
+      ],
     },
     {
       title: "Semi-finals: (Impromptu)",
