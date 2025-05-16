@@ -29,11 +29,12 @@ const coreteach = [
 const core = [
   {
     image:
-      "https://cdn.aayus.me/uploads/03a38bde-e068-43b8-94da-4699d744b351.png",
+      "2025/kauthik.jpg",
     name: "Surya Kauthik Basangi",
     bio: [
-      "Surya Kauthik is a student of Grade 11 and has been a part of the DPS Debate Club since the past 4 years",
-      "He is an ardent debater with multiple national and international accolades, most notably being a Grand-Finalist at the QSDL National Championship. He believes that debating extends beyond arguing within the four walls of a room, influencing individuals and encouraging them to embrace diverse perspectives.",
+      "Kauthik is one of Qatar’s most prominent high school debaters, having competed at the highest levels of national and international debate over the past five years. He is a reigning QSDL Boys National Champion and two-time Best Speaker in the 2024–25 debate season.",
+      "Consistently performing beyond his age group, Kauthik has also made a mark in the university debate circuit, ranking as the 7th Best Speaker at the QD BP Open 2024 and finishing as a Quarterfinalist at the QD 3v3 Open in 2025. At just 14, he served as an adjudicator in QPSDL, becoming one of the youngest ever to do so in QatarDebate history.",
+      "Beyond the podium, Kauthik stands out as a driven leader and mentor. He has played a key role in shaping the strong, student-led debate culture at DPS-MIS by mentoring juniors and inspiring them to carry forward the passion for debate.",
     ],
   },
   {
