@@ -101,12 +101,14 @@ const org = [
       "Alongside an avid interest in Biology, she showcases debate as a platform to sculpt intellectual rigor, and enhance analytical thinking. Her consistent commitment to debate empowers her to engage with diverse perspectives, and persuasive delivery across a range of motions.",
     ],
   },
-  {
-    image: "/2025/Nandini.jpg",
-    name: "Nandini Devang Pathak",
+    {
+    image: "/2025/Aarav.jpg",
+    name: "Aarav Deepak Singh",
     bio: [
-      "Nandini, a dedicated debater with over three years of experience, has represented our school in various national and international tournaments. Her skills have earned her top speaker awards at prestigious competitions like the Qatar Preparatory School Debate Leagues 1 and 2 in 2023, alongside numerous other accolades.",
-      "Nandini is passionate about debating, believing it is a powerful tool for developing critical thinking, public speaking, and global exposure. She is committed to nurturing the next generation of debaters, helping them harness the skills that lead to both personal and academic growth.",
+      "A student of Class XI, Aarav Singh is a passionate debater who has been part of the debate club for over three years.",
+      "He has taken part in a wide range of national and international competitions across various formats. His efforts have earned him several accolades, including a spot among the Top 10 Speakers in Qatar Debate.",
+      "Beyond competing, Aarav is committed to mentoring and supporting younger debaters, helping them sharpen their skills and grow in confidence.",
+      "He sees debate not just as a competitive activity, but as a  space for exchanging ideas, understanding different viewpoints, and encouraging solution driven conversations in today’s world.",
     ],
   },
   {
@@ -118,16 +120,6 @@ const org = [
     ],
   },
   {
-    image: "/2025/Aarav.jpg",
-    name: "Aarav Deepak Singh",
-    bio: [
-      "A student of Class XI, Aarav Singh is a passionate debater who has been part of the debate club for over three years.",
-      "He has taken part in a wide range of national and international competitions across various formats. His efforts have earned him several accolades, including a spot among the Top 10 Speakers in Qatar Debate.",
-      "Beyond competing, Aarav is committed to mentoring and supporting younger debaters, helping them sharpen their skills and grow in confidence.",
-      "He sees debate not just as a competitive activity, but as a  space for exchanging ideas, understanding different viewpoints, and encouraging solution driven conversations in today’s world.",
-    ],
-  },
-  {
     image: "2025/Pranay.jpg",
     name: "Pranay Bhatia",
     bio: [
@@ -135,6 +127,14 @@ const org = [
       "His journey in debate began with a curiosity for meaningful dialogue and quickly transformed into a pursuit of excellence on national and international platforms. He has proudly represented his school in numerous competitions, including Qatar Primary School Debate League where he was awarded the 7th Best Speaker and went on to qualify for the Qatar Debate Nationals.",
       "In addition to his accomplishments as a speaker, he has taken on leadership roles within his debate community mentoring and training junior debaters and serving as a judge in various inter-club competitions. His ability to guide, evaluate, and support younger debaters reflects not only his experience but also his dedication to fostering a culture of growth and excellence.",
       "To him, debate is more than a competition it's a powerful medium for exploring ideas, challenging perspectives, and driving global change. With a firm belief that dedication, consistency, and passion are the cornerstones of success, he continues to grow as both a speaker and a mentor, eager to contribute meaningfully through discourse.",
+    ],
+  },
+  {
+    image: "/2025/Nandini.jpg",
+    name: "Nandini Devang Pathak",
+    bio: [
+      "Nandini, a dedicated debater with over three years of experience, has represented our school in various national and international tournaments. Her skills have earned her top speaker awards at prestigious competitions like the Qatar Preparatory School Debate Leagues 1 and 2 in 2023, alongside numerous other accolades.",
+      "Nandini is passionate about debating, believing it is a powerful tool for developing critical thinking, public speaking, and global exposure. She is committed to nurturing the next generation of debaters, helping them harness the skills that lead to both personal and academic growth.",
     ],
   },
 ];
