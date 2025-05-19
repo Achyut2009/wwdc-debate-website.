@@ -101,7 +101,11 @@ const org = [
       "Alongside an avid interest in Biology, she showcases debate as a platform to sculpt intellectual rigor, and enhance analytical thinking. Her consistent commitment to debate empowers her to engage with diverse perspectives, and persuasive delivery across a range of motions.",
     ],
   },
+<<<<<<< HEAD
   {
+=======
+    {
+>>>>>>> 02a76285554cd4e5ce3dcb75419273a4db26ee93
     image: "/2025/Aarav.jpg",
     name: "Aarav Deepak Singh",
     bio: [
