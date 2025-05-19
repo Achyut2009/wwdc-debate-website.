@@ -1,5 +1,5 @@
 import React from "react";
-import { org } from "./data"; // adjust the path if needed
+import { org } from "./data"; 
 
 const Organizers = () => {
   return (
