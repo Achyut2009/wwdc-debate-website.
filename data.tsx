@@ -102,11 +102,13 @@ const org = [
     ],
   },
   {
-    image: "/2025/Nandini.jpg",
-    name: "Nandini Devang Pathak",
+    image: "/2025/Aarav.jpg",
+    name: "Aarav Deepak Singh",
     bio: [
-      "Nandini, a dedicated debater with over three years of experience, has represented our school in various national and international tournaments. Her skills have earned her top speaker awards at prestigious competitions like the Qatar Preparatory School Debate Leagues 1 and 2 in 2023, alongside numerous other accolades.",
-      "Nandini is passionate about debating, believing it is a powerful tool for developing critical thinking, public speaking, and global exposure. She is committed to nurturing the next generation of debaters, helping them harness the skills that lead to both personal and academic growth.",
+      "A student of Class XI, Aarav Singh is a passionate debater who has been part of the debate club for over three years.",
+      "He has taken part in a wide range of national and international competitions across various formats. His efforts have earned him several accolades, including a spot among the Top 10 Speakers in Qatar Debate.",
+      "Beyond competing, Aarav is committed to mentoring and supporting younger debaters, helping them sharpen their skills and grow in confidence.",
+      "He sees debate not just as a competitive activity, but as a  space for exchanging ideas, understanding different viewpoints, and encouraging solution driven conversations in today’s world.",
     ],
   },
   {
@@ -118,16 +120,6 @@ const org = [
     ],
   },
   {
-    image: "/2025/Aarav.jpg",
-    name: "Aarav Deepak Singh",
-    bio: [
-      "A student of Class XI, Aarav Singh is a passionate debater who has been part of the debate club for over three years.",
-      "He has taken part in a wide range of national and international competitions across various formats. His efforts have earned him several accolades, including a spot among the Top 10 Speakers in Qatar Debate.",
-      "Beyond competing, Aarav is committed to mentoring and supporting younger debaters, helping them sharpen their skills and grow in confidence.",
-      "He sees debate not just as a competitive activity, but as a  space for exchanging ideas, understanding different viewpoints, and encouraging solution driven conversations in today’s world.",
-    ],
-  },
-  {
     image: "2025/Pranay.jpg",
     name: "Pranay Bhatia",
     bio: [
@@ -135,6 +127,14 @@ const org = [
       "His journey in debate began with a curiosity for meaningful dialogue and quickly transformed into a pursuit of excellence on national and international platforms. He has proudly represented his school in numerous competitions, including Qatar Primary School Debate League where he was awarded the 7th Best Speaker and went on to qualify for the Qatar Debate Nationals.",
       "In addition to his accomplishments as a speaker, he has taken on leadership roles within his debate community mentoring and training junior debaters and serving as a judge in various inter-club competitions. His ability to guide, evaluate, and support younger debaters reflects not only his experience but also his dedication to fostering a culture of growth and excellence.",
       "To him, debate is more than a competition it's a powerful medium for exploring ideas, challenging perspectives, and driving global change. With a firm belief that dedication, consistency, and passion are the cornerstones of success, he continues to grow as both a speaker and a mentor, eager to contribute meaningfully through discourse.",
+    ],
+  },
+  {
+    image: "/2025/Nandini.jpg",
+    name: "Nandini Devang Pathak",
+    bio: [
+      "Nandini, a dedicated debater with over three years of experience, has represented our school in various national and international tournaments. Her skills have earned her top speaker awards at prestigious competitions like the Qatar Preparatory School Debate Leagues 1 and 2 in 2023, alongside numerous other accolades.",
+      "Nandini is passionate about debating, believing it is a powerful tool for developing critical thinking, public speaking, and global exposure. She is committed to nurturing the next generation of debaters, helping them harness the skills that lead to both personal and academic growth.",
     ],
   },
 ];
@@ -276,49 +276,39 @@ const twentyfour = {
   ],
   motions: [
     {
-      title: "Round 1 & 3 (Prepared)",
+      title: "Round 1:",
       body:
-        "This House Supports NATO (North Atlantic Treaty Organization) offering membership to states of the former Soviet Union, excluding Russia. (NATO)",
+        "THBT fear is a legitimate tool for instilling moral values.",
     },
     {
-      title: "Round 2: (Impromptu)",
+      title: "Round 2:",
       body:
-        "Infoslide: Legacy preference or legacy admission is a preference given by an institution or organization to certain applicants on the basis of their familial relationship to alumni of that institution. For example, students getting admitted into ivy league colleges since their parents are alumni. Motion: This House Regrets Legacy Admission.",
+        "This House Believes That the environmental movement should significantly prioritize their campaigning efforts on changing the behaviour of individuals rather than changing the behaviour of companies.",
     },
     {
-      title: "Round 4: (Impromptu)",
+      title: "Round 3:",
       body:
-        "This House Believes That a minimum educational qualification is necessary for electoral representatives in a democracy.",
+        "This House believes that hosting major sporting events does more harm than good for host cities.",
     },
     {
-      title: "Round 5: (Prepared)",
+      title: "Round 4:",
       body:
-        "This House Prefers a world where jobs performed by humans were not automated (E.g., self-driving cars, self-checkouts)",
+        "This House Supports governments significantly increasing their use of big data-based predictive models in decision-making to replace human judgements. (e.g. criminal justice policy, allocation of healthcare resources, housing development).",
     },
     {
-      title: "Round 6: (Impromptu)",
+      title: "Quarter-finals:",
       body:
-        "This House Regrets the over dependency of Gen-Z on social media platforms (eg. Tiktok, Instagram, Facebook)",
+        "THS diversity quotas for university admissions.",
     },
     {
-      title: "Octo-finals: (Impromptu)",
+      title: "Semi-finals:",
       body:
-        "Infoslide: Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing) Motion: This House Regrets the glorification of the Teenage Dream.",
+        "This House believes that developing countries should prioritise import substitution industrialisation over export oriented industrialisation.",
     },
     {
-      title: "Quarter-finals: (Impromptu)",
+      title: "Grand-finals:",
       body:
-        "Info slide: For the purpose of this debate, radical environmentalism refers to the use of violent practices to further the cause of environmental movements due to ecocentrism-based frustration. (Example: throwing pea soup at Van Gogh’s “The Sower”, spraying orange paints on buildings in central London, etc.) Motion: This House Supports radical environmentalism.",
-    },
-    {
-      title: "Semi-finals: (Impromptu)",
-      body:
-        "This House Would make employee-vaccine mandatory",
-    },
-    {
-      title: "Finals: (Prepared)",
-      body:
-        "This House Prefers a world where Russia continued to participate in the FIFA (International Federation of Association Football) World Cup 2022 qualifiers unobjected, and also in the FIFA World Cup 2022, had they qualified.",
+        "This House Believes That developing countries should acquire, on the open market, large stakes in major publicly-traded global corporations (eg. Google, JP Morgan, Shell, and Pfizer).",
     },
   ],
 };
