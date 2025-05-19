@@ -146,6 +146,13 @@ const org = [
       "Nandini is passionate about debating, believing it is a powerful tool for developing critical thinking, public speaking, and global exposure. She is committed to nurturing the next generation of debaters, helping them harness the skills that lead to both personal and academic growth.",
     ],
   },
+  {
+    image: "/2025/Saara.jpg",
+    name: "Saara Bhardwaj",
+    bio: [
+      "A dedicated force in the debate scene for over three years, Saara has been a consistent contributor to her school’s debate club and a Top 10 speaker in the Qatar debate circuit. With a track record full of anecdotes from national and international competitions, her most recent achievement includes being crowned School Champion and Best Speaker of the Finals at the 2024 QD BP Open. Having been part of WWDC since its inaugural edition—first as a volunteer, then a debater—she now returns as an organizer, eager to give back to the platform that shaped her journey. Passionate about spreading the love for debate, Saara has adjudicated globally and mentored rising debaters across circuits.",
+    ],
+  },
 ];
 
 const twentyfour = {
