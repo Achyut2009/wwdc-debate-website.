@@ -4,7 +4,7 @@ import { twentyfour, twentytwo } from "@/data";
 
 export default function Brief() {
   return (
-    <Page title="War of Words Debating Championship 2022" desc="">
+    <Page title="War of Words Debating Championship 2024" desc="">
       <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-transparent ">
         <div className="container px-4 md:px-6">
           <div className="space-y-4 text-center">
