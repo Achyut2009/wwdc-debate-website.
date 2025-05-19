@@ -29,7 +29,7 @@ const LandingNavbar = () => {
             href="/"
             className="left-8 top-8 z-20 flex items-center text-lg font-bold tracking-tight"
           >
-            <span className="flex items-center space-x-2 text-2xl text-emerald-700 dark:text-zinc-100">
+            <span className="flex items-center space-x-2 text-2xl text-emerald-700 dark:text-emerald-700">
               <span>
                 <Image
                   src="https://cdn.aayus.me/uploads/dpsmisdebatclub.png"
