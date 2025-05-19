@@ -101,6 +101,14 @@ const org = [
       "Alongside an avid interest in Biology, she showcases debate as a platform to sculpt intellectual rigor, and enhance analytical thinking. Her consistent commitment to debate empowers her to engage with diverse perspectives, and persuasive delivery across a range of motions.",
     ],
   },
+   {
+    image: "/2025/Aryaman.jpg",
+    name: "Aryaman Adhlakha",
+    bio: [
+      "Aryaman Adhlakha is an economics student with a keen interest in debate and discourse. Beyond academics, they actively engage in debates and enjoy watching competitive and intellectual discussions in their free time.",
+      "His passion for debate not only reflects a love for critical thinking but also enhances their analytical skills — making a natural complement to their study of economics. Aryaman also loves to binge shows in his free time!",
+    ],
+  },
   {
     image: "/2025/Aarav.jpg",
     name: "Aarav Deepak Singh",
@@ -109,14 +117,6 @@ const org = [
       "He has taken part in a wide range of national and international competitions across various formats. His efforts have earned him several accolades, including a spot among the Top 10 Speakers in Qatar Debate.",
       "Beyond competing, Aarav is committed to mentoring and supporting younger debaters, helping them sharpen their skills and grow in confidence.",
       "He sees debate not just as a competitive activity, but as a  space for exchanging ideas, understanding different viewpoints, and encouraging solution driven conversations in today’s world.",
-    ],
-  },
-  {
-    image: "/2025/Aryaman.jpg",
-    name: "Aryaman Adhlakha",
-    bio: [
-      "Aryaman Adhlakha is an economics student with a keen interest in debate and discourse. Beyond academics, they actively engage in debates and enjoy watching competitive and intellectual discussions in their free time.",
-      "His passion for debate not only reflects a love for critical thinking but also enhances their analytical skills — making a natural complement to their study of economics. Aryaman also loves to binge shows in his free time!",
     ],
   },
   {
