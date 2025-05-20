@@ -694,9 +694,9 @@ const twentythree = {
       title: "Finals: (Prepared)",
       body:
         "Theme: Artificial Intelligence", 
-        " ",
+        ".",
         "Infoslide: TalkToys are dolls with Artificial Intelligence (AI) and speech recognition software that enable them to engage in an actual conversation with children (they have a lexicon of thousands of prescript responses). TalkToys are meant to serve as a companion to the child, and they are in the late stages of development. Prominent examples of toys that will be able to talk include Barbie, G.I Joe and Star Wars and Action Figures.", 
-        " ",
+        ".",
         "Motion: This House would ban Talk Toys",
     },
   ],
