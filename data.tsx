@@ -637,7 +637,8 @@ const twentythree = {
     {
       title: "Round 1 & Quarter Finals (Prepared)",
       body:[
-        "Theme: International Relations", 
+        <span className="text-bold">Theme:</span>,
+        "International Relations", 
         "Infoslide: In July of 2021, the Biden Administration imposed new sanctions on Cuba following the Cuban government’s crackdown on demonstrators in the streets of Cuba protesting the shortages in medicine and food resulting from the COVID-19 pandemic.",
         "Biden’s policy was being framed by Senator Robert Mendez, Chairman of the US Senate Foreign Relations Committee, and the son of Cuban immigrants. Mendez has, in the past, been critical of the Obama Administrations softer line on Cuba.", 
         "Motion: This House Believes That the United States Should Maintain Its Embargo against Cuba.",
@@ -646,7 +647,8 @@ const twentythree = {
     {
       title: "Round 2: (Prepared)",
       body:[
-        "Theme: Criminal Justice", 
+        <span className="text-bold">Theme:</span>,
+        "Criminal Justice", 
         "Context: “The right to survival prevails over property,” the court of appeals ruled when reviewing the case of a homeless man who had been given a six month jail sentence and a €100 euro fine for stealing cheese and sausages.",
       ]
     },
@@ -663,7 +665,8 @@ const twentythree = {
     {
       title: "Round-5 (Prepared)",
       body:[
-        "Theme: Social Issues", 
+        <span className="text-bold">Theme:</span>,
+        "Social Issues", 
         "Infoslide: Effective Altruism is the view that we should invest energy into figuring out what the most effective way to help others is, and encourages people to act on that basis. Effective Altruists often encourage donations to highly efficient charities, such as the Malaria Consortium. Long-termism is the view that we should be doing much more to help future generations. Effective Altruists who are long-termists often advocate for greater preparedness against existential risks, such as hostile AI takeover, or pandemics.", 
         "Motion: This House Believes That the Effective Altruism community should prioritize alleviating short-term suffering over long-termism",
       ]
@@ -690,7 +693,8 @@ const twentythree = {
     {
       title: "Finals: (Prepared)",
       body:[
-        "Theme: Artificial Intelligence", 
+        <span className="text-bold">Theme:</span>,
+        "Artificial Intelligence", 
         "Infoslide: TalkToys are dolls with Artificial Intelligence (AI) and speech recognition software that enable them to engage in an actual conversation with children (they have a lexicon of thousands of prescript responses). TalkToys are meant to serve as a companion to the child, and they are in the late stages of development. Prominent examples of toys that will be able to talk include Barbie, G.I Joe and Star Wars and Action Figures.", 
         "Motion: This House would ban Talk Toys",
       ]
