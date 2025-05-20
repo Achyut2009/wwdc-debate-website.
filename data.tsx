@@ -101,6 +101,23 @@ const org = [
       "Alongside an avid interest in Biology, she showcases debate as a platform to sculpt intellectual rigor, and enhance analytical thinking. Her consistent commitment to debate empowers her to engage with diverse perspectives, and persuasive delivery across a range of motions.",
     ],
   },
+   {
+    image: "/2025/Aryaman.jpg",
+    name: "Aryaman Adhlakha",
+    bio: [
+      "Aryaman Adhlakha is an economics student with a keen interest in debate and discourse. Beyond academics, they actively engage in debates and enjoy watching competitive and intellectual discussions in their free time.",
+      "His passion for debate not only reflects a love for critical thinking but also enhances their analytical skills — making a natural complement to their study of economics. Aryaman also loves to binge shows in his free time!",
+    ],
+  },
+  {
+    image: "/2025/Ishant.jpg",
+    name: "Ishant Datta",
+    bio: [
+      "Ishant Datta has been part of the debating sphere for the past 3 years. Growing rapidly, he has become well recognised for his accomplishments and accolades worldwide, having reached broken into International finals and performing at the highest level.",
+      "Within the country, Ishant has ranked 2nd in both QSDL Leagues, and is the overall Best Speaker for the 2024-25 year. Additionally he was the Best Speaker in QPSDL 2022-23 season, and was the Best School Speaker in the QD AP Open 2025 and Third Best School Speaker in the QD BP Open 2024. His brainstorming, style and structure are top-notch, and he is able to find solutions to complex problems within debates.",
+      "Outside of debate, Ishant is an avid entrepreneur and mentor, having started his own dropshipping company and having completed various leadership and mentorship courses. His cocurricular talents also expand to the cultural stage, where he shines as a singer. During his free time, Ishant likes to read, watch movies, and play basketball. His diverse portfolio enables him to grow and help others grow with each step he takes.",
+    ],
+  },
   {
     image: "/2025/Aarav.jpg",
     name: "Aarav Deepak Singh",
@@ -112,6 +129,7 @@ const org = [
     ],
   },
   {
+<<<<<<< HEAD
     image: "/2025/Aryaman.jpg",
     name: "Aryaman Adhlakha",
     bio: [
@@ -137,6 +155,8 @@ const org = [
     ],
   },
   {
+=======
+>>>>>>> f5460b814e0bfb057ffa9360df37beea7b41a0be
     image: "2025/Pranay.jpg",
     name: "Pranay Bhatia",
     bio: [
@@ -144,6 +164,13 @@ const org = [
       "His journey in debate began with a curiosity for meaningful dialogue and quickly transformed into a pursuit of excellence on national and international platforms. He has proudly represented his school in numerous competitions, including Qatar Primary School Debate League where he was awarded the 7th Best Speaker and went on to qualify for the Qatar Debate Nationals.",
       "In addition to his accomplishments as a speaker, he has taken on leadership roles within his debate community mentoring and training junior debaters and serving as a judge in various inter-club competitions. His ability to guide, evaluate, and support younger debaters reflects not only his experience but also his dedication to fostering a culture of growth and excellence.",
       "To him, debate is more than a competition it's a powerful medium for exploring ideas, challenging perspectives, and driving global change. With a firm belief that dedication, consistency, and passion are the cornerstones of success, he continues to grow as both a speaker and a mentor, eager to contribute meaningfully through discourse.",
+    ],
+  },
+  {
+    image: "/2025/Saara.jpg",
+    name: "Saara Bhardwaj",
+    bio: [
+      "A dedicated force in the debate scene for over three years, Saara has been a consistent contributor to her school’s debate club and a Top 10 speaker in the Qatar debate circuit. With a track record full of anecdotes from national and international competitions, her most recent achievement includes being crowned School Champion and Best Speaker of the Finals at the 2024 QD BP Open. Having been part of WWDC since its inaugural edition—first as a volunteer, then a debater—she now returns as an organizer, eager to give back to the platform that shaped her journey. Passionate about spreading the love for debate, Saara has adjudicated globally and mentored rising debaters across circuits.",
     ],
   },
   {
