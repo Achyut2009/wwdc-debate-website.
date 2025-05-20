@@ -5,7 +5,6 @@ const leaders = [
     name: "Ms. Soma Bhattacharjee",
     position: "Vice Principal, Senior Secondary School",
   },
- 
 ];
 
 const coreteach = [
@@ -174,7 +173,10 @@ const press = [
     image: "/2025/Bhaskar.jpg",
     name: "Bhaskar Seetharaman",
     bio: [
-      ".",
+      "Bhaskar is the Head of Press at WWDC-2025, where he leads media coordination and storytelling with passion and precision.",
+      "A seasoned member of the press team at WWDC-2024 and Qatar’s first student-led DPS Hackathon, he brings experience from high-impact student events.",
+      "He also headed the press coverage for the DPS-MIS Alumni Sports Meet and currently serves as the Director of the Photography Club at DPS-MIS, where he channels creativity through the lens.",
+      "With a sharp eye for detail and a drive to capture moments that matter, he brings every event to life—one frame at a time.",
     ],
   },
   {
