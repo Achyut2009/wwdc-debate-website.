@@ -815,12 +815,8 @@ const schedule = {
     date: "21st June (Saturday)",
     time: [
       {
-        time: "7:30 AM - 8:00 AM",
-        title: "Check-In",
-      },
-      {
         time: "8:00 AM - 8:30 AM ",
-        title: "Semi Finals",
+        title: "Check-In",
       },
       {
         time: "8:30 AM - 10:00 AM ",
