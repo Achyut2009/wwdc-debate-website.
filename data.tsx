@@ -66,11 +66,12 @@ const core = [
 const orgteach = [
   {
     image:
-      "https://cdn.aayus.me/uploads/WhatsApp20Image202023-05-2520at2016_28_48.png",
+      "/2025/DipinSir.jpg",
     name: "Mr. Dipin Joseph",
     bio: [
-      "Mr. Dipin is one of the passionate teachers and debate coordinators of DPS-Modern Indian School.",
-      "He is a very creative and innovative trainer who always comes up with new ideas. He believes that debate helps to empower individuals to share ideas with others.",
+      "Mr. Dipin Joseph is a passionate and experienced English educator at DPS-Modern Indian School with over 13 years of teaching experience. He serves as the Debate Coach and is well known for his dynamic and student-friendly training style.",
+      "As the coordinator of the school’s Debate Club, he has mentored numerous students to excel in inter-school and national-level competitions. His sessions are marked by creativity, critical thinking, and confidence building. Mr. Dipin strongly believes that debate is a powerful tool to develop communication, reasoning, and leadership skills in students. Under his guidance, many students have grown into strong, expressive individuals.",
+      "He continues to inspire young minds to speak with clarity, listen with respect, and think with depth. His commitment to excellence and innovation makes him a vital part of the War of Words organizing team.",
     ],
   },
   {
