@@ -103,16 +103,6 @@ const org = [
     ],
   },
   {
-    image: "/2025/Aarav.jpg",
-    name: "Aarav Deepak Singh",
-    bio: [
-      "A student of Class XI, Aarav Singh is a passionate debater who has been part of the debate club for over three years.",
-      "He has taken part in a wide range of national and international competitions across various formats. His efforts have earned him several accolades, including a spot among the Top 10 Speakers in Qatar Debate.",
-      "Beyond competing, Aarav is committed to mentoring and supporting younger debaters, helping them sharpen their skills and grow in confidence.",
-      "He sees debate not just as a competitive activity, but as a  space for exchanging ideas, understanding different viewpoints, and encouraging solution driven conversations in today’s world.",
-    ],
-  },
-  {
     image: "/2025/Aryaman.jpg",
     name: "Aryaman Adhlakha",
     bio: [
@@ -129,12 +119,14 @@ const org = [
       "Outside of debate, Ishant is an avid entrepreneur and mentor, having started his own dropshipping company and having completed various leadership and mentorship courses. His cocurricular talents also expand to the cultural stage, where he shines as a singer. During his free time, Ishant likes to read, watch movies, and play basketball. His diverse portfolio enables him to grow and help others grow with each step he takes.",
     ],
   },
-    {
-    image: "/2025/Nandini.jpg",
-    name: "Nandini Devang Pathak",
+  {
+    image: "/2025/Aarav.jpg",
+    name: "Aarav Deepak Singh",
     bio: [
-      "Nandini, a dedicated debater with over three years of experience, has represented our school in various national and international tournaments. Her skills have earned her top speaker awards at prestigious competitions like the Qatar Preparatory School Debate Leagues 1 and 2 in 2023, alongside numerous other accolades.",
-      "Nandini is passionate about debating, believing it is a powerful tool for developing critical thinking, public speaking, and global exposure. She is committed to nurturing the next generation of debaters, helping them harness the skills that lead to both personal and academic growth.",
+      "A student of Class XI, Aarav Singh is a passionate debater who has been part of the debate club for over three years.",
+      "He has taken part in a wide range of national and international competitions across various formats. His efforts have earned him several accolades, including a spot among the Top 10 Speakers in Qatar Debate.",
+      "Beyond competing, Aarav is committed to mentoring and supporting younger debaters, helping them sharpen their skills and grow in confidence.",
+      "He sees debate not just as a competitive activity, but as a  space for exchanging ideas, understanding different viewpoints, and encouraging solution driven conversations in today’s world.",
     ],
   },
   {
@@ -145,6 +137,14 @@ const org = [
       "His journey in debate began with a curiosity for meaningful dialogue and quickly transformed into a pursuit of excellence on national and international platforms. He has proudly represented his school in numerous competitions, including Qatar Primary School Debate League where he was awarded the 7th Best Speaker and went on to qualify for the Qatar Debate Nationals.",
       "In addition to his accomplishments as a speaker, he has taken on leadership roles within his debate community mentoring and training junior debaters and serving as a judge in various inter-club competitions. His ability to guide, evaluate, and support younger debaters reflects not only his experience but also his dedication to fostering a culture of growth and excellence.",
       "To him, debate is more than a competition it's a powerful medium for exploring ideas, challenging perspectives, and driving global change. With a firm belief that dedication, consistency, and passion are the cornerstones of success, he continues to grow as both a speaker and a mentor, eager to contribute meaningfully through discourse.",
+    ],
+  },
+    {
+    image: "/2025/Nandini.jpg",
+    name: "Nandini Devang Pathak",
+    bio: [
+      "Nandini, a dedicated debater with over three years of experience, has represented our school in various national and international tournaments. Her skills have earned her top speaker awards at prestigious competitions like the Qatar Preparatory School Debate Leagues 1 and 2 in 2023, alongside numerous other accolades.",
+      "Nandini is passionate about debating, believing it is a powerful tool for developing critical thinking, public speaking, and global exposure. She is committed to nurturing the next generation of debaters, helping them harness the skills that lead to both personal and academic growth.",
     ],
   },
   {
@@ -179,10 +179,8 @@ const press = [
     image: "/2025/Bhaskar.jpg",
     name: "Bhaskar Seetharaman",
     bio: [
-      "Bhaskar is the Head of Press at WWDC-2025, where he leads media coordination and storytelling with passion and precision.",
-      "A seasoned member of the press team at WWDC-2024 and Qatar’s first student-led DPS Hackathon, he brings experience from high-impact student events.",
-      "He also headed the press coverage for the DPS-MIS Alumni Sports Meet and currently serves as the Director of the Photography Club at DPS-MIS, where he channels creativity through the lens.",
-      "With a sharp eye for detail and a drive to capture moments that matter, he brings every event to life—one frame at a time.",
+      "Bhaskar is the Head of Press at WWDC-2025, where he leads media coordination and storytelling with passion and precision. A seasoned member of the press team at WWDC-2024 and Qatar’s first student-led DPS Hackathon, he brings experience from high-impact student events.",
+      "He also headed the press coverage for the DPS-MIS Alumni Sports Meet and currently serves as the Director of the Photography Club at DPS-MIS, where he channels creativity through the lens. With a sharp eye for detail and a drive to capture moments that matter, he brings every event to life—one frame at a time.",
     ],
   },
   {
@@ -640,16 +638,13 @@ const twentythree = {
       title: "Round 1 & Quarter Finals (Prepared)",
       body:
         "Theme: International Relations", 
-        " ",
         "Infoslide: In July of 2021, the Biden Administration imposed new sanctions on Cuba following the Cuban government’s crackdown on demonstrators in the streets of Cuba protesting the shortages in medicine and food resulting from the COVID-19 pandemic. Biden’s policy was being framed by Senator Robert Mendez, Chairman of the US Senate Foreign Relations Committee, and the son of Cuban immigrants. Mendez has, in the past, been critical of the Obama Administrations softer line on Cuba.", 
-        " ",
         "Motion: This House Believes That the United States Should Maintain Its Embargo against Cuba.",
     },
     {
       title: "Round 2: (Prepared)",
       body:
         "Theme: Criminal Justice", 
-        " ",
         "Context: “The right to survival prevails over property,” the court of appeals ruled when reviewing the case of a homeless man who had been given a six month jail sentence and a €100 euro fine for stealing cheese and sausages.",
     },
     {
@@ -666,23 +661,19 @@ const twentythree = {
       title: "Round-5 (Prepared)",
       body:
         "Theme: Social Issues", 
-        " ",
         "Infoslide: Effective Altruism is the view that we should invest energy into figuring out what the most effective way to help others is, and encourages people to act on that basis. Effective Altruists often encourage donations to highly efficient charities, such as the Malaria Consortium. Long-termism is the view that we should be doing much more to help future generations. Effective Altruists who are long-termists often advocate for greater preparedness against existential risks, such as hostile AI takeover, or pandemics.", 
-        " ",
         "Motion: This House Believes That the Effective Altruism community should prioritize alleviating short-term suffering over long-termism",
     },
     {
       title: "Octo-finals: (Impromptu)",
       body:
         "Infoslide: Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing)", 
-        " ",
         "Motion: This House Regrets the glorification of the Teenage Dream.",
     },
     {
       title: "Round 6: (Impromptu)",
       body:
         "Infoslide: Progressive rebranding refers to actions undertaken by media companies to rewrite, reword, or remake works of art that are allegedly offensive or out-of-touch with the current social norm, to make them more inclusive and sensitive. Such changes are new to the work of art, and not intended nor included by the original creator of the work. Recent examples include: The rewriting of Augustus Gloop in Roald Dahl’s Charlie and the Chocolate Factory to be “enormous” instead of “fat”, and the remaking of Aladdin by Disney to give more independent screen time to the character of Jasmine, who was previously given almost no independent screen time", 
-        " ",
         "Motion: This House supports the trend of media and publishing companies (e.g. Disney, Penguin Books, Warner Brothers, Bloomsbury) engaging in progressive rebranding",
     },
     {
@@ -694,9 +685,7 @@ const twentythree = {
       title: "Finals: (Prepared)",
       body:
         "Theme: Artificial Intelligence", 
-        ".",
         "Infoslide: TalkToys are dolls with Artificial Intelligence (AI) and speech recognition software that enable them to engage in an actual conversation with children (they have a lexicon of thousands of prescript responses). TalkToys are meant to serve as a companion to the child, and they are in the late stages of development. Prominent examples of toys that will be able to talk include Barbie, G.I Joe and Star Wars and Action Figures.", 
-        ".",
         "Motion: This House would ban Talk Toys",
     },
   ],
