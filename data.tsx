@@ -120,6 +120,23 @@ const org = [
     ],
   },
   {
+    image: "/2025/Ishant.jpg",
+    name: "Ishant Datta",
+    bio: [
+      "Ishant Datta has been part of the debating sphere for the past 3 years. Growing rapidly, he has become well recognised for his accomplishments and accolades worldwide, having reached broken into International finals and performing at the highest level.",
+      "Within the country, Ishant has ranked 2nd in both QSDL Leagues, and is the overall Best Speaker for the 2024-25 year. Additionally he was the Best Speaker in QPSDL 2022-23 season, and was the Best School Speaker in the QD AP Open 2025 and Third Best School Speaker in the QD BP Open 2024. His brainstorming, style and structure are top-notch, and he is able to find solutions to complex problems within debates.",
+      "Outside of debate, Ishant is an avid entrepreneur and mentor, having started his own dropshipping company and having completed various leadership and mentorship courses. His cocurricular talents also expand to the cultural stage, where he shines as a singer. During his free time, Ishant likes to read, watch movies, and play basketball. His diverse portfolio enables him to grow and help others grow with each step he takes.",
+    ],
+  },
+    {
+    image: "/2025/Nandini.jpg",
+    name: "Nandini Devang Pathak",
+    bio: [
+      "Nandini, a dedicated debater with over three years of experience, has represented our school in various national and international tournaments. Her skills have earned her top speaker awards at prestigious competitions like the Qatar Preparatory School Debate Leagues 1 and 2 in 2023, alongside numerous other accolades.",
+      "Nandini is passionate about debating, believing it is a powerful tool for developing critical thinking, public speaking, and global exposure. She is committed to nurturing the next generation of debaters, helping them harness the skills that lead to both personal and academic growth.",
+    ],
+  },
+  {
     image: "2025/Pranay.jpg",
     name: "Pranay Bhatia",
     bio: [
@@ -130,11 +147,10 @@ const org = [
     ],
   },
   {
-    image: "/2025/Nandini.jpg",
-    name: "Nandini Devang Pathak",
+    image: "/2025/Saara.jpg",
+    name: "Saara Bhardwaj",
     bio: [
-      "Nandini, a dedicated debater with over three years of experience, has represented our school in various national and international tournaments. Her skills have earned her top speaker awards at prestigious competitions like the Qatar Preparatory School Debate Leagues 1 and 2 in 2023, alongside numerous other accolades.",
-      "Nandini is passionate about debating, believing it is a powerful tool for developing critical thinking, public speaking, and global exposure. She is committed to nurturing the next generation of debaters, helping them harness the skills that lead to both personal and academic growth.",
+      "A dedicated force in the debate scene for over three years, Saara has been a consistent contributor to her school’s debate club and a Top 10 speaker in the Qatar debate circuit. With a track record full of anecdotes from national and international competitions, her most recent achievement includes being crowned School Champion and Best Speaker of the Finals at the 2024 QD BP Open. Having been part of WWDC since its inaugural edition—first as a volunteer, then a debater—she now returns as an organizer, eager to give back to the platform that shaped her journey. Passionate about spreading the love for debate, Saara has adjudicated globally and mentored rising debaters across circuits.",
     ],
   },
 ];
