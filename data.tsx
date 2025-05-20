@@ -5,12 +5,7 @@ const leaders = [
     name: "Ms. Soma Bhattacharjee",
     position: "Vice Principal, Senior Secondary School",
   },
-  {
-    image:
-      "https://cdn.aayus.me/uploads/45653f_15b67502b0424b60bf3a8cde3042537fmv2.png",
-    name: "Ms. Hyacinth Mary Cruz",
-    position: "Vice Principal, Secondary School",
-  },
+ 
 ];
 
 const coreteach = [
