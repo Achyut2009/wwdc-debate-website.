@@ -198,7 +198,10 @@ const IT = [
     image:"/2025/Achyut.jpg",
     name: "Achyut Paliwal",
     bio: [
-      ".",
+      "Achyut has been a computer programmer since almost 5 years and has developed various websites and programs.",
+      "As the head of IT for the WWDC-2025, he has re-designed the WWDC website.",
+      "He had also won 1st place in the DPS 1st edition Hackathon, and has also secured distinction in various tech events. His dedication and vision for building more tech stuff and tech related is unmatched.",
+      "Besides coding and programming, Achyut is just an ordinary person who also has an avid interest in space and aviation and wishes to pursue his career in aerospace technologies! You can go visit him at https://achyutpaliwal.netlify.app !",
     ],
   },
   {
@@ -481,10 +484,9 @@ const twentytwo = {
         <span className="font-bold">Infoslide: </span>, 
         "Legacy preference or legacy admission is a preference given by an institution or organization to certain applicants on the basis of their familial relationship to alumni of that institution. For example, students getting admitted into ivy league colleges since their parents are alumni.",
         <span>
-          
         </span>,
         <span className="font-bold">Motion: </span>, 
-        "Motion: This House Regrets Legacy Admission.",
+        "This House Regrets Legacy Admission.",
       ],
     },
     {
@@ -650,7 +652,7 @@ const twentythree = {
         <span className="font-bold">Theme:</span>,
         "International Relations", 
         <span>
-
+          
         </span>,
         <span className="font-bold">Infoslide: </span>, 
         "In July of 2021, the Biden Administration imposed new sanctions on Cuba following the Cuban government’s crackdown on demonstrators in the streets of Cuba protesting the shortages in medicine and food resulting from the COVID-19 pandemic.",
