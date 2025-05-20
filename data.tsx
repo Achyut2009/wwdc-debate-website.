@@ -207,7 +207,7 @@ const IT = [
     image:"/2025/Mukunth.jpg",
     name: "Mukunth Madhavan",
     bio: [
-      ".",
+      "Mukunth is a dedicated student with years of experience and national-level recognition in competitive debating, where he has honed his skills in critical thinking, persuasion, and public speaking. His deep-rooted passion for discourse extends beyond tournaments, he's constantly exploring complex ideas and engaging in meaningful conversations. Alongside debate, Mukunth is an enthusiastic coder with  expertise in web development and Python. Whether crafting interactive websites or experimenting with backend logic, he approaches every project with curiosity and drive. His combined passion for communication and technology allows him to think creatively and tackle problems from multiple angles.",
     ],
   },
 ];
