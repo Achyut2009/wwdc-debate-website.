@@ -71,7 +71,7 @@ const core = [
 const orgteach = [
   {
     image:
-      "https://cdn.aayus.me/uploads/WhatsApp20Image202023-05-2520at2016_28_48.png",
+      "/2025/DipinSir.jpg",
     name: "Mr. Dipin Joseph",
     bio: [
       "Mr. Dipin is one of the passionate teachers and debate coordinators of DPS-Modern Indian School.",
@@ -150,7 +150,60 @@ const org = [
     image: "/2025/Saara.jpg",
     name: "Saara Bhardwaj",
     bio: [
-      "A dedicated force in the debate scene for over three years, Saara has been a consistent contributor to her school’s debate club and a Top 10 speaker in the Qatar debate circuit. With a track record full of anecdotes from national and international competitions, her most recent achievement includes being crowned School Champion and Best Speaker of the Finals at the 2024 QD BP Open. Having been part of WWDC since its inaugural edition—first as a volunteer, then a debater—she now returns as an organizer, eager to give back to the platform that shaped her journey. Passionate about spreading the love for debate, Saara has adjudicated globally and mentored rising debaters across circuits.",
+      "A dedicated force in the debate scene for over three years, Saara has been a consistent contributor to her school’s debate club and a Top 10 speaker in the Qatar debate circuit.",
+      "With a track record full of anecdotes from national and international competitions, her most recent achievement includes being crowned School Champion and Best Speaker of the Finals at the 2024 QD BP Open. Having been part of WWDC since its inaugural edition—first as a volunteer, then a debater—she now returns as an organizer, eager to give back to the platform that shaped her journey.",
+      "Passionate about spreading the love for debate, Saara has adjudicated globally and mentored rising debaters across circuits.",
+    ],
+  },
+];
+
+const marketing = [
+  {
+    image: "/2025/Madeeha.jpg",
+    name: "Madeeha Mudassir Rajpurkar",
+    bio: [
+      ".",
+    ],
+  },
+  {
+    image: "/2025/Rida.jpg",
+    name: "Rida",
+    bio: [
+      ".",
+    ],
+  },
+];
+const press = [
+  {
+    image: "/2025/Bhaskar.jpg",
+    name: "Bhaskar Seetharaman",
+    bio: [
+      ".",
+    ],
+  },
+  {
+    image: "/2025/Rayed.jpg",
+    name: "Rayed Rabbanee",
+    bio: [
+      "Rayed Rabbanee is a passionate photographer and skilled video editor with a keen eye for detail and storytelling.",
+      "Experienced in covering dynamic school events, Rayed has been an integral part of the press team for Farewell, TEDxYouth@DPS-MIS, the Alumni Sports Meet, and more.",
+      "With a strong background in media coordination, photography, and post-production, Rayed consistently delivers high-quality visual content that captures the energy and essence of each event.",
+    ],
+  },
+];
+const IT = [
+  {
+    image:"/2025/Achyut.jpg",
+    name: "Achyut Paliwal",
+    bio: [
+      ".",
+    ],
+  },
+  {
+    image:"/2025/Mukunth.jpg",
+    name: "Mukunth Madhavan",
+    bio: [
+      ".",
     ],
   },
 ];
@@ -859,6 +912,9 @@ export {
   leaders,
   core,
   org,
+  marketing,
+  press,
+  IT,
   coreteach,
   orgteach,
   twentyfour,
