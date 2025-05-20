@@ -1,6 +1,12 @@
 const leaders = [
   {
     image:
+      "https://cdn.aayus.me/uploads/Asna20Nafees2019.png",
+    name: "Ms. Asna Nafees",
+    position: "Principal",  
+  },
+  {
+    image:
       "https://cdn.aayus.me/uploads/45653f_85ef9403b5b247a78e5b4cc4d0ea00b1mv2.png",
     name: "Ms. Soma Bhattacharjee",
     position: "Vice Principal, Senior Secondary School",

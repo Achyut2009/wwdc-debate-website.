@@ -99,26 +99,6 @@ export default function LandingPage() {
           </div>
         </div>
         <div className="container gap-8 flex flex-col flex-wrap justify-center">
-          <div className="relative z-50">
-            <div className="m-4">
-              <div className="flex flex-col items-center justify-center text-center">
-                <Image
-                  src="https://cdn.aayus.me/uploads/Asna20Nafees2019.png"
-                  width={200}
-                  height={200}
-                  alt={"Ms. Asna Nafees"}
-                  className="rounded-full aspect-square h-56 w-56 object-cover"
-                />
-                <div className="text-lg mt-3 font-semibold">
-                  Ms. Asna Nafees
-                </div>
-                <div className="text-md font-medium">Principal</div>
-                <div className="text-md font-medium">
-                  DPS Modern Indian School
-                </div>
-              </div>
-            </div>
-          </div>
           <div className="grid grid-cols-2 gap-x-8">
             {leaders.map((member, index) => (
               <div key={index} className="m-4">
