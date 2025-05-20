@@ -481,7 +481,9 @@ const twentytwo = {
       title: "Round 2: (Impromptu)",
       body:[
         "Infoslide: ",
-        "Legacy preference or legacy admission is a preference given by an institution or organization to certain applicants on the basis of their familial relationship to alumni of that institution. For example, students getting admitted into ivy league colleges since their parents are alumni. Motion: This House Regrets Legacy Admission.",
+        "Legacy preference or legacy admission is a preference given by an institution or organization to certain applicants on the basis of their familial relationship to alumni of that institution. For example, students getting admitted into ivy league colleges since their parents are alumni.",
+        " ",
+        "Motion: This House Regrets Legacy Admission.",
       ],
     },
     {
@@ -503,6 +505,7 @@ const twentytwo = {
       title: "Octo-finals: (Impromptu)",
       body:[
         "Infoslide: Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing)",
+        " ",
         "Motion: This House Regrets the glorification of the Teenage Dream.",
       ],
     },
@@ -511,6 +514,7 @@ const twentytwo = {
       body:[
         "Info slide:",
         "For the purpose of this debate, radical environmentalism refers to the use of violent practices to further the cause of environmental movements due to ecocentrism-based frustration. (Example: throwing pea soup at Van Gogh’s “The Sower”, spraying orange paints on buildings in central London, etc.) ",
+        " ",
         "Motion: This House Supports radical environmentalism.",
       ],
     },
@@ -635,12 +639,18 @@ const twentythree = {
     {
       title: "Round 1 & Quarter Finals (Prepared)",
       body:
-        "Theme: International Relations Infoslide: In July of 2021, the Biden Administration imposed new sanctions on Cuba following the Cuban government’s crackdown on demonstrators in the streets of Cuba protesting the shortages in medicine and food resulting from the COVID-19 pandemic. Biden’s policy was being framed by Senator Robert Mendez, Chairman of the US Senate Foreign Relations Committee, and the son of Cuban immigrants. Mendez has, in the past, been critical of the Obama Administrations softer line on Cuba. Motion: This House Believes That the United States Should Maintain Its Embargo against Cuba.",
+        "Theme: International Relations", 
+        " ",
+        "Infoslide: In July of 2021, the Biden Administration imposed new sanctions on Cuba following the Cuban government’s crackdown on demonstrators in the streets of Cuba protesting the shortages in medicine and food resulting from the COVID-19 pandemic. Biden’s policy was being framed by Senator Robert Mendez, Chairman of the US Senate Foreign Relations Committee, and the son of Cuban immigrants. Mendez has, in the past, been critical of the Obama Administrations softer line on Cuba.", 
+        " ",
+        "Motion: This House Believes That the United States Should Maintain Its Embargo against Cuba.",
     },
     {
       title: "Round 2: (Prepared)",
       body:
-        "Theme: Criminal Justice Context: “The right to survival prevails over property,” the court of appeals ruled when reviewing the case of a homeless man who had been given a six month jail sentence and a €100 euro fine for stealing cheese and sausages.",
+        "Theme: Criminal Justice", 
+        " ",
+        "Context: “The right to survival prevails over property,” the court of appeals ruled when reviewing the case of a homeless man who had been given a six month jail sentence and a €100 euro fine for stealing cheese and sausages.",
     },
     {
       title: "Round 3: (Impromptu)",
@@ -655,17 +665,25 @@ const twentythree = {
     {
       title: "Round-5 (Prepared)",
       body:
-        "Theme: Social Issues Infoslide: Effective Altruism is the view that we should invest energy into figuring out what the most effective way to help others is, and encourages people to act on that basis. Effective Altruists often encourage donations to highly efficient charities, such as the Malaria Consortium. Long-termism is the view that we should be doing much more to help future generations. Effective Altruists who are long-termists often advocate for greater preparedness against existential risks, such as hostile AI takeover, or pandemics.Motion:This House Believes That the Effective Altruism community should prioritize alleviating short-term suffering over long-termism",
+        "Theme: Social Issues", 
+        " ",
+        "Infoslide: Effective Altruism is the view that we should invest energy into figuring out what the most effective way to help others is, and encourages people to act on that basis. Effective Altruists often encourage donations to highly efficient charities, such as the Malaria Consortium. Long-termism is the view that we should be doing much more to help future generations. Effective Altruists who are long-termists often advocate for greater preparedness against existential risks, such as hostile AI takeover, or pandemics.", 
+        " ",
+        "Motion: This House Believes That the Effective Altruism community should prioritize alleviating short-term suffering over long-termism",
     },
     {
       title: "Octo-finals: (Impromptu)",
       body:
-        "Infoslide: Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing) Motion: This House Regrets the glorification of the Teenage Dream.",
+        "Infoslide: Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing)", 
+        " ",
+        "Motion: This House Regrets the glorification of the Teenage Dream.",
     },
     {
       title: "Round 6: (Impromptu)",
       body:
-        "Infoslide: Progressive rebranding refers to actions undertaken by media companies to rewrite, reword, or remake works of art that are allegedly offensive or out-of-touch with the current social norm, to make them more inclusive and sensitive. Such changes are new to the work of art, and not intended nor included by the original creator of the work. Recent examples include: The rewriting of Augustus Gloop in Roald Dahl’s Charlie and the Chocolate Factory to be “enormous” instead of “fat”, and the remaking of Aladdin by Disney to give more independent screen time to the character of Jasmine, who was previously given almost no independent screen time Motion:This House supports the trend of media and publishing companies (e.g. Disney, Penguin Books, Warner Brothers, Bloomsbury) engaging in progressive rebranding",
+        "Infoslide: Progressive rebranding refers to actions undertaken by media companies to rewrite, reword, or remake works of art that are allegedly offensive or out-of-touch with the current social norm, to make them more inclusive and sensitive. Such changes are new to the work of art, and not intended nor included by the original creator of the work. Recent examples include: The rewriting of Augustus Gloop in Roald Dahl’s Charlie and the Chocolate Factory to be “enormous” instead of “fat”, and the remaking of Aladdin by Disney to give more independent screen time to the character of Jasmine, who was previously given almost no independent screen time", 
+        " ",
+        "Motion: This House supports the trend of media and publishing companies (e.g. Disney, Penguin Books, Warner Brothers, Bloomsbury) engaging in progressive rebranding",
     },
     {
       title: "Semi-finals: (Impromptu)",
@@ -675,7 +693,11 @@ const twentythree = {
     {
       title: "Finals: (Prepared)",
       body:
-        "Theme: Artificial Intelligence TalkToys are dolls with Artificial Intelligence (AI) and speech recognition software that enable them to engage in an actual conversation with children (they have a lexicon of thousands of prescript responses). TalkToys are meant to serve as a companion to the child, and they are in the late stages of development. Prominent examples of toys that will be able to talk include Barbie, G.I Joe and Star Wars and Action Figures. Motion: This House would ban Talk Toys",
+        "Theme: Artificial Intelligence", 
+        " ",
+        "Infoslide: TalkToys are dolls with Artificial Intelligence (AI) and speech recognition software that enable them to engage in an actual conversation with children (they have a lexicon of thousands of prescript responses). TalkToys are meant to serve as a companion to the child, and they are in the late stages of development. Prominent examples of toys that will be able to talk include Barbie, G.I Joe and Star Wars and Action Figures.", 
+        " ",
+        "Motion: This House would ban Talk Toys",
     },
   ],
 };
