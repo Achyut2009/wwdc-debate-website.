@@ -192,6 +192,13 @@ const marketing = [
       "An experienced Canva designer, Rehan seamlessly blends creativity with functionality in his visual work. Beyond the lens, he’s passionate about automotive photography, digital design, and spotting rare cars—always seeking inspiration in motion and aesthetics.",
     ],
   },
+   {
+    image: "/2025/Anwita.jpg",
+    name: "Anwita Sekhar",
+    bio: [
+      "Anwita is a dynamic member of the WWDC 2025 Marketing Team, where she crafts compelling campaigns with creativity and strategic vision. As Director of Social Media at TheDezignCue, an online design solutions firm, and former Head of Marketing at NexTechVisionaries, she drives impactful brand narratives. She serves as Head of Ambassadors at Luminos Foundation and as a graphic designer for the global nonprofit Dear Asian Youth, and other youth organisations based in Qatar like Apply Qatar, and The Brown Perspective. As Executive Head and Director of the Publications Club at DPS-MIS for the past two years, she led marketing and in-school promotions, and contributed graphic design for TEDxYouth@DPSMIS2024. Passionate about conveying messages through writing and visuals, Anwita brings every story to life with bold, vibrant energy.",
+    ],
+  },
 ];
 const press = [
   {
