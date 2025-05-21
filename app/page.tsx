@@ -99,7 +99,7 @@ export default function LandingPage() {
           </div>
         </div>
         <div className="container gap-8 flex flex-col flex-wrap justify-center">
-          <div className="grid grid-cols-2 gap-x-8 md:grid-cols-1">
+          <div className="grid grid-cols-2 lg:grid-cols-2 gap-x-8 md:grid-cols-1">
             {leaders.map((member, index) => (
               <div key={index} className="m-4">
                 <div className="flex flex-col items-center justify-center text-center">
