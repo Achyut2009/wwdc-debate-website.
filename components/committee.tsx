@@ -529,7 +529,7 @@ export default async function Committee() {
                             {member.name}
                           </DialogTitle>
                           <DialogDescription className="text-md">
-                            
+                            Head of Marketing Team
                           </DialogDescription>
                           {member.bio.map((p, index) => (
                             <div
