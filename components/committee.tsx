@@ -452,7 +452,7 @@ export default async function Committee() {
         <div className="mx-auto max-w-7xl px-4 md:px-6">
           <div className="flex flex-col items-center justify-center text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-              {code ? "org" : "Our Marketing Committee"}
+              {code ? "org" : "Our Marketing Team"}
             </h2>
           </div>
         </div>
@@ -486,7 +486,7 @@ export default async function Committee() {
                             {member.name}
                           </DrawerTitle>
                           <DrawerDescription className="text-md">
-                            Head of Marketing Committee
+                            Head of Marketing Team
                           </DrawerDescription>
                           {member.bio.map((p, index) => (
                             <div
@@ -529,7 +529,7 @@ export default async function Committee() {
                             {member.name}
                           </DialogTitle>
                           <DialogDescription className="text-md">
-                            Head of Marketing Committee
+                            
                           </DialogDescription>
                           {member.bio.map((p, index) => (
                             <div
@@ -560,7 +560,7 @@ export default async function Committee() {
         <div className="mx-auto max-w-7xl px-4 md:px-6">
           <div className="flex flex-col items-center justify-center text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-              {code ? "org" : "Our Press Committee"}
+              {code ? "org" : "Our Press Team"}
             </h2>
           </div>
         </div>
@@ -594,7 +594,7 @@ export default async function Committee() {
                             {member.name}
                           </DrawerTitle>
                           <DrawerDescription className="text-md">
-                            Head of Press Committee
+                            Head of Team
                           </DrawerDescription>
                           {member.bio.map((p, index) => (
                             <div
