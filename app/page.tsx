@@ -102,7 +102,7 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 md:grid-cols-2">
             {leaders.map((member, index) => (
               <div key={index} className="m-4">
-                <div className="flex flex-row items-center justify-center text-center">
+                <div className="flex flex-col items-center justify-center text-center">
                   <Image
                     src={member.image}
                     width={200}
