@@ -171,7 +171,7 @@ const marketing = [
     image: "/2025/Madeeha.jpg",
     name: "Madeeha Rajpurkar",
     bio: [
-      ".",
+      "Madeeha Rajpurkar is a creative and ambitious individual with a keen interest in art, marketing, and business development. She brings her innovative ideas and strategic thinking to the WWDC marketing team, where she contributes to engaging and impactful campaigns. With experience in event management at Link.qa, and a strong passion for entrepreneurship, she has also participated in a Women Entrepreneurs event and currently interns at an educational institution. In addition to managing her own art business, Madeeha is a dedicated sportsperson, known for her leadership, teamwork, and ability to drive success in every project she takes on.",
     ],
   },
   {
