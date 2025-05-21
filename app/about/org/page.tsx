@@ -255,7 +255,7 @@ export default function Home() {
 
               {/* Centered orgteach section - NEW LAYOUT */}
               <div className="w-full flex justify-center px-4">
-                <div className="flex flex-col items-center w-full max-w-4xl gap-6">
+                <div className="flex flex-col lg:flex-row md:flex-row items-center w-full max-w-3xl gap-6">
                   {orgteach.map((item, index) => (
                     <div key={item.name} className="w-full flex justify-center">
                       <Card className="w-full max-w-2xl">
