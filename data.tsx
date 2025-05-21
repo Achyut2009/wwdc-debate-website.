@@ -169,18 +169,27 @@ const org = [
 const marketing = [
   {
     image: "/2025/Madeeha.jpg",
-    name: "Madeeha Mudassir Rajpurkar",
+    name: "Madeeha Rajpurkar",
     bio: [
       ".",
     ],
   },
   {
     image: "/2025/Rida.jpg",
-    name: "Rida",
+    name: "Rida Manaal Lhateeb",
     bio: [
       "Rida is the Head of Marketing at WWDC-2025, where she leads strategic outreach and brand storytelling with creativity and precision. With a strong understanding of audience engagement, she crafts campaigns that inspire, inform, and connect.",
       "She previously served as the Head of Marketing and Outreach for the DPS-MIS Alumni Sports Meet, where she successfully boosted participation and visibility through dynamic communication strategies.",
       "Rida currently serves as the Director of the Commerce Club at DPS-MIS, where she combines analytical thinking with innovative leadership to drive impactful initiatives.",
+    ],
+  },
+  {
+    image: "/2025/Rehan.jpg",
+    name: "Rehan Jamal",
+    bio: [
+      "Rehan Jamal is the Photography Director at DPS-MIS (2025–2026), where he leads visual storytelling with a sharp eye for detail and creative flair. From capturing school spirit to documenting major events, he brings energy and precision to every frame.",
+      "He has played a key role in the press teams for flagship events like the Cultural Rendezvous 2024, contributing to their vibrant coverage and media success. Rehan is also part of the marketing team at Next Tech Visionaries, a student-led nonprofit, where he combines design thinking and digital media to elevate outreach efforts.",
+      "An experienced Canva designer, Rehan seamlessly blends creativity with functionality in his visual work. Beyond the lens, he’s passionate about automotive photography, digital design, and spotting rare cars—always seeking inspiration in motion and aesthetics.",
     ],
   },
 ];
