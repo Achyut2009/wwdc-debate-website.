@@ -358,7 +358,7 @@ export default async function Committee() {
           
           {/* Org Committee Members */}
           <div className="flex justify-center mt-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 gap-8 md:gap-10 w-full max-w-6xl place-items-center">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 w-full max-w-5xl place-items-center">
               {org.map((member, index) => (
                 <div key={`org-${index}`} className="flex flex-col items-center">
                   {/* Mobile view */}
