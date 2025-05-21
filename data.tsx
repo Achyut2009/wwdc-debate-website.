@@ -17,7 +17,7 @@ const coreteach = [
   {
     image:
       "https://cdn.aayus.me/uploads/IMG-20181112-WA0028_1_1-Photoroom.png-Photoroom.png",
-    name: "Mr. Somusundaram Narayanan",
+    name: "Mr. Somasundaram Narayanan",
     bio: [
       "Mr. Somasundaram Narayanan is an enthusiastic language teacher and the Debate Coordinator at DPS Modern Indian School. Renowned for his innovative teaching methods, he inspires critical thinking and effective communication in his students.",
       "As an encouraging trainer, he has led the debate team to outstanding success in the competitions. His efficient and engaging approach fosters a love for learning and instills values of respect and empathy",
@@ -30,7 +30,7 @@ const core = [
   {
     image:
       "2025/Kauthik.jpg",
-    name: "Surya Kauthik Basangi",
+    name: "Surya Kauthik",
     bio: [
       "Kauthik is one of Qatar’s most prominent high school debaters, having competed at the highest levels of national and international debate over the past five years. He is a reigning QSDL Boys National Champion and two-time Best Speaker in the 2024–25 debate season.",
       "Consistently performing beyond his age group, Kauthik has also made a mark in the university debate circuit, ranking as the 7th Best Speaker at the QD BP Open 2024 and finishing as a Quarterfinalist at the QD 3v3 Open in 2025. At just 14, he served as an adjudicator in QPSDL, becoming one of the youngest ever to do so in QatarDebate history.",
@@ -121,7 +121,7 @@ const org = [
   },
   {
     image: "/2025/Aarav.jpg",
-    name: "Aarav Deepak Singh",
+    name: "Aarav Singh",
     bio: [
       "A student of Class XI, Aarav Singh is a passionate debater who has been part of the debate club for over three years.",
       "He has taken part in a wide range of national and international competitions across various formats. His efforts have earned him several accolades, including a spot among the Top 10 Speakers in Qatar Debate.",
@@ -141,7 +141,7 @@ const org = [
   },
     {
     image: "/2025/Nandini.jpg",
-    name: "Nandini Devang Pathak",
+    name: "Nandini Pathak",
     bio: [
       "Nandini, a dedicated debater with over three years of experience, has represented our school in various national and international tournaments. Her skills have earned her top speaker awards at prestigious competitions like the Qatar Preparatory School Debate Leagues 1 and 2 in 2023, alongside numerous other accolades.",
       "Nandini is passionate about debating, believing it is a powerful tool for developing critical thinking, public speaking, and global exposure. She is committed to nurturing the next generation of debaters, helping them harness the skills that lead to both personal and academic growth.",
