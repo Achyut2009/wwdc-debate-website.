@@ -178,7 +178,9 @@ const marketing = [
     image: "/2025/Rida.jpg",
     name: "Rida",
     bio: [
-      ".",
+      "Rida is the Head of Marketing at WWDC-2025, where she leads strategic outreach and brand storytelling with creativity and precision. With a strong understanding of audience engagement, she crafts campaigns that inspire, inform, and connect.",
+      "She previously served as the Head of Marketing and Outreach for the DPS-MIS Alumni Sports Meet, where she successfully boosted participation and visibility through dynamic communication strategies.",
+      "Rida currently serves as the Director of the Commerce Club at DPS-MIS, where she combines analytical thinking with innovative leadership to drive impactful initiatives.",
     ],
   },
 ];
