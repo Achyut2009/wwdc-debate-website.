@@ -17,7 +17,7 @@ const coreteach = [
   {
     image:
       "https://cdn.aayus.me/uploads/IMG-20181112-WA0028_1_1-Photoroom.png-Photoroom.png",
-    name: "Mr. Somusundaram Narayanan",
+    name: "Mr. Somasundaram Narayanan",
     bio: [
       "Mr. Somasundaram Narayanan is an enthusiastic language teacher and the Debate Coordinator at DPS Modern Indian School. Renowned for his innovative teaching methods, he inspires critical thinking and effective communication in his students.",
       "As an encouraging trainer, he has led the debate team to outstanding success in the competitions. His efficient and engaging approach fosters a love for learning and instills values of respect and empathy",
