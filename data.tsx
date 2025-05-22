@@ -525,18 +525,18 @@ const twentytwo = {
     {
       title: "Round 5: (Prepared)",
       body:
-        "This House Prefers a world where jobs performed by humans were not automated (E.g., self-driving cars, self-checkouts)",
+        "This House Prefers a world where jobs performed by humans were not automated (E.g., self-driving cars, self-checkouts).",
     },
     {
       title: "Round 6: (Impromptu)",
       body:
-        "This House Regrets the over dependency of Gen-Z on social media platforms (eg. Tiktok, Instagram, Facebook)",
+        "This House Regrets the over dependency of Gen-Z on social media platforms (eg. Tiktok, Instagram, Facebook).",
     },
     {
       title: "Octo-finals: (Impromptu)",
       body:[
         <span className="font-bold">Infoslide:</span>, 
-        " Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing)",
+        " Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing).",
         <span>
           <br />
           <br />
@@ -549,7 +549,7 @@ const twentytwo = {
       title: "Quarter-finals: (Impromptu)",
       body:[
         <span className="font-bold">Infoslide:</span>, 
-        " For the purpose of this debate, radical environmentalism refers to the use of violent practices to further the cause of environmental movements due to ecocentrism-based frustration. (Example: throwing pea soup at Van Gogh’s “The Sower”, spraying orange paints on buildings in central London, etc.) ",
+        " For the purpose of this debate, radical environmentalism refers to the use of violent practices to further the cause of environmental movements due to ecocentrism-based frustration. (Example: throwing pea soup at Van Gogh’s “The Sower”, spraying orange paints on buildings in central London, etc.).",
         <span>
           <br />
           <br />
@@ -561,7 +561,7 @@ const twentytwo = {
     {
       title: "Semi-finals: (Impromptu)",
       body:
-        "This House Would make employee-vaccine mandatory",
+        "This House Would make employee-vaccine mandatory.",
     },
     {
       title: "Finals: (Prepared)",
@@ -706,7 +706,7 @@ const twentythree = {
           <br />
         </span>,
         <span className="font-bold">Context:</span>, 
-        ' "The right to survival prevails over property,” the court of appeals ruled when reviewing the case of a homeless man who had been given a six month jail sentence and a €100 euro fine for stealing cheese and sausages."',
+        ' " The right to survival prevails over property ”, the court of appeals ruled when reviewing the case of a homeless man who had been given a six month jail sentence and a €100 euro fine for stealing cheese and sausages."',
       ]
     },
     {
@@ -735,14 +735,14 @@ const twentythree = {
           <br />
         </span>,
         <span className="font-bold">Motion:</span>, 
-        " This House Believes That the Effective Altruism community should prioritize alleviating short-term suffering over long-termism",
+        " This House Believes That the Effective Altruism community should prioritize alleviating short-term suffering over long-termism.",
       ]
     },
     {
       title: "Octo-finals: (Impromptu)",
       body:[
         <span className="font-bold">Infoslide:</span>, 
-        " Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing)", 
+        " Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing).", 
         <span>
           <br />
           <br />
@@ -755,13 +755,13 @@ const twentythree = {
       title: "Round 6: (Impromptu)",
       body:[
         <span className="font-bold">Infoslide:</span>, 
-        " Progressive rebranding refers to actions undertaken by media companies to rewrite, reword, or remake works of art that are allegedly offensive or out-of-touch with the current social norm, to make them more inclusive and sensitive. Such changes are new to the work of art, and not intended nor included by the original creator of the work. Recent examples include: The rewriting of Augustus Gloop in Roald Dahl’s Charlie and the Chocolate Factory to be “enormous” instead of “fat”, and the remaking of Aladdin by Disney to give more independent screen time to the character of Jasmine, who was previously given almost no independent screen time", 
+        " Progressive rebranding refers to actions undertaken by media companies to rewrite, reword, or remake works of art that are allegedly offensive or out-of-touch with the current social norm, to make them more inclusive and sensitive. Such changes are new to the work of art, and not intended nor included by the original creator of the work. Recent examples include: The rewriting of Augustus Gloop in Roald Dahl’s Charlie and the Chocolate Factory to be “enormous” instead of “fat”, and the remaking of Aladdin by Disney to give more independent screen time to the character of Jasmine, who was previously given almost no independent screen time.", 
         <span>
           <br />
           <br />
         </span>,
         <span className="font-bold">Motion:</span>, 
-        " This House supports the trend of media and publishing companies (e.g. Disney, Penguin Books, Warner Brothers, Bloomsbury) engaging in progressive rebranding",
+        " This House supports the trend of media and publishing companies (e.g. Disney, Penguin Books, Warner Brothers, Bloomsbury) engaging in progressive rebranding.",
       ]
     },
     {
@@ -785,7 +785,7 @@ const twentythree = {
           <br />
         </span>,
         <span className="font-bold">Motion:</span>, 
-        " This House would ban Talk Toys",
+        " This House would ban Talk Toys.",
       ]
     },
   ],
