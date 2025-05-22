@@ -460,7 +460,7 @@ export default async function Committee() {
         <div className="container mx-auto px-4">
           {/* Marketing team */}
           <div className="flex justify-center">
-            <div className="flex flex-row md:flex-row lg:flex-row gap-12 justify-center">
+            <div className="flex flex-row-2 md:flex-row lg:flex-row gap-12 justify-center">
               {marketing.map((member, index) => (
                 <div key={`marketing-${index}`} className="flex flex-col items-center">
                   {/* Mobile view */}
