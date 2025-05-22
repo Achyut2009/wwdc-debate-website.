@@ -169,16 +169,34 @@ const org = [
 const marketing = [
   {
     image: "/2025/Madeeha.jpg",
-    name: "Madeeha Mudassir Rajpurkar",
+    name: "Madeeha Rajpurkar",
     bio: [
-      ".",
+      "Madeeha Rajpurkar is a creative and ambitious individual with a keen interest in art, marketing, and business development. She brings her innovative ideas and strategic thinking to the WWDC marketing team, where she contributes to engaging and impactful campaigns. With experience in event management at Link.qa, and a strong passion for entrepreneurship, she has also participated in a Women Entrepreneurs event and currently interns at an educational institution. In addition to managing her own art business, Madeeha is a dedicated sportsperson, known for her leadership, teamwork, and ability to drive success in every project she takes on.",
     ],
   },
   {
     image: "/2025/Rida.jpg",
-    name: "Rida",
+    name: "Rida Manaal Lhateeb",
     bio: [
-      ".",
+      "Rida is the Head of Marketing at WWDC-2025, where she leads strategic outreach and brand storytelling with creativity and precision. With a strong understanding of audience engagement, she crafts campaigns that inspire, inform, and connect.",
+      "She previously served as the Head of Marketing and Outreach for the DPS-MIS Alumni Sports Meet, where she successfully boosted participation and visibility through dynamic communication strategies.",
+      "Rida currently serves as the Director of the Commerce Club at DPS-MIS, where she combines analytical thinking with innovative leadership to drive impactful initiatives.",
+    ],
+  },
+  {
+    image: "/2025/Rehan.jpg",
+    name: "Rehan Jamal",
+    bio: [
+      "Rehan Jamal is the Photography Director at DPS-MIS (2025–2026), where he leads visual storytelling with a sharp eye for detail and creative flair. From capturing school spirit to documenting major events, he brings energy and precision to every frame.",
+      "He has played a key role in the press teams for flagship events like the Cultural Rendezvous 2024, contributing to their vibrant coverage and media success. Rehan is also part of the marketing team at Next Tech Visionaries, a student-led nonprofit, where he combines design thinking and digital media to elevate outreach efforts.",
+      "An experienced Canva designer, Rehan seamlessly blends creativity with functionality in his visual work. Beyond the lens, he’s passionate about automotive photography, digital design, and spotting rare cars—always seeking inspiration in motion and aesthetics.",
+    ],
+  },
+   {
+    image: "/2025/Anwita.jpg",
+    name: "Anwita Sekhar",
+    bio: [
+      "Anwita is a dynamic member of the WWDC 2025 Marketing Team, where she crafts compelling campaigns with creativity and strategic vision. As Director of Social Media at TheDezignCue, an online design solutions firm, and former Head of Marketing at NexTechVisionaries, she drives impactful brand narratives. She serves as Head of Ambassadors at Luminos Foundation and as a graphic designer for the global nonprofit Dear Asian Youth, and other youth organisations based in Qatar like Apply Qatar, and The Brown Perspective. As Executive Head and Director of the Publications Club at DPS-MIS for the past two years, she led marketing and in-school promotions, and contributed graphic design for TEDxYouth@DPSMIS2024. Passionate about conveying messages through writing and visuals, Anwita brings every story to life with bold, vibrant energy.",
     ],
   },
 ];
