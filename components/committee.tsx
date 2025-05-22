@@ -67,7 +67,7 @@ export default async function Committee() {
                                   width={200}
                                   height={200}
                                   alt={member.name}
-                                  className="rounded-full aspect-square h-32 w-32 object-cover"
+                                  className="rounded-full aspect-square md:h-56 md:w-56 object-cover"
                                 />
                                 <div className="text-md mt-3 font-semibold">
                                   {member.name}
@@ -276,7 +276,7 @@ export default async function Committee() {
                             width={200}
                             height={200}
                             alt={member.name}
-                            className="rounded-full aspect-square h-32 w-32 object-cover"
+                            className="rounded-full aspect-square md:h-56 md:w-56 object-cover"
                           />
                           <div className="text-md mt-3 font-semibold">
                             {member.name}
