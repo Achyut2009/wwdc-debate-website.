@@ -526,6 +526,7 @@ const twentytwo = {
     {
       title: "Round 5: (Prepared)",
       body:
+        <span className="font-bold">Motion:</span>, 
         "This House Prefers a world where jobs performed by humans were not automated (E.g., self-driving cars, self-checkouts).",
     },
     {
