@@ -378,38 +378,51 @@ const twentyfour = {
   motions: [
     {
       title: "Round 1:",
-      body:
-        "THBT fear is a legitimate tool for instilling moral values.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " THBT fear is a legitimate tool for instilling moral values.",
+        ]
     },
     {
       title: "Round 2:",
-      body:
-        "This House Believes That the environmental movement should significantly prioritize their campaigning efforts on changing the behaviour of individuals rather than changing the behaviour of companies.",
-    },
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Believes That the environmental movement should significantly prioritize their campaigning efforts on changing the behaviour of individuals rather than changing the behaviour of companies.",
+    ]
+        },
     {
       title: "Round 3:",
-      body:
-        "This House believes that hosting major sporting events does more harm than good for host cities.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House believes that hosting major sporting events does more harm than good for host cities.",
+        ]
     },
     {
       title: "Round 4:",
-      body:
-        "This House Supports governments significantly increasing their use of big data-based predictive models in decision-making to replace human judgements. (e.g. criminal justice policy, allocation of healthcare resources, housing development).",
-    },
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Supports governments significantly increasing their use of big data-based predictive models in decision-making to replace human judgements. (e.g. criminal justice policy, allocation of healthcare resources, housing development).",
+   ] },
     {
       title: "Quarter-finals:",
-      body:
+      body:[
+        <span className="font-bold">Motion:</span>,
         "THS diversity quotas for university admissions.",
+        ]
     },
     {
       title: "Semi-finals:",
-      body:
+      body:[
+        <span className="font-bold">Motion:</span>,
         "This House believes that developing countries should prioritise import substitution industrialisation over export oriented industrialisation.",
+        ]
     },
     {
       title: "Grand-finals:",
-      body:
+      body:[
+        <span className="font-bold">Motion:</span>,
         "This House Believes That developing countries should acquire, on the open market, large stakes in major publicly-traded global corporations (eg. Google, JP Morgan, Shell, and Pfizer).",
+        ]
     },
   ],
 };
