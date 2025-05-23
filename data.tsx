@@ -407,21 +407,21 @@ const twentyfour = {
       title: "Quarter-finals:",
       body:[
         <span className="font-bold">Motion:</span>,
-        "THS diversity quotas for university admissions.",
+        " THS diversity quotas for university admissions.",
         ]
     },
     {
       title: "Semi-finals:",
       body:[
         <span className="font-bold">Motion:</span>,
-        "This House believes that developing countries should prioritise import substitution industrialisation over export oriented industrialisation.",
+        " This House believes that developing countries should prioritise import substitution industrialisation over export oriented industrialisation.",
         ]
     },
     {
       title: "Grand-finals:",
       body:[
         <span className="font-bold">Motion:</span>,
-        "This House Believes That developing countries should acquire, on the open market, large stakes in major publicly-traded global corporations (eg. Google, JP Morgan, Shell, and Pfizer).",
+        " This House Believes That developing countries should acquire, on the open market, large stakes in major publicly-traded global corporations (eg. Google, JP Morgan, Shell, and Pfizer).",
         ]
     },
   ],
