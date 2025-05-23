@@ -151,8 +151,9 @@ const org = [
     image: "/2025/Aryaman.jpg",
     name: "Aryaman Adhlakha",
     bio: [
-      "Aryaman Adhlakha is an economics student with a keen interest in debate and discourse. Beyond academics, they actively engage in debates and enjoy watching competitive and intellectual discussions in their free time.",
-      "His passion for debate not only reflects a love for critical thinking but also enhances their analytical skills — making a natural complement to their study of economics. Aryaman also loves to binge shows in his free time!",
+      "Over the past few years, Aryaman Adhlakha has established a strong presence in the competitive debating circuit, being ranked among the Top 10 Speakers in the Qatar Preparatory Debate League for two consecutive years, as well as in the Senior Debate League. Their debating experience includes reaching the Grand Finals in several prestigious tournaments such as the British Parliamentary Open, Asian Parliamentary Open, and the Ramadan Open. In addition to competing, Aryaman has also served as a student judge in the Qatar Debate League, demonstrating both skill and leadership in the field.",
+      "Beyond debating, Aryaman has a keen interest in economics, having completed multiple internships and authored an independent research report exploring key economic issues. This academic curiosity is matched by a commitment to practical learning and real-world application.",
+      "In their free time, Aryaman enjoys playing FIFA, watching Netflix, and listening to music, using these hobbies to unwind and recharge outside of academic and competitive pursuits.",
     ],
   },
   {
