@@ -502,8 +502,10 @@ const twentytwo = {
   motions: [
     {
       title: "Round 1 & 3 (Prepared)",
-      body:
-        "This House Supports NATO (North Atlantic Treaty Organization) offering membership to states of the former Soviet Union, excluding Russia. (NATO)",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Supports NATO (North Atlantic Treaty Organization) offering membership to states of the former Soviet Union, excluding Russia. (NATO)",
+        ],
     },
     {
       title: "Round 2: (Impromptu)",
@@ -520,20 +522,24 @@ const twentytwo = {
     },
     {
       title: "Round 4: (Impromptu)",
-      body:
-        "This House Believes That a minimum educational qualification is necessary for electoral representatives in a democracy.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Believes That a minimum educational qualification is necessary for electoral representatives in a democracy.",
+        ],
     },
     {
       title: "Round 5: (Prepared)",
       body:[
         <span className="font-bold">Motion:</span>,
-        "This House Prefers a world where jobs performed by humans were not automated (E.g., self-driving cars, self-checkouts).",
+        " This House Prefers a world where jobs performed by humans were not automated (E.g., self-driving cars, self-checkouts).",
         ],
     },
     {
       title: "Round 6: (Impromptu)",
-      body:
-        "This House Regrets the over dependency of Gen-Z on social media platforms (eg. Tiktok, Instagram, Facebook).",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Regrets the over dependency of Gen-Z on social media platforms (eg. Tiktok, Instagram, Facebook).",
+        ],
     },
     {
       title: "Octo-finals: (Impromptu)",
@@ -563,14 +569,18 @@ const twentytwo = {
     },
     {
       title: "Semi-finals: (Impromptu)",
-      body:
-        "This House Would make employee-vaccine mandatory.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Would make employee-vaccine mandatory.",
+        ],
     },
     {
       title: "Finals: (Prepared)",
-      body:
-        "This House Prefers a world where Russia continued to participate in the FIFA (International Federation of Association Football) World Cup 2022 qualifiers unobjected, and also in the FIFA World Cup 2022, had they qualified.",
-    },
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Prefers a world where Russia continued to participate in the FIFA (International Federation of Association Football) World Cup 2022 qualifiers unobjected, and also in the FIFA World Cup 2022, had they qualified.",
+    ],
+        },
   ],
 };
 
@@ -714,13 +724,17 @@ const twentythree = {
     },
     {
       title: "Round 3: (Impromptu)",
-      body:
-        "This house supports only neurodivergent individuals to play the role of neurodivergent characters in TV shows and movies.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This house supports only neurodivergent individuals to play the role of neurodivergent characters in TV shows and movies.",
+        ],
     },
     {
       title: "Round 4: (Impromptu)",
-      body:
-        "This House Opposes (THO) the narrative that a university education leads to higher economic standards.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Opposes (THO) the narrative that a university education leads to higher economic standards.",
+        ],
     },
     {
       title: "Round-5 (Prepared)",
@@ -741,19 +755,7 @@ const twentythree = {
         " This House Believes That the Effective Altruism community should prioritize alleviating short-term suffering over long-termism.",
       ]
     },
-    {
-      title: "Octo-finals: (Impromptu)",
-      body:[
-        <span className="font-bold">Infoslide:</span>, 
-        " Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing).", 
-        <span>
-          <br />
-          <br />
-        </span>,
-        <span className="font-bold">Motion:</span>, 
-        " This House Regrets the glorification of the Teenage Dream.",
-      ]
-    },
+  
     {
       title: "Round 6: (Impromptu)",
       body:[
@@ -765,6 +767,19 @@ const twentythree = {
         </span>,
         <span className="font-bold">Motion:</span>, 
         " This House supports the trend of media and publishing companies (e.g. Disney, Penguin Books, Warner Brothers, Bloomsbury) engaging in progressive rebranding.",
+      ]
+    },
+      {
+      title: "Octo-finals: (Impromptu)",
+      body:[
+        <span className="font-bold">Infoslide:</span>, 
+        " Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing).", 
+        <span>
+          <br />
+          <br />
+        </span>,
+        <span className="font-bold">Motion:</span>, 
+        " This House Regrets the glorification of the Teenage Dream.",
       ]
     },
     {
