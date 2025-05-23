@@ -784,8 +784,16 @@ const twentythree = {
     },
     {
       title: "Semi-finals: (Impromptu)",
-      body:
-        "You are a doctor in a neonatal emergency unit of a hospital. One night, two critical cases come to you - a wealthy couples new-born baby and an extremely poor couples new-born baby- are both diagnosed with Disease X. Despite hours of frantic efforts on your part to keep them alive, tragedy strikes by the time it is dawn and the wealthy couples baby dies. Assuming the switch will never be discovered, THW tell the poor couple their baby.",
+      body:[
+         <span className="font-bold">Infoslide:</span>,
+        " You are a doctor in a neonatal emergency unit of a hospital. One night, two critical cases come to you - a wealthy couples new-born baby and an extremely poor couples new-born baby- are both diagnosed with Disease X. Despite hours of frantic efforts on your part to keep them alive, tragedy strikes by the time it is dawn and the wealthy couples baby dies.",
+        <span>
+          <br />
+          <br />
+        </span>,
+        <span className="font-bold">Motion:</span>,
+        " Assuming the switch will never be discovered, THW tell the poor couple their baby.",
+        ]
     },
     {
       title: "Finals: (Prepared)",
