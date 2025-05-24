@@ -43,12 +43,10 @@ export default function About() {
                   world closer, under one platform to spread international
                   brotherhood. <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  With enthusiastic coordinators, ardent directors and an
-                  enthralling OrgComm we are presenting you our very own
-                  tournament, War of Words Debating Championship 2024.
+                 With passionate coordinators, dedicated directors, and an electrifying Organizing Committee, we proudly present the latest edition of WWDC, the War of Words Debating Championship 2025!
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  The War of Words Debating Championship 2024 is exclusively for
+                  The War of Words Debating Championships are exclusively for
                   high school students. We have an enthusiastic core lined up to
                   ensure quality competition. We aim to provide high quality
                   adjudication and a competitive tournament to all participants.

@@ -151,8 +151,9 @@ const org = [
     image: "/2025/Aryaman.jpg",
     name: "Aryaman Adhlakha",
     bio: [
-      "Aryaman Adhlakha is an economics student with a keen interest in debate and discourse. Beyond academics, they actively engage in debates and enjoy watching competitive and intellectual discussions in their free time.",
-      "His passion for debate not only reflects a love for critical thinking but also enhances their analytical skills — making a natural complement to their study of economics. Aryaman also loves to binge shows in his free time!",
+      "Over the past few years, Aryaman Adhlakha has established a strong presence in the competitive debating circuit, being ranked among the Top 10 Speakers in the Qatar Preparatory Debate League for two consecutive years, as well as in the Senior Debate League. Their debating experience includes reaching the Grand Finals in several prestigious tournaments such as the British Parliamentary Open, Asian Parliamentary Open, and the Ramadan Open. In addition to competing, Aryaman has also served as a student judge in the Qatar Debate League, demonstrating both skill and leadership in the field.",
+      "Beyond debating, Aryaman has a keen interest in economics, having completed multiple internships and authored an independent research report exploring key economic issues. This academic curiosity is matched by a commitment to practical learning and real-world application.",
+      "In their free time, Aryaman enjoys playing FIFA, watching Netflix, and listening to music, using these hobbies to unwind and recharge outside of academic and competitive pursuits.",
     ],
   },
   {
@@ -196,7 +197,9 @@ const marketing = [
     image: "/2025/Anwita.jpg",
     name: "Anwita Sekhar",
     bio: [
-      "Anwita is a dynamic member of the WWDC 2025 Marketing Team, where she crafts compelling campaigns with creativity and strategic vision. As Director of Social Media at TheDezignCue, an online design solutions firm, and former Head of Marketing at NexTechVisionaries, she drives impactful brand narratives. She serves as Head of Ambassadors at Luminos Foundation and as a graphic designer for the global nonprofit Dear Asian Youth, and other youth organisations based in Qatar like Apply Qatar, and The Brown Perspective. As Executive Head and Director of the Publications Club at DPS-MIS for the past two years, she led marketing and in-school promotions, and contributed graphic design for TEDxYouth@DPSMIS2024. Passionate about conveying messages through writing and visuals, Anwita brings every story to life with bold, vibrant energy.",
+      "Anwita is a dynamic member of the WWDC 2025 Marketing Team, where she crafts compelling campaigns with creativity and strategic vision.",
+      "As Director of Social Media at TheDezignCue, an online design solutions firm, and former Head of Marketing at NexTechVisionaries, she drives impactful brand narratives. She serves as Head of Ambassadors at Luminos Foundation and as a graphic designer for the global nonprofit Dear Asian Youth, and other youth organisations based in Qatar like Apply Qatar, and The Brown Perspective.",
+      "As Executive Head and Director of the Publications Club at DPS-MIS for the past two years, she led marketing and in-school promotions, and contributed graphic design for TEDxYouth@DPSMIS2024. Passionate about conveying messages through writing and visuals, Anwita brings every story to life with bold, vibrant energy.",
     ],
   },
 ];
@@ -377,38 +380,51 @@ const twentyfour = {
   motions: [
     {
       title: "Round 1:",
-      body:
-        "THBT fear is a legitimate tool for instilling moral values.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " THBT fear is a legitimate tool for instilling moral values.",
+        ]
     },
     {
       title: "Round 2:",
-      body:
-        "This House Believes That the environmental movement should significantly prioritize their campaigning efforts on changing the behaviour of individuals rather than changing the behaviour of companies.",
-    },
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Believes That the environmental movement should significantly prioritize their campaigning efforts on changing the behaviour of individuals rather than changing the behaviour of companies.",
+    ]
+        },
     {
       title: "Round 3:",
-      body:
-        "This House believes that hosting major sporting events does more harm than good for host cities.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House believes that hosting major sporting events does more harm than good for host cities.",
+        ]
     },
     {
       title: "Round 4:",
-      body:
-        "This House Supports governments significantly increasing their use of big data-based predictive models in decision-making to replace human judgements. (e.g. criminal justice policy, allocation of healthcare resources, housing development).",
-    },
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Supports governments significantly increasing their use of big data-based predictive models in decision-making to replace human judgements. (e.g. criminal justice policy, allocation of healthcare resources, housing development).",
+   ] },
     {
       title: "Quarter-finals:",
-      body:
-        "THS diversity quotas for university admissions.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " THS diversity quotas for university admissions.",
+        ]
     },
     {
       title: "Semi-finals:",
-      body:
-        "This House believes that developing countries should prioritise import substitution industrialisation over export oriented industrialisation.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House believes that developing countries should prioritise import substitution industrialisation over export oriented industrialisation.",
+        ]
     },
     {
       title: "Grand-finals:",
-      body:
-        "This House Believes That developing countries should acquire, on the open market, large stakes in major publicly-traded global corporations (eg. Google, JP Morgan, Shell, and Pfizer).",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Believes That developing countries should acquire, on the open market, large stakes in major publicly-traded global corporations (eg. Google, JP Morgan, Shell, and Pfizer).",
+        ]
     },
   ],
 };
@@ -501,8 +517,10 @@ const twentytwo = {
   motions: [
     {
       title: "Round 1 & 3 (Prepared)",
-      body:
-        "This House Supports NATO (North Atlantic Treaty Organization) offering membership to states of the former Soviet Union, excluding Russia. (NATO)",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Supports NATO (North Atlantic Treaty Organization) offering membership to states of the former Soviet Union, excluding Russia. (NATO)",
+        ],
     },
     {
       title: "Round 2: (Impromptu)",
@@ -519,18 +537,24 @@ const twentytwo = {
     },
     {
       title: "Round 4: (Impromptu)",
-      body:
-        "This House Believes That a minimum educational qualification is necessary for electoral representatives in a democracy.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Believes That a minimum educational qualification is necessary for electoral representatives in a democracy.",
+        ],
     },
     {
       title: "Round 5: (Prepared)",
-      body:
-        "This House Prefers a world where jobs performed by humans were not automated (E.g., self-driving cars, self-checkouts).",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Prefers a world where jobs performed by humans were not automated (E.g., self-driving cars, self-checkouts).",
+        ],
     },
     {
       title: "Round 6: (Impromptu)",
-      body:
-        "This House Regrets the over dependency of Gen-Z on social media platforms (eg. Tiktok, Instagram, Facebook).",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Regrets the over dependency of Gen-Z on social media platforms (eg. Tiktok, Instagram, Facebook).",
+        ],
     },
     {
       title: "Octo-finals: (Impromptu)",
@@ -560,14 +584,18 @@ const twentytwo = {
     },
     {
       title: "Semi-finals: (Impromptu)",
-      body:
-        "This House Would make employee-vaccine mandatory.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Would make employee-vaccine mandatory.",
+        ],
     },
     {
       title: "Finals: (Prepared)",
-      body:
-        "This House Prefers a world where Russia continued to participate in the FIFA (International Federation of Association Football) World Cup 2022 qualifiers unobjected, and also in the FIFA World Cup 2022, had they qualified.",
-    },
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Prefers a world where Russia continued to participate in the FIFA (International Federation of Association Football) World Cup 2022 qualifiers unobjected, and also in the FIFA World Cup 2022, had they qualified.",
+    ],
+        },
   ],
 };
 
@@ -711,13 +739,17 @@ const twentythree = {
     },
     {
       title: "Round 3: (Impromptu)",
-      body:
-        "This house supports only neurodivergent individuals to play the role of neurodivergent characters in TV shows and movies.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This house supports only neurodivergent individuals to play the role of neurodivergent characters in TV shows and movies.",
+        ],
     },
     {
       title: "Round 4: (Impromptu)",
-      body:
-        "This House Opposes (THO) the narrative that a university education leads to higher economic standards.",
+      body:[
+        <span className="font-bold">Motion:</span>,
+        " This House Opposes (THO) the narrative that a university education leads to higher economic standards.",
+        ],
     },
     {
       title: "Round-5 (Prepared)",
@@ -738,19 +770,7 @@ const twentythree = {
         " This House Believes That the Effective Altruism community should prioritize alleviating short-term suffering over long-termism.",
       ]
     },
-    {
-      title: "Octo-finals: (Impromptu)",
-      body:[
-        <span className="font-bold">Infoslide:</span>, 
-        " Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing).", 
-        <span>
-          <br />
-          <br />
-        </span>,
-        <span className="font-bold">Motion:</span>, 
-        " This House Regrets the glorification of the Teenage Dream.",
-      ]
-    },
+  
     {
       title: "Round 6: (Impromptu)",
       body:[
@@ -764,10 +784,31 @@ const twentythree = {
         " This House supports the trend of media and publishing companies (e.g. Disney, Penguin Books, Warner Brothers, Bloomsbury) engaging in progressive rebranding.",
       ]
     },
+      {
+      title: "Octo-finals: (Impromptu)",
+      body:[
+        <span className="font-bold">Infoslide:</span>, 
+        " Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing).", 
+        <span>
+          <br />
+          <br />
+        </span>,
+        <span className="font-bold">Motion:</span>, 
+        " This House Regrets the glorification of the Teenage Dream.",
+      ]
+    },
     {
       title: "Semi-finals: (Impromptu)",
-      body:
-        "You are a doctor in a neonatal emergency unit of a hospital. One night, two critical cases come to you - a wealthy couples new-born baby and an extremely poor couples new-born baby- are both diagnosed with Disease X. Despite hours of frantic efforts on your part to keep them alive, tragedy strikes by the time it is dawn and the wealthy couples baby dies. Assuming the switch will never be discovered, THW tell the poor couple their baby.",
+      body:[
+         <span className="font-bold">Infoslide:</span>,
+        " You are a doctor in a neonatal emergency unit of a hospital. One night, two critical cases come to you - a wealthy couples new-born baby and an extremely poor couples new-born baby- are both diagnosed with Disease X. Despite hours of frantic efforts on your part to keep them alive, tragedy strikes by the time it is dawn and the wealthy couples baby dies.",
+        <span>
+          <br />
+          <br />
+        </span>,
+        <span className="font-bold">Motion:</span>,
+        " Assuming the switch will never be discovered, THW tell the poor couple their baby.",
+        ]
     },
     {
       title: "Finals: (Prepared)",
