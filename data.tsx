@@ -130,6 +130,8 @@ const org = [
       "Outside of debate, Ishant is an avid entrepreneur and mentor, having started his own dropshipping company and having completed various leadership and mentorship courses. His cocurricular talents also expand to the cultural stage, where he shines as a singer. During his free time, Ishant likes to read, watch movies, and play basketball. His diverse portfolio enables him to grow and help others grow with each step he takes.",
     ],
   },
+  ];
+const org = [
   {
     image: "/2025/Aarav.jpg",
     name: "Aarav Singh",
