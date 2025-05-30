@@ -249,7 +249,50 @@ export default async function Committee() {
           </div>
         </div>
       </div>
-      
+
+      {/* Organising Committee Section */}
+<div id="organising" className="relative z-50 py-10">
+  <div className="mx-auto max-w-7xl px-4 md:px-6">
+    <div className="flex flex-col items-center justify-center text-center mb-12">
+      <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+        Our Organising Committee
+      </h2>
+    </div>
+
+    {/* Teachers - 1 on top, 2 below */}
+    <div className="flex flex-col items-center gap-10 mb-16">
+      {/* First teacher (Ms. Asha Kurian) */}
+      <div className="flex justify-center">
+        <MemberCard member={orgteach[0]} idPrefix="orgteach" />
+      </div>
+
+      {/* Next two teachers (Mr. Dipin Joseph, Ms. Nida Farooq) */}
+      <div className="flex justify-center gap-10">
+        {orgteach.slice(1, 3).map((member, index) => (
+          <MemberCard key={index + 1} member={member} idPrefix="orgteach" />
+        ))}
+      </div>
+    </div>
+
+    {/* Students - 3 in one row, 4 in the next */}
+    <div className="flex flex-col items-center gap-12">
+      {/* First 3 students */}
+      <div className="flex justify-center gap-10">
+        {org.slice(0, 3).map((member, index) => (
+          <MemberCard key={index} member={member} idPrefix="org" />
+        ))}
+      </div>
+
+      {/* Remaining 4 students */}
+      <div className="flex justify-center gap-10">
+        {org.slice(3, 7).map((member, index) => (
+          <MemberCard key={index + 3} member={member} idPrefix="org" />
+        ))}
+      </div>
+    </div>
+  </div>
+</div>
+
       {/* Organizing Committee Section */}
       <div className="relative z-50 py-10">
         <div className="mx-auto max-w-7xl px-4 md:px-6">
