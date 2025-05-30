@@ -71,6 +71,22 @@ const core = [
 const orgteach = [
   {
     image:
+      "https://cdn.aayus.me/uploads/sha.jpg",
+    name: "Ms. Asha Kurian",
+    bio: [
+      "Ms. Asha Kurian is an English teacher and the Head of the Department for Senior Secondary School, dedicated to striving for excellence in education.",
+      "As an alumna of the prestigious Sainik School Assam, a premier institution under the Ministry of Defence, Government of India, she has been profoundly influenced by its strong educational foundation. ",
+      "In her role, Ms.Asha has worked closely with fellow teachers, providing support, guidance, and professional development opportunities to enhance their teaching skills and foster a collaborative work environment. ",
+      "She is also a resource person and in charge of the senior school debate team, where she encourages and develops students' public speaking and critical thinking abilities. ",
+      "Additionally, serving as the English Editor of the school magazine has allowed her to nurture students' creativity and literary appreciation, providing them with a platform to display their talents",
+    ],
+  },
+  <span>
+          <br />
+          <br />
+        </span>,
+  {
+    image:
       "/2025/DipinSir.jpg",
     name: "Mr. Dipin Joseph",
     bio: [
@@ -87,18 +103,7 @@ const orgteach = [
       ".",
     ],
   },
-  {
-    image:
-      "https://cdn.aayus.me/uploads/sha.jpg",
-    name: "Ms. Asha Kurian",
-    bio: [
-      "Ms. Asha Kurian is an English teacher and the Head of the Department for Senior Secondary School, dedicated to striving for excellence in education.",
-      "As an alumna of the prestigious Sainik School Assam, a premier institution under the Ministry of Defence, Government of India, she has been profoundly influenced by its strong educational foundation. ",
-      "In her role, Ms.Asha has worked closely with fellow teachers, providing support, guidance, and professional development opportunities to enhance their teaching skills and foster a collaborative work environment. ",
-      "She is also a resource person and in charge of the senior school debate team, where she encourages and develops students' public speaking and critical thinking abilities. ",
-      "Additionally, serving as the English Editor of the school magazine has allowed her to nurture students' creativity and literary appreciation, providing them with a platform to display their talents",
-    ],
-  },
+  
 ];
 
 const org = [
