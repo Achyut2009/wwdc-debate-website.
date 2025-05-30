@@ -81,10 +81,6 @@ const orgteach = [
       "Additionally, serving as the English Editor of the school magazine has allowed her to nurture students' creativity and literary appreciation, providing them with a platform to display their talents",
     ],
   },
-  <span>
-          <br />
-          <br />
-        </span>,
   {
     image:
       "/2025/DipinSir.jpg",
