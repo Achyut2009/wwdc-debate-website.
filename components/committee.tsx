@@ -32,9 +32,87 @@ import { Info } from "lucide-react";
 import Link from "next/link";
 import { useEffect } from "react";
 
+function ProfileCard({ member, title }: { member: any; title: string }) {
+  return (
+    <div className="flex flex-col items-center text-center">
+      {/* Mobile View */}
+      <div className="md:hidden">
+        <Drawer>
+          <DrawerTrigger>
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <div className="flex flex-col items-center">
+                    <Image
+                      src={member.image}
+                      width={200}
+                      height={200}
+                      alt={member.name}
+                      className="rounded-full aspect-square h-32 w-32 object-cover"
+                    />
+                    <div className="text-md mt-3 font-semibold">{member.name}</div>
+                  </div>
+                </TooltipTrigger>
+                <TooltipContent>Click for More Details</TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
+          </DrawerTrigger>
+          <DrawerContent>
+            <DrawerHeader>
+              <DrawerTitle className="text-3xl font-semibold">{member.name}</DrawerTitle>
+              <DrawerDescription className="text-md">{title}</DrawerDescription>
+              {member.bio.map((p: string, i: number) => (
+                <div key={i} className="text-md dark:text-zinc-300 font-medium">
+                  {p}
+                </div>
+              ))}
+            </DrawerHeader>
+            <DrawerFooter>
+              <DrawerClose>
+                <Button variant="outline">Close</Button>
+              </DrawerClose>
+            </DrawerFooter>
+          </DrawerContent>
+        </Drawer>
+      </div>
 
-export default async function Committee() {
-  const code = false;
+      {/* Desktop View */}
+      <div className="hidden md:block">
+        <Dialog>
+          <DialogTrigger>
+            <div className="flex flex-col items-center">
+              <Image
+                src={member.image}
+                width={200}
+                height={200}
+                alt={member.name}
+                className="rounded-full aspect-square h-48 w-48 object-cover"
+              />
+              <div className="text-lg mt-3 font-semibold">{member.name}</div>
+            </div>
+          </DialogTrigger>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle className="text-3xl font-semibold">{member.name}</DialogTitle>
+              <DialogDescription className="text-md">{title}</DialogDescription>
+              {member.bio.map((p: string, i: number) => (
+                <div key={i} className="text-md dark:text-zinc-300 font-medium">
+                  {p}
+                </div>
+              ))}
+            </DialogHeader>
+            <DialogFooter>
+              <DialogClose>
+                <Button variant="outline">Close</Button>
+              </DialogClose>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
+      </div>
+    </div>
+  );
+}
+
 function MemberCard({ member }) {
   return (
     <div className="flex flex-col items-center">
@@ -116,6 +194,10 @@ function MemberCard({ member }) {
     </div>
   );
 }
+
+
+export default async function Committee() {
+  const code = false;
 
   return (
     <>
