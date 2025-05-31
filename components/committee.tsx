@@ -32,7 +32,6 @@ import { Info } from "lucide-react";
 import Link from "next/link";
 import { useEffect } from "react";
 
-
 export default async function Committee() {
   const code = false;
 
@@ -249,8 +248,9 @@ export default async function Committee() {
           </div>
         </div>
       </div>
-      
-      {/* Organizing Committee Section */}
+
+
+ {/* Organizing Committee Section */}
       <div className="relative z-50 py-10">
         <div className="mx-auto max-w-7xl px-4 md:px-6">
           <div className="flex flex-col items-center justify-center text-center mb-12">
@@ -445,8 +445,9 @@ export default async function Committee() {
             </div>
           </div>
         </div>
-      </div>
+      </div>    
 
+      
       {/* Marketing Committee Section */}
       <div className="relative z-50 py-10">
         <div className="mx-auto max-w-7xl px-4 md:px-6">
