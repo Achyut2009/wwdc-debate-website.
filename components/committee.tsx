@@ -32,170 +32,6 @@ import { Info } from "lucide-react";
 import Link from "next/link";
 import { useEffect } from "react";
 
-function ProfileCard({ member, title }: { member: any; title: string }) {
-  return (
-    <div className="flex flex-col items-center text-center">
-      {/* Mobile View */}
-      <div className="md:hidden">
-        <Drawer>
-          <DrawerTrigger>
-            <TooltipProvider>
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <div className="flex flex-col items-center">
-                    <Image
-                      src={member.image}
-                      width={200}
-                      height={200}
-                      alt={member.name}
-                      className="rounded-full aspect-square h-32 w-32 object-cover"
-                    />
-                    <div className="text-md mt-3 font-semibold">{member.name}</div>
-                  </div>
-                </TooltipTrigger>
-                <TooltipContent>Click for More Details</TooltipContent>
-              </Tooltip>
-            </TooltipProvider>
-          </DrawerTrigger>
-          <DrawerContent>
-            <DrawerHeader>
-              <DrawerTitle className="text-3xl font-semibold">{member.name}</DrawerTitle>
-              <DrawerDescription className="text-md">{title}</DrawerDescription>
-              {member.bio.map((p: string, i: number) => (
-                <div key={i} className="text-md dark:text-zinc-300 font-medium">
-                  {p}
-                </div>
-              ))}
-            </DrawerHeader>
-            <DrawerFooter>
-              <DrawerClose>
-                <Button variant="outline">Close</Button>
-              </DrawerClose>
-            </DrawerFooter>
-          </DrawerContent>
-        </Drawer>
-      </div>
-
-      {/* Desktop View */}
-      <div className="hidden md:block">
-        <Dialog>
-          <DialogTrigger>
-            <div className="flex flex-col items-center">
-              <Image
-                src={member.image}
-                width={200}
-                height={200}
-                alt={member.name}
-                className="rounded-full aspect-square h-48 w-48 object-cover"
-              />
-              <div className="text-lg mt-3 font-semibold">{member.name}</div>
-            </div>
-          </DialogTrigger>
-          <DialogContent>
-            <DialogHeader>
-              <DialogTitle className="text-3xl font-semibold">{member.name}</DialogTitle>
-              <DialogDescription className="text-md">{title}</DialogDescription>
-              {member.bio.map((p: string, i: number) => (
-                <div key={i} className="text-md dark:text-zinc-300 font-medium">
-                  {p}
-                </div>
-              ))}
-            </DialogHeader>
-            <DialogFooter>
-              <DialogClose>
-                <Button variant="outline">Close</Button>
-              </DialogClose>
-            </DialogFooter>
-          </DialogContent>
-        </Dialog>
-      </div>
-    </div>
-  );
-}
-
-function MemberCard({ member }) {
-  return (
-    <div className="flex flex-col items-center">
-      {/* Mobile View */}
-      <div className="flex items-center justify-center md:hidden">
-        <Drawer>
-          <DrawerTrigger>
-            <div className="flex flex-col items-center justify-center text-center">
-              <Image
-                src={member.image}
-                width={200}
-                height={200}
-                alt={member.name}
-                className="rounded-full aspect-square h-32 w-32 object-cover"
-              />
-              <div className="text-md mt-3 font-semibold">{member.name}</div>
-            </div>
-          </DrawerTrigger>
-          <DrawerContent>
-            <DrawerHeader>
-              <DrawerTitle className="text-3xl font-semibold">
-                {member.name}
-              </DrawerTitle>
-              <DrawerDescription className="text-md">
-                Organising Committee
-              </DrawerDescription>
-              {member.bio.map((p, i) => (
-                <div key={i} className="text-md dark:text-zinc-300 font-medium">
-                  {p}
-                </div>
-              ))}
-            </DrawerHeader>
-            <DrawerFooter>
-              <DrawerClose>
-                <Button variant="outline">Close</Button>
-              </DrawerClose>
-            </DrawerFooter>
-          </DrawerContent>
-        </Drawer>
-      </div>
-
-      {/* Desktop View */}
-      <div className="hidden md:block">
-        <Dialog>
-          <DialogTrigger>
-            <div className="flex flex-col items-center justify-center text-center">
-              <Image
-                src={member.image}
-                width={200}
-                height={200}
-                alt={member.name}
-                className="rounded-full aspect-square h-48 w-48 object-cover"
-              />
-              <div className="text-lg mt-3 font-semibold">{member.name}</div>
-            </div>
-          </DialogTrigger>
-          <DialogContent>
-            <DialogHeader>
-              <DialogTitle className="text-3xl font-semibold">
-                {member.name}
-              </DialogTitle>
-              <DialogDescription className="text-md">
-                Organising Committee
-              </DialogDescription>
-              {member.bio.map((p, i) => (
-                <div key={i} className="text-md dark:text-zinc-300 font-medium">
-                  {p}
-                </div>
-              ))}
-            </DialogHeader>
-            <DialogFooter>
-              <DialogClose>
-                <Button variant="outline">Close</Button>
-              </DialogClose>
-            </DialogFooter>
-          </DialogContent>
-        </Dialog>
-      </div>
-    </div>
-  );
-}
-
-
 export default async function Committee() {
   const code = false;
 
@@ -413,46 +249,205 @@ export default async function Committee() {
         </div>
       </div>
 
-{/* Organising Committee Section */}
-<div className="relative z-50 py-10">
-  <div className="mx-auto max-w-7xl px-4 md:px-6">
-    <div className="flex flex-col items-center justify-center text-center mb-12">
-      <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-        Our Organising Committee
-      </h2>
-    </div>
 
-    {/* Top 1 Teacher */}
-    <div className="flex justify-center mb-8">
-      {orgteach.slice(0, 1).map((member, index) => (
-        <MemberCard key={`orgteach-top-${index}`} member={member} />
-      ))}
-    </div>
+ {/* Organizing Committee Section */}
+      <div className="relative z-50 py-10">
+        <div className="mx-auto max-w-7xl px-4 md:px-6">
+          <div className="flex flex-col items-center justify-center text-center mb-12">
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+              {code ? "org" : "Our Organising Committee"}
+            </h2>
+          </div>
+        </div>
+        
+        <div className="container mx-auto px-4">
+          {/* Org Teaching Team */}
+          <div className="flex justify-center">
+            <div className="flex flex-col md:flex-row gap-12 justify-center">
+              {orgteach.map((member, index) => (
+                <div key={`orgteach-${index}`} className="flex flex-col items-center">
+                  {/* Mobile view */}
+                  <div className="flex items-center justify-center md:hidden">
+                    <Drawer>
+                      <DrawerTrigger>
+                        <div className="flex flex-col items-center justify-center text-center">
+                          <Image
+                            src={member.image}
+                            width={200}
+                            height={200}
+                            alt={member.name}
+                            className="rounded-full aspect-square md:h-56 md:w-56 object-cover"
+                          />
+                          <div className="text-md mt-3 font-semibold">
+                            {member.name}
+                          </div>
+                        </div>
+                      </DrawerTrigger>
+                      <DrawerContent>
+                        <DrawerHeader>
+                          <DrawerTitle className="text-3xl font-semibold">
+                            {member.name}
+                          </DrawerTitle>
+                          <DrawerDescription className="text-md">
+                            Organising Committee
+                          </DrawerDescription>
+                          {member.bio.map((p, index) => (
+                            <div
+                              key={index}
+                              className="text-md dark:text-zinc-300 font-medium"
+                            >
+                              {p}
+                            </div>
+                          ))}
+                        </DrawerHeader>
+                        <DrawerFooter>
+                          <DrawerClose>
+                            <Button variant="outline">Close</Button>
+                          </DrawerClose>
+                        </DrawerFooter>
+                      </DrawerContent>
+                    </Drawer>
+                  </div>
+                  
+                  {/* Desktop view */}
+                  <div className="hidden md:block">
+                    <Dialog>
+                      <DialogTrigger>
+                        <div className="flex flex-col items-center justify-center text-center">
+                          <Image
+                            src={member.image}
+                            width={200}
+                            height={200}
+                            alt={member.name}
+                            className="rounded-full aspect-square h-52 w-52 object-cover"
+                          />
+                          <div className="text-lg mt-3 font-semibold">
+                            {member.name}
+                          </div>
+                        </div>
+                      </DialogTrigger>
+                      <DialogContent>
+                        <DialogHeader>
+                          <DialogTitle className="text-3xl font-semibold">
+                            {member.name}
+                          </DialogTitle>
+                          <DialogDescription className="text-md">
+                            Organising Committee
+                          </DialogDescription>
+                          {member.bio.map((p, index) => (
+                            <div
+                              key={index}
+                              className="text-md dark:text-zinc-300 font-medium"
+                            >
+                              {p}
+                            </div>
+                          ))}
+                        </DialogHeader>
+                        <DialogFooter>
+                          <DialogClose>
+                            <Button variant="outline">Close</Button>
+                          </DialogClose>
+                        </DialogFooter>
+                      </DialogContent>
+                    </Dialog>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          {/* Org Committee Members */}
+          <div className="flex justify-center mt-16">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 w-full max-w-5xl justify-self-center place-items-center">
+              {org.map((member, index) => (
+                <div key={`org-${index}`} className="flex flex-col items-center">
+                  {/* Mobile view */}
+                  <div className="flex items-center justify-center md:hidden">
+                    <Drawer>
+                      <DrawerTrigger>
+                        <div className="flex flex-col items-center justify-center text-center">
+                          <Image
+                            src={member.image}
+                            width={200}
+                            height={200}
+                            alt={member.name}
+                            className="rounded-full aspect-square h-32 w-32 object-cover"
+                          />
+                          <div className="text-md mt-3 font-semibold">
+                            {member.name}
+                          </div>
+                        </div>
+                      </DrawerTrigger>
+                      <DrawerContent>
+                        <DrawerHeader>
+                          <DrawerTitle className="text-3xl font-semibold">
+                            {member.name}
+                          </DrawerTitle>
+                          <DrawerDescription className="text-md">
+                            Organising Committee
+                          </DrawerDescription>
+                          {member.bio.map((p, index) => (
+                            <div key={index} className="text-md py-1 font-medium">
+                              {p}
+                            </div>
+                          ))}
+                        </DrawerHeader>
+                        <DrawerFooter>
+                          <DrawerClose>
+                            <Button variant="outline">Close</Button>
+                          </DrawerClose>
+                        </DrawerFooter>
+                      </DrawerContent>
+                    </Drawer>
+                  </div>
+                  
+                  {/* Desktop view */}
+                  <div className="hidden md:block">
+                    <Dialog>
+                      <DialogTrigger>
+                        <div className="flex flex-col items-center justify-center text-center">
+                          <Image
+                            src={member.image}
+                            width={200}
+                            height={200}
+                            alt={member.name}
+                            className="rounded-full aspect-square h-48 w-48 object-cover"
+                          />
+                          <div className="text-lg mt-3 font-semibold">
+                            {member.name}
+                          </div>
+                        </div>
+                      </DialogTrigger>
+                      <DialogContent>
+                        <DialogHeader>
+                          <DialogTitle className="text-3xl font-semibold">
+                            {member.name}
+                          </DialogTitle>
+                          <DialogDescription className="text-md">
+                            Organising Committee
+                          </DialogDescription>
+                          {member.bio.map((p, index) => (
+                            <div key={index} className="text-md py-1 font-medium">
+                              {p}
+                            </div>
+                          ))}
+                        </DialogHeader>
+                        <DialogFooter>
+                          <DialogClose>
+                            <Button variant="outline">Close</Button>
+                          </DialogClose>
+                        </DialogFooter>
+                      </DialogContent>
+                    </Dialog>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>    
 
-    {/* Next 2 Teachers (if any) */}
-    <div className="flex justify-center gap-8 mb-12">
-      {orgteach.slice(1, 3).map((member, index) => (
-        <MemberCard key={`orgteach-${index}`} member={member} />
-      ))}
-    </div>
-
-    {/* 3 Students */}
-    <div className="flex justify-center gap-8 mb-10 flex-wrap">
-      {org.slice(0, 3).map((member, index) => (
-        <MemberCard key={`org-1-${index}`} member={member} />
-      ))}
-    </div>
-
-    {/* 4 Students */}
-    <div className="flex justify-center gap-8 flex-wrap">
-      {org.slice(3, 7).map((member, index) => (
-        <MemberCard key={`org-2-${index}`} member={member} />
-      ))}
-    </div>
-  </div>
-</div>
-
-
+      
       {/* Marketing Committee Section */}
       <div className="relative z-50 py-10">
         <div className="mx-auto max-w-7xl px-4 md:px-6">
