@@ -47,7 +47,7 @@ export default function About() {
                   length, while replies will be 4 mins. 
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  -Points Of Information (POIs) can be offered between the first and last minute of every
+                  -Points Of Information (POI) can be offered between the first and last minute of every
                   substantive speech.
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
