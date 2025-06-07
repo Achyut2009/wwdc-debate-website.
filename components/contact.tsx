@@ -40,8 +40,8 @@ export default function Contact() {
                 <Mail className="h-4 w-4 mr-2" /> Email: wwwdc.dpsmis@gmail.com{" "}
               </div>
               <div className="flex items-center justify-start">
-                <Phone className="h-4 w-4 mr-2" /> Mr. N Somasundaram: +974 7472
-                6321{" "}
+                <Phone className="h-4 w-4 mr-2" /> Ms. Asha Kurian: +974 6677
+                3020{" "}
               </div>
               <div className="flex items-center justify-start">
                 <Phone className="h-4 w-4 mr-2" /> Surya Kauthik: +974 3313
