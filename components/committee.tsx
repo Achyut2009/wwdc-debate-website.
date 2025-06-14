@@ -262,8 +262,8 @@ export default async function Committee() {
         
         <div className="container mx-auto px-4">
           {/* Org Teaching Team */}
-          <div className="flex flex-reverse justify-center">
-            <div className="grid grid-flow-col grid-rows-2 gap-12 justify-center">
+          <div className="flex justify-center">
+            <div className="flex flex-col md:flex-row gap-12 justify-center">
               {orgteach.map((member, index) => (
                 <div key={`orgteach-${index}`} className="flex flex-col items-center">
                   {/* Mobile view */}
@@ -357,8 +357,8 @@ export default async function Committee() {
           </div>
           
           {/* Org Committee Members */}
-          <div className="flex flex-reverse justify-center mt-16">
-            <div className="grid grid-cols-2 md:grid-flow-col md:grid-rows-2 md:grid-row-reverse gap-10 md:gap-12 w-full max-w-5xl justify-self-center place-items-center">
+          <div className="flex justify-center mt-16">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 w-full max-w-5xl justify-self-center place-items-center">
               {org.map((member, index) => (
                 <div key={`org-${index}`} className="flex flex-col items-center">
                   {/* Mobile view */}
