@@ -93,10 +93,14 @@ const orgteach = [
   },
   {
     image:
-      "/2025/NidaFarooq.jpg",
+      "/2025/NIDA.jpg",
     name: "Ms. Nida Farooq",
     bio: [
-      ".",
+      "“In a world brimming with noise, it is the power of a well-reasoned voice that leads to change.”",
+      "Ms. Nida Farooq is a dedicated and dynamic Economics educator at DPS-Modern Indian School, with many years of enriching teaching experience. Known for her student-centric and motivational approach, she empowers learners to take charge of their own growth while fostering a classroom culture rooted in curiosity and confidence.",
+      "As a vital member of the school's Debate Club and a respected judge at numerous inter-school debating events, Ms. Nida has mentored students who have consistently secured top positions in debates and elocution competitions. Her training focuses on nurturing confidence, leadership, and self-awareness, ensuring students evolve into articulate, expressive, and critically self-driven individuals.",
+      "Ms. Nida believes that education is not just about academic excellence, but about cultivating lifelong learners. She inspires students to become self-reflective thinkers, individuals who not only seek knowledge but also question, evaluate, and grow from it.",
+      "Her unwavering commitment to excellence and her belief in the power of meaningful mentorship make her a valuable asset to the War of Words organizing team.",
     ],
   },
   
