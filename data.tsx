@@ -14,14 +14,26 @@ const leaders = [
 ];
 
 const coreteach = [
+   {
+    image:
+      "https://cdn.aayus.me/uploads/sha.jpg",
+    name: "Ms. Asha Kurian",
+    bio: [
+      "Ms. Asha Kurian is an English teacher and the Head of the Department for Senior Secondary School, dedicated to striving for excellence in education.",
+      "As an alumna of the prestigious Sainik School Assam, a premier institution under the Ministry of Defence, Government of India, she has been profoundly influenced by its strong educational foundation. ",
+      "In her role, Ms.Asha has worked closely with fellow teachers, providing support, guidance, and professional development opportunities to enhance their teaching skills and foster a collaborative work environment. ",
+      "She is also a resource person and in charge of the senior school debate team, where she encourages and develops students' public speaking and critical thinking abilities. ",
+      "Additionally, serving as the English Editor of the school magazine has allowed her to nurture students' creativity and literary appreciation, providing them with a platform to display their talents",
+    ],
+  },
   {
     image:
-      "https://cdn.aayus.me/uploads/IMG-20181112-WA0028_1_1-Photoroom.png-Photoroom.png",
-    name: "Mr. Somasundaram Narayanan",
+      "/2025/DipinSir.jpg",
+    name: "Mr. Dipin Joseph",
     bio: [
-      "Mr. Somasundaram Narayanan is an enthusiastic language teacher and the Debate Coordinator at DPS Modern Indian School. Renowned for his innovative teaching methods, he inspires critical thinking and effective communication in his students.",
-      "As an encouraging trainer, he has led the debate team to outstanding success in the competitions. His efficient and engaging approach fosters a love for learning and instills values of respect and empathy",
-      "Mr. Somasundaram Narayanan's contributions have significantly enhanced the school’s academic and extracurricular excellence, making him an indispensable part of the school community.",
+      "Mr. Dipin Joseph is a passionate and experienced English educator at DPS-Modern Indian School with over 13 years of teaching experience. He serves as the Debate Coach and is well known for his dynamic and student-friendly training style.",
+      "As the coordinator of the school’s Debate Club, he has mentored numerous students to excel in inter-school and national-level competitions. His sessions are marked by creativity, critical thinking, and confidence building. Mr. Dipin strongly believes that debate is a powerful tool to develop communication, reasoning, and leadership skills in students. Under his guidance, many students have grown into strong, expressive individuals.",
+      "He continues to inspire young minds to speak with clarity, listen with respect, and think with depth. His commitment to excellence and innovation makes him a vital part of the War of Words organizing team.",
     ],
   },
 ];
@@ -66,44 +78,6 @@ const core = [
       "Beyond personal success, Aaryan’s passion for debate fuels his commitment to mentoring juniors. He actively guides and supports upcoming debaters, helping them develop confidence, sharpen their argumentation, and grow into strong, articulate voices in the debate community.",
     ],
   },
-];
-
-const orgteach = [
-  {
-    image:
-      "https://cdn.aayus.me/uploads/sha.jpg",
-    name: "Ms. Asha Kurian",
-    bio: [
-      "Ms. Asha Kurian is an English teacher and the Head of the Department for Senior Secondary School, dedicated to striving for excellence in education.",
-      "As an alumna of the prestigious Sainik School Assam, a premier institution under the Ministry of Defence, Government of India, she has been profoundly influenced by its strong educational foundation. ",
-      "In her role, Ms.Asha has worked closely with fellow teachers, providing support, guidance, and professional development opportunities to enhance their teaching skills and foster a collaborative work environment. ",
-      "She is also a resource person and in charge of the senior school debate team, where she encourages and develops students' public speaking and critical thinking abilities. ",
-      "Additionally, serving as the English Editor of the school magazine has allowed her to nurture students' creativity and literary appreciation, providing them with a platform to display their talents",
-    ],
-  },
-  {
-    image:
-      "/2025/DipinSir.jpg",
-    name: "Mr. Dipin Joseph",
-    bio: [
-      "Mr. Dipin Joseph is a passionate and experienced English educator at DPS-Modern Indian School with over 13 years of teaching experience. He serves as the Debate Coach and is well known for his dynamic and student-friendly training style.",
-      "As the coordinator of the school’s Debate Club, he has mentored numerous students to excel in inter-school and national-level competitions. His sessions are marked by creativity, critical thinking, and confidence building. Mr. Dipin strongly believes that debate is a powerful tool to develop communication, reasoning, and leadership skills in students. Under his guidance, many students have grown into strong, expressive individuals.",
-      "He continues to inspire young minds to speak with clarity, listen with respect, and think with depth. His commitment to excellence and innovation makes him a vital part of the War of Words organizing team.",
-    ],
-  },
-  {
-    image:
-      "/2025/NIDA.jpg",
-    name: "Ms. Nida Farooq",
-    bio: [
-      "“In a world brimming with noise, it is the power of a well-reasoned voice that leads to change.”",
-      "Ms. Nida Farooq is a dedicated and dynamic Economics educator at DPS-Modern Indian School, with many years of enriching teaching experience. Known for her student-centric and motivational approach, she empowers learners to take charge of their own growth while fostering a classroom culture rooted in curiosity and confidence.",
-      "As a vital member of the school's Debate Club and a respected judge at numerous inter-school debating events, Ms. Nida has mentored students who have consistently secured top positions in debates and elocution competitions. Her training focuses on nurturing confidence, leadership, and self-awareness, ensuring students evolve into articulate, expressive, and critically self-driven individuals.",
-      "Ms. Nida believes that education is not just about academic excellence, but about cultivating lifelong learners. She inspires students to become self-reflective thinkers, individuals who not only seek knowledge but also question, evaluate, and grow from it.",
-      "Her unwavering commitment to excellence and her belief in the power of meaningful mentorship make her a valuable asset to the War of Words organizing team.",
-    ],
-  },
-  
 ];
 
 const org = [
