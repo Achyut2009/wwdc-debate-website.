@@ -80,6 +80,9 @@ const core = [
   },
 ];
 
+const orgteach = [
+  ];
+
 const org = [
    {
     image: "/2025/Sidrah.jpg",
