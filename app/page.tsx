@@ -66,11 +66,11 @@ export default function LandingPage() {
                     className: "mt-3",
                   })}
                   href={
-                    "https://docs.google.com/forms/d/e/1FAIpQLSd61iFnqVYBAfLxhaBPxeOHCcQ9W3XzLEZfXG9S5gDcDwzmCQ/viewform"
+                    "https://wwdc.calicotab.com/wwdc25/"
                   }
                   target="_blank"
                 >
-                  Register now! <ArrowRight className="ml-2 h-5 w-5" />
+                  Results! <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
                 <Link
                   className={buttonVariants({
